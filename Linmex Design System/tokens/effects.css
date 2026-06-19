@@ -1,0 +1,45 @@
+/* ============================================================
+   Linmex — Effects: shadows, motion, brand devices
+   ============================================================ */
+:root {
+  /* ---- Elevation (soft, neutral — never blue) ---------------- */
+  --shadow-xs: 0 1px 2px rgba(15,24,32,.06);
+  --shadow-sm: 0 1px 3px rgba(15,24,32,.08), 0 1px 2px rgba(15,24,32,.05);
+  --shadow-md: 0 4px 12px rgba(15,24,32,.08), 0 2px 4px rgba(15,24,32,.05);
+  --shadow-lg: 0 12px 28px rgba(15,24,32,.12), 0 4px 8px rgba(15,24,32,.06);
+  --shadow-xl: 0 24px 56px rgba(15,24,32,.16), 0 8px 16px rgba(15,24,32,.07);
+  --shadow-orange: 0 8px 22px rgba(255,81,0,.30);
+
+  /* ---- Focus ring -------------------------------------------- */
+  --ring: 0 0 0 3px rgba(255,81,0,.32);
+  --ring-dark: 0 0 0 3px rgba(255,255,255,.40);
+
+  /* ---- Motion ------------------------------------------------ */
+  --ease-out:   cubic-bezier(.22,.61,.36,1);    /* @kind other */
+  --ease-inout: cubic-bezier(.65,.05,.36,1);    /* @kind other */
+  --dur-fast: 120ms;   /* @kind other */
+  --dur:      200ms;   /* @kind other */
+  --dur-slow: 360ms;   /* @kind other */
+
+  /* ---- Brand devices ----------------------------------------- */
+  /* Forward-leaning banner edge that echoes the imagotipo cut.   */
+  --clip-banner: polygon(0 0, 100% 0, calc(100% - 64px) 100%, 0 100%); /* @kind other */
+  /* Diagonal orange tonal stripes used as a flat background.     */
+  --bg-orange-bands: repeating-linear-gradient(
+      115deg,
+      var(--orange-500) 0 64px,
+      var(--orange-600) 64px 128px);
+  --bg-dark-bands: repeating-linear-gradient(
+      115deg,
+      var(--navy-800) 0 64px,
+      var(--navy-700) 64px 128px);
+}
+
+/* Duotone treatment for brand photography (orange or navy).
+   Apply .linmex-duotone--orange / --navy to an <img> wrapper. */
+.linmex-duotone { position: relative; overflow: hidden; }
+.linmex-duotone img { display:block; width:100%; height:100%; object-fit:cover;
+  filter: grayscale(1) contrast(1.05); }
+.linmex-duotone::after { content:""; position:absolute; inset:0; mix-blend-mode:multiply; }
+.linmex-duotone--orange::after { background: var(--orange-500); }
+.linmex-duotone--navy::after   { background: var(--navy-800); }

@@ -1,0 +1,48 @@
+/* ============================================================
+   Linmex — Typography tokens
+   · Cairo            — headings & body (Principal)
+   · Raleway          — logo & display accent
+   · Barlow Condensed — eyebrows, labels, data (Secundaria)
+   ============================================================ */
+:root {
+  /* ---- Families ---------------------------------------------- */
+  --font-heading:   'Cairo', system-ui, -apple-system, sans-serif;
+  --font-body:      'Cairo', system-ui, -apple-system, sans-serif;
+  --font-logo:      'Raleway', 'Cairo', sans-serif;
+  --font-condensed: 'Barlow Condensed', 'Cairo', sans-serif;
+
+  /* ---- Weights ----------------------------------------------- */
+  --fw-regular: 400;   /* @kind font */
+  --fw-medium:  500;   /* @kind font */
+  --fw-semibold:600;   /* @kind font */
+  --fw-bold:    700;   /* @kind font */
+  --fw-extrabold:800;  /* @kind font */
+  --fw-black:   900;   /* @kind font */
+
+  /* ---- Fluid display & heading scale ------------------------- */
+  --text-display: 800 clamp(3rem, 6vw, 5.25rem)/0.98 var(--font-heading);
+  --text-h1: 800 clamp(2.25rem, 4vw, 3.5rem)/1.04 var(--font-heading);
+  --text-h2: 700 clamp(1.75rem, 3vw, 2.5rem)/1.08 var(--font-heading);
+  --text-h3: 700 clamp(1.375rem, 2vw, 1.75rem)/1.15 var(--font-heading);
+  --text-h4: 700 1.25rem/1.25 var(--font-heading);
+  --text-h5: 600 1.0625rem/1.3 var(--font-heading);
+
+  /* ---- Body & UI sizes (px) ---------------------------------- */
+  --fs-xs:   12px;
+  --fs-sm:   14px;
+  --fs-base: 16px;
+  --fs-md:   18px;
+  --fs-lg:   20px;
+  --fs-xl:   24px;
+
+  --lh-tight:  1.15;   /* @kind other */
+  --lh-snug:   1.35;   /* @kind other */
+  --lh-normal: 1.55;   /* @kind other */
+  --lh-relaxed:1.7;    /* @kind other */
+
+  /* ---- Eyebrow / label (Barlow Condensed, all-caps) ---------- */
+  --eyebrow: var(--fw-semibold) var(--fs-sm)/1 var(--font-condensed);
+  --tracking-eyebrow: 0.16em;  /* @kind other */
+  --tracking-caps:    0.06em;  /* @kind other */
+  --tracking-tight:  -0.01em;  /* @kind other */
+}

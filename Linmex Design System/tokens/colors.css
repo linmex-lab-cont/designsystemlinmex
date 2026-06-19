@@ -1,0 +1,74 @@
+/* ============================================================
+   Linmex — Color tokens
+   Manual de identidad: dos colores corporativos.
+   · Naranja  #FF5100  "Modernidad"   (Pantone 165 / primario)
+   · Azul      #0F1820  "Formalidad"  (Pantone 445 C / tinta base)
+   ============================================================ */
+:root {
+  /* ---- Brand: Orange (Modernidad) ---------------------------- */
+  --orange-900: #8F2D00;
+  --orange-800: #B83A02;
+  --orange-700: #CF4205;   /* pressed */
+  --orange-600: #E84A08;   /* hover   */
+  --orange-500: #FF5100;   /* ★ primary brand orange */
+  --orange-400: #FF7433;   /* 80% tint */
+  --orange-300: #FF9766;   /* 60% tint */
+  --orange-200: #FFB999;   /* 40% tint */
+  --orange-100: #FFDCCC;   /* 20% tint */
+  --orange-50:  #FFF1EA;   /* wash     */
+
+  /* ---- Brand: Navy (Formalidad) ------------------------------ */
+  --navy-900: #0A1117;
+  --navy-800: #0F1820;     /* ★ brand navy / deepest ink */
+  --navy-700: #1A2630;
+  --navy-600: #283642;
+  --navy-500: #3A4A57;
+
+  /* ---- Neutrals (cool-grey, tuned toward the navy) ----------- */
+  --white:    #FFFFFF;
+  --gray-50:  #F6F6F4;     /* page surface */
+  --gray-100: #EDEDEA;
+  --gray-200: #DEDFDB;     /* hairline borders */
+  --gray-300: #C5C7C2;
+  --gray-400: #9DA09B;
+  --gray-500: #6E726E;
+  --gray-600: #4C504D;
+  --gray-700: #343735;
+  --gray-800: #20231F;
+
+  /* ---- Semantic: brand ---------------------------------------- */
+  --color-primary:        var(--orange-500);
+  --color-primary-hover:  var(--orange-600);
+  --color-primary-active: var(--orange-700);
+  --color-on-primary:     var(--white);
+  --color-accent-wash:    var(--orange-50);
+
+  /* ---- Semantic: ink & text ----------------------------------- */
+  --color-ink:        var(--navy-800);   /* headings */
+  --text-strong:      var(--navy-800);
+  --text-body:        var(--gray-600);   /* paragraph */
+  --text-muted:       var(--gray-500);
+  --text-subtle:      var(--gray-400);
+  --text-on-dark:     rgba(255,255,255,.92);
+  --text-on-dark-dim: rgba(255,255,255,.62);
+
+  /* ---- Semantic: surfaces & lines ----------------------------- */
+  --surface-page:   var(--gray-50);
+  --surface-card:   var(--white);
+  --surface-sunken: var(--gray-100);
+  --surface-dark:   var(--navy-800);
+  --surface-dark-2: var(--navy-700);
+  --border:         var(--gray-200);
+  --border-strong:  var(--gray-300);
+  --border-dark:    rgba(255,255,255,.14);
+
+  /* ---- Semantic: status (derived to sit beside the brand) ----- */
+  --success: #1E8A5A;
+  --success-wash: #E6F4ED;
+  --warning: #E8A100;
+  --warning-wash: #FCF1D6;
+  --danger:  #D23B2B;
+  --danger-wash:  #FBE8E5;
+  --info:    var(--navy-600);
+  --info-wash: #EBEEF1;
+}

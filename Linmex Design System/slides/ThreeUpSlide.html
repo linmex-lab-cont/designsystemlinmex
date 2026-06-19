@@ -1,0 +1,42 @@
+<!-- @dsCard group="Slides" viewport="1280x720" name="Three-up with icons" subtitle="Light content slide — eyebrow, navy head, 3 icon columns" -->
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body{margin:0;background:#222}
+  .slide{position:relative;width:1280px;height:720px;background:var(--surface-page);overflow:hidden;font-family:var(--font-body)}
+  .inner{height:100%;box-sizing:border-box;padding:76px 88px;display:flex;flex-direction:column}
+  .wm{position:absolute;top:76px;right:88px;display:flex;align-items:center;gap:12px}
+  .wm span{font:800 22px/1 var(--font-logo);letter-spacing:-.5px;color:var(--color-ink)}
+  .eyebrow{font:var(--fw-semibold) 16px/1 var(--font-condensed);letter-spacing:.18em;text-transform:uppercase;color:var(--color-primary);margin:0 0 14px}
+  .subhead{font:var(--fw-bold) 22px/1.2 var(--font-heading);color:var(--color-primary);margin:0 0 6px}
+  h1{font:800 50px/1.04 var(--font-heading);letter-spacing:-.02em;color:var(--color-ink);margin:0;max-width:20ch}
+  .lead{font:400 19px/1.55 var(--font-body);color:var(--text-body);max-width:58ch;margin:18px 0 0}
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:auto}
+  .col{padding-top:28px;border-top:3px solid var(--orange-500)}
+  .ic{width:56px;height:56px;border-radius:var(--radius-md);background:var(--orange-50);display:grid;place-items:center;margin-bottom:18px}
+  .ic svg{width:30px;height:30px;color:var(--orange-500);stroke-width:1.75}
+  .col h3{font:var(--fw-bold) 22px/1.2 var(--font-heading);color:var(--color-ink);margin:0 0 8px}
+  .col p{font:400 15px/1.55 var(--font-body);color:var(--text-body);margin:0}
+  .col .k{font:var(--fw-semibold) 12px/1 var(--font-condensed);letter-spacing:.14em;text-transform:uppercase;color:var(--text-subtle);margin:0 0 8px}
+</style></head>
+<body>
+  <div class="slide">
+    <img class="wm" src="../assets/logo/Linmex-Logo-Principal-Full%20Color.png" alt="Linmex" style="height:30px;width:auto">
+
+    <div class="inner">
+      <div>
+        <p class="eyebrow">Visión estratégica</p>
+        <p class="subhead">El sabio visionario</p>
+        <h1>Identificamos la oportunidad antes que el mercado</h1>
+        <p class="lead">Tres capacidades sostienen el liderazgo de Linmex en el sector inmobiliario de Yucatán.</p>
+      </div>
+      <div class="cols">
+        <div class="col"><div class="ic"><i data-lucide="search"></i></div><p class="k">Pilar 01</p><h3>Inteligencia</h3><p>Leemos datos de mercado para invertir donde la plusvalía es real y sostenida.</p></div>
+        <div class="col"><div class="ic"><i data-lucide="telescope"></i></div><p class="k">Pilar 02</p><h3>Anticipación</h3><p>Detectamos tendencias y zonas de crecimiento antes de que sean evidentes.</p></div>
+        <div class="col"><div class="ic"><i data-lucide="handshake"></i></div><p class="k">Pilar 03</p><h3>Acompañamiento</h3><p>Asesoría y certeza legal en cada etapa, del apartado a la escritura.</p></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/lucide@0.453.0/dist/umd/lucide.min.js"></script>
+  <script>lucide.createIcons();</script>
+</body></html>

@@ -1,0 +1,45 @@
+/* ============================================================
+   Linmex — Spacing, radii & sizing tokens
+   4px base grid. Geometry is sharp & confident (mirrors the
+   angular imagotipo) — radii stay tight.
+   ============================================================ */
+:root {
+  /* ---- Spacing scale (4px base) ------------------------------ */
+  --space-0:  0;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* ---- Radii (tight, architectural) -------------------------- */
+  --radius-xs:  2px;
+  --radius-sm:  4px;
+  --radius-md:  6px;
+  --radius-lg:  10px;
+  --radius-xl:  16px;
+  --radius-pill:999px;
+
+  /* ---- Layout -------------------------------------------------- */
+  --container:    1200px;
+  --container-wide:1400px;
+  --gutter:       clamp(20px, 5vw, 64px); /* @kind spacing */
+
+  /* ---- Control sizing ----------------------------------------- */
+  --control-h-sm: 36px;
+  --control-h:    44px;   /* default — meets 44px hit target */
+  --control-h-lg: 54px;
+
+  /* ---- Brand geometry ----------------------------------------- */
+  /* logo diagonal ratio (dx/dy); forward-lean for banner devices */
+  --brand-slope: 18.75 / 25; /* @kind other */
+  --brand-skew:  -20deg; /* @kind other */
+}

@@ -1,0 +1,33 @@
+<!-- @dsCard group="Slides" viewport="1280x720" name="Section divider" subtitle="Big index number + section title on orange" -->
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body{margin:0;background:#222}
+  .slide{position:relative;width:1280px;height:720px;background:var(--orange-500);overflow:hidden;color:#fff;font-family:var(--font-body)}
+  .bands{position:absolute;inset:0;opacity:.45;background:repeating-linear-gradient(115deg,var(--orange-500) 0 90px,var(--orange-600) 90px 180px)}
+  .inner{position:relative;height:100%;box-sizing:border-box;padding:80px 88px;display:flex;flex-direction:column;justify-content:center}
+  .num{font:var(--fw-bold) 220px/0.8 var(--font-condensed);opacity:.32;letter-spacing:-.02em}
+  .eyebrow{font:var(--fw-semibold) 17px/1 var(--font-condensed);letter-spacing:.2em;text-transform:uppercase;opacity:.85;margin:0 0 16px}
+  h1{font:800 68px/1.05 var(--font-heading);letter-spacing:-.02em;margin:0;max-width:16ch}
+  .top{display:flex;align-items:flex-start;gap:48px}
+  .wm{position:absolute;top:80px;right:88px;display:flex;align-items:center;gap:12px}
+  .wm span{font:800 24px/1 var(--font-logo);letter-spacing:-.5px}
+  p.sub{margin:22px 0 0;font:500 22px/1.5 var(--font-body);max-width:44ch;color:rgba(255,255,255,.92)}
+</style></head>
+<body>
+  <div class="slide">
+    <div class="bands"></div>
+    <img class="wm" src="../assets/logo/Linmex-Logo-Blanco-Solido.png" alt="Linmex" style="height:32px;width:auto">
+
+    <div class="inner">
+      <div class="top">
+        <div class="num">01</div>
+        <div style="padding-top:30px">
+          <p class="eyebrow">Eje · Liderazgo Visionario</p>
+          <h1>Inteligencia inmobiliaria</h1>
+          <p class="sub">Entendemos el mercado antes que los demás y anticipamos las tendencias que crean valor.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body></html>

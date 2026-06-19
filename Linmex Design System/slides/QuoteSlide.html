@@ -1,0 +1,26 @@
+<!-- @dsCard group="Slides" viewport="1280x720" name="Big quote" subtitle="Statement slide — navy with orange mark" -->
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body{margin:0;background:#222}
+  .slide{position:relative;width:1280px;height:720px;background:var(--navy-800);overflow:hidden;color:#fff;font-family:var(--font-body)}
+  .inner{height:100%;box-sizing:border-box;padding:88px 96px;display:flex;flex-direction:column;justify-content:center}
+  .mark{margin-bottom:34px}
+  blockquote{margin:0;font:800 56px/1.18 var(--font-heading);letter-spacing:-.02em;max-width:20ch}
+  blockquote b{color:var(--orange-400)}
+  .by{margin-top:40px;display:flex;align-items:center;gap:16px}
+  .by .line{width:48px;height:3px;background:var(--orange-500);transform:skewX(-20deg)}
+  .by span{font:var(--fw-semibold) 16px/1.4 var(--font-condensed);letter-spacing:.08em;text-transform:uppercase;color:var(--text-on-dark-dim)}
+  .wm{position:absolute;bottom:72px;right:96px;display:flex;align-items:center;gap:12px}
+  .wm span{font:800 22px/1 var(--font-logo);letter-spacing:-.5px}
+</style></head>
+<body>
+  <div class="slide">
+    <div class="inner">
+      <svg class="mark" width="64" height="64" viewBox="0 0 1000 1000"><polygon fill="#FF5100" points="0,0 1000,0 746,333 0,333"/><polygon fill="#FF5100" points="681,333 1000,333 1000,667 424,667"/><polygon fill="#FF5100" points="0,668 484,668 201,1000 0,1000"/></svg>
+      <blockquote>Incrementamos el patrimonio de quienes <b>confían</b> en nosotros — con resultados, no promesas.</blockquote>
+      <div class="by"><span class="line"></span><span>Compromiso Linmex</span></div>
+    </div>
+    <img class="wm" src="../assets/logo/Linmex-Logo-Blanco.png" alt="Linmex" style="height:30px;width:auto">
+  </div>
+</body></html>

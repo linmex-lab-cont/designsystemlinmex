@@ -1,0 +1,43 @@
+<!-- @dsCard group="Slides" viewport="1280x720" name="Project showcase" subtitle="Split — development image, specs & stats" -->
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body{margin:0;background:#222}
+  .slide{position:relative;width:1280px;height:720px;background:var(--surface-card);overflow:hidden;font-family:var(--font-body);display:grid;grid-template-columns:1.05fr 1fr}
+  .media{position:relative;overflow:hidden}
+  .media img{width:100%;height:100%;object-fit:cover}
+  .badge{position:absolute;top:32px;left:32px;background:var(--orange-500);color:#fff;font:var(--fw-semibold) 13px/1 var(--font-condensed);letter-spacing:.1em;text-transform:uppercase;padding:8px 14px;border-radius:var(--radius-pill)}
+  .pane{box-sizing:border-box;padding:72px 64px;display:flex;flex-direction:column;justify-content:center}
+  .eyebrow{font:var(--fw-semibold) 16px/1 var(--font-condensed);letter-spacing:.18em;text-transform:uppercase;color:var(--color-primary);margin:0 0 14px}
+  h1{font:800 48px/1.05 var(--font-heading);letter-spacing:-.02em;color:var(--color-ink);margin:0 0 8px}
+  .loc{display:flex;align-items:center;gap:8px;font:500 17px/1 var(--font-body);color:var(--text-muted);margin:0 0 28px}
+  .loc svg{width:18px;height:18px;color:var(--orange-500);stroke-width:1.75}
+  p.desc{font:400 17px/1.6 var(--font-body);color:var(--text-body);margin:0 0 32px;max-width:42ch}
+  .stats{display:flex;gap:40px;padding-top:28px;border-top:1px solid var(--border)}
+  .stats b{display:block;font:var(--fw-bold) 44px/0.95 var(--font-condensed);color:var(--color-ink)}
+  .stats b.o{color:var(--color-primary)}
+  .stats span{font:var(--fw-semibold) 12px/1.3 var(--font-condensed);letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)}
+  .wm{position:absolute;bottom:40px;right:64px;display:flex;align-items:center;gap:10px}
+  .wm span{font:800 20px/1 var(--font-logo);letter-spacing:-.5px;color:var(--color-ink)}
+</style></head>
+<body>
+  <div class="slide">
+    <div class="media">
+      <img src="../assets/imagery/development-street.png" alt="Residencial Palmar">
+      <div class="badge">Disponible</div>
+    </div>
+    <div class="pane">
+      <p class="eyebrow">Desarrollo destacado</p>
+      <h1>Residencial Palmar</h1>
+      <p class="loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Colonia Campestre, Mérida, Yucatán</p>
+      <p class="desc">Arquitectura contemporánea y amenidades de primer nivel en una de las zonas de mayor plusvalía de Mérida.</p>
+      <div class="stats">
+        <div><b class="o">+18%</b><span>Plusvalía anual</span></div>
+        <div><b>120 m²</b><span>Desde</span></div>
+        <div><b>$2.4M</b><span>Precio desde</span></div>
+      </div>
+      <img class="wm" src="../assets/logo/Linmex-Logo-Principal-Full%20Color.png" alt="Linmex" style="height:28px;width:auto">
+
+    </div>
+  </div>
+</body></html>

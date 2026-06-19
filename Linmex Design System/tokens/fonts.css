@@ -1,0 +1,9 @@
+/* ============================================================
+   Linmex — Fonts
+   Brand typefaces (per Manual de Identidad Corporativa):
+   · Raleway          — Logo / display accent
+   · Cairo            — Principal (headings + body, extended use)
+   · Barlow Condensed — Secundaria (labels, eyebrows, data, condensed)
+   All three are the genuine brand faces, served from Google Fonts.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Raleway:wght@500;600;700;800;900&family=Barlow+Condensed:wght@400;500;600;700&display=swap');

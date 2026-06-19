@@ -1,0 +1,20 @@
+<!-- @dsCard group="Colors" viewport="700x170" name="Status" subtitle="Functional states, kept quiet so the brand orange stays the hero" -->
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body{margin:0;padding:24px;background:var(--surface-card)}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .cell{border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden}
+  .bar{height:54px}
+  .meta{padding:10px 12px;background:var(--surface-card)}
+  .meta b{display:block;font:var(--fw-bold) 13px/1.2 var(--font-heading);color:var(--color-ink)}
+  .meta span{font:var(--fw-semibold) 11px/1.4 var(--font-condensed);letter-spacing:.04em;color:var(--text-muted)}
+</style></head>
+<body>
+  <div class="grid">
+    <div class="cell"><div class="bar" style="background:var(--success)"></div><div class="meta"><b>Success</b><span>#1E8A5A</span></div></div>
+    <div class="cell"><div class="bar" style="background:var(--warning)"></div><div class="meta"><b>Warning</b><span>#E8A100</span></div></div>
+    <div class="cell"><div class="bar" style="background:var(--danger)"></div><div class="meta"><b>Danger</b><span>#D23B2B</span></div></div>
+    <div class="cell"><div class="bar" style="background:var(--info)"></div><div class="meta"><b>Info</b><span>#283642</span></div></div>
+  </div>
+</body></html>
