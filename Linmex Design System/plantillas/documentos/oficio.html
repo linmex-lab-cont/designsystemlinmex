@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Hoja membretada · oficio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap">
+<link rel="stylesheet" href="documento.css">
+<style>
+@page { size: 8.5in 11in; margin: 0; }
+html, body { margin: 0; padding: 0; background: #FFFFFF; }
+</style>
+</head>
+<body>
+<div class="hoja" data-plantilla="oficio">
+  <div class="filo"></div>
+  <img class="logo" src="linmex-logo.svg" alt="LINMEX">
+  <div class="encabezado">
+    <div class="fecha">Mérida, Yucatán, a <span data-campo="fecha">[29 de septiembre de 2026]</span></div>
+    <div class="folio eb">Folio · <span data-campo="folio">[LIN-2026-000]</span></div>
+  </div>
+
+  <div class="cuerpo con-destinatario">
+    <div class="destinatario-nombre" data-campo="destinatario">[Nombre de la persona destinataria]</div>
+    <div class="destinatario-cargo" data-campo="destinatarioCargo">[Cargo · Empresa]</div>
+
+    <p class="asunto"><b>Asunto:</b> <span data-campo="asunto">[Asunto del oficio]</span></p>
+
+    <p class="saludo" data-campo="saludo">[Saludo, por ejemplo «Estimada Laura:»]</p>
+    <div class="parrafos" data-lista="parrafos">
+      <p data-item>[Primer párrafo: el motivo del oficio, en una o dos oraciones.]</p>
+      <p data-item>[Segundo párrafo: los detalles que hacen falta para entenderlo, con fechas y cifras exactas.]</p>
+      <p data-item>[Tercer párrafo: lo que se solicita, se acuerda o sigue después.]</p>
+    </div>
+
+    <div class="firma" style="margin-top: 56px">
+      <div data-campo="despedida">Atentamente,</div>
+      <div class="firma-linea" style="margin-top: 70px"></div>
+      <div class="firma-nombre" data-campo="firmante">[Nombre de quien firma]</div>
+      <div class="firma-cargo"><span data-campo="firmanteCargo">[Cargo]</span> · Grupo LINMEX</div>
+    </div>
+  </div>
+
+  <div class="pie-linea"></div>
+  <div class="pie">
+    <div class="pie-dato" style="width: 110px"><div class="eb">Teléfono</div><div>(999) 343 7716</div></div>
+    <div class="pie-dato" style="width: 170px"><div class="eb">Correo</div><div>contacto@grupolinmex.mx</div></div>
+    <div class="pie-dato" style="width: 100px"><div class="eb">Sitio</div><div>grupolinmex.mx</div></div>
+    <div class="pie-dato"><div class="eb">Oficina</div><div>Calle 19 #269A x 36 y 38, Col. Campestre, C.P. 97120, Mérida, Yucatán</div></div>
+  </div>
+  <div class="lema">Desarrollos Inmobiliarios con Rentabilidad y Propósito.</div>
+</div>
+</body>
+</html>

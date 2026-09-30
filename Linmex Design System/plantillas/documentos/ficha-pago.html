@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Ficha de pago</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap">
+<link rel="stylesheet" href="documento.css">
+<style>
+@page { size: 8.5in 11in; margin: 0; }
+html, body { margin: 0; padding: 0; background: #FFFFFF; }
+</style>
+</head>
+<body>
+<div class="hoja" data-plantilla="ficha">
+  <div class="filo"></div>
+  <img class="logo" src="linmex-logo.svg" alt="LINMEX">
+  <div class="encabezado">
+    <div class="fecha">Mérida, Yucatán, a <span data-campo="fecha">[29 de septiembre de 2026]</span></div>
+    <div class="folio eb">Folio · <span data-campo="folio">[LS-2026-0000]</span></div>
+  </div>
+
+  <div class="cuerpo">
+    <div class="rotulo eb" data-campo="rotulo">Ficha de pago</div>
+    <h1 data-campo="titulo">Mensualidad de tu lote.</h1>
+    <p class="entrada" style="margin-top: 16px" data-campo="entrada">Hola [nombre del cliente]: aquí está el detalle de tu siguiente mensualidad. Cualquier duda, tu asesor está para ayudarte.</p>
+
+    <table class="tabla" data-tabla="pago">
+      <thead><tr><th style="width: 200px">Dato</th><th>Detalle</th></tr></thead>
+      <tbody>
+        <tr data-fila="cliente"><td>Cliente</td><td data-valor>[Nombre completo del cliente]</td></tr>
+        <tr data-fila="desarrollo"><td>Desarrollo</td><td data-valor>[Desarrollo · etapa]</td></tr>
+        <tr data-fila="lote"><td>Lote</td><td data-valor>[Manzana 00 · Lote 00 · 000 m²]</td></tr>
+        <tr data-fila="concepto"><td>Concepto</td><td data-valor>[Mensualidad 00 de 00]</td></tr>
+        <tr data-fila="metodo"><td>Método de pago</td><td data-valor>[Transferencia SPEI]</td></tr>
+      </tbody>
+    </table>
+
+    <div class="monto">
+      <div class="monto-luz"></div>
+      <div class="monto-principal">
+        <div class="monto-rotulo eb">Monto de esta mensualidad</div>
+        <div class="cf"><span data-campo="monto">[$0,000.00]</span> <span class="moneda">MXN</span></div>
+      </div>
+      <div class="monto-limite">
+        <div class="monto-rotulo eb">Fecha límite</div>
+        <div class="cf" data-campo="fechaLimite">[00 · mes · 2026]</div>
+      </div>
+      <div class="monto-division"></div>
+      <div class="monto-saldo">
+        <span class="monto-rotulo eb">Saldo después de este pago</span>
+        <span class="cf"><span data-campo="saldo">[$000,000.00]</span> MXN</span>
+      </div>
+    </div>
+
+    <div class="como-pagar">
+      <div class="eb">Cómo pagar</div>
+      <p data-campo="comoPagar">[Texto de Cobranza con el medio de pago. Los datos bancarios no van en la plantilla: tu asesor te los confirma por los canales oficiales de Grupo LINMEX.]</p>
+    </div>
+  </div>
+
+  <div class="pie-linea"></div>
+  <div class="pie">
+    <div class="pie-dato" style="width: 110px"><div class="eb">Teléfono</div><div>(999) 343 7716</div></div>
+    <div class="pie-dato" style="width: 170px"><div class="eb">Correo</div><div>contacto@grupolinmex.mx</div></div>
+    <div class="pie-dato" style="width: 100px"><div class="eb">Sitio</div><div>grupolinmex.mx</div></div>
+    <div class="pie-dato"><div class="eb">Oficina</div><div>Calle 19 #269A x 36 y 38, Col. Campestre, C.P. 97120, Mérida, Yucatán</div></div>
+  </div>
+  <div class="lema">Desarrollos Inmobiliarios con Rentabilidad y Propósito.</div>
+</div>
+</body>
+</html>

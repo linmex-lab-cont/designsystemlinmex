@@ -1,0 +1,221 @@
+.hoja, .hoja * { box-sizing: border-box; }
+
+.hoja {
+  position: relative;
+  width: 816px;
+  height: 1056px;
+  overflow: hidden;
+  background: #FFFFFF;
+  color: #0F1820;
+  font-family: var(--font-cairo, 'Cairo'), sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.hoja .eb {
+  font-family: var(--font-barlow, 'Barlow Condensed'), 'Arial Narrow', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+}
+
+.hoja .cf {
+  font-family: var(--font-barlow, 'Barlow Condensed'), 'Arial Narrow', sans-serif;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.hoja .filo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 816px;
+  height: 6px;
+  background: linear-gradient(90deg, #FF5100 0%, #FF5100 24%, rgba(255, 81, 0, 0) 74%);
+}
+
+.hoja .logo {
+  position: absolute;
+  left: 72px;
+  top: 56px;
+  height: 30px;
+  width: auto;
+  display: block;
+}
+
+.hoja .encabezado {
+  position: absolute;
+  right: 72px;
+  top: 54px;
+  text-align: right;
+}
+
+.hoja .fecha { font-size: 13.5px; line-height: 1.4; color: #3F4650; }
+
+.hoja .folio {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #D8D2C8;
+  background: #FFF6F1;
+}
+
+.hoja .cuerpo {
+  position: absolute;
+  left: 72px;
+  top: 150px;
+  width: 672px;
+  height: 750px;
+  overflow: hidden;
+}
+
+.hoja .cuerpo.con-destinatario { top: 164px; height: 736px; }
+
+.hoja .rotulo { font-size: 13px; letter-spacing: .18em; color: #CF4205; line-height: 1.4; }
+
+.hoja h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.hoja .rotulo + h1 { margin-top: 6px; font-size: 30px; }
+
+.hoja p { margin: 0; }
+
+.hoja .parrafos p + p { margin-top: 14px; }
+
+.hoja .entrada { margin-top: 18px; }
+
+.hoja .entrada p + p { margin-top: 12px; }
+
+.hoja .destinatario-nombre { font-weight: 700; line-height: 1.87; }
+
+.hoja .destinatario-cargo { font-size: 14px; line-height: 1.87; color: #3F4650; margin-top: 2px; }
+
+.hoja .asunto { margin-top: 24px; }
+
+.hoja .asunto b { font-weight: 700; }
+
+.hoja .saludo { margin-top: 24px; }
+
+.hoja .saludo + .parrafos { margin-top: 14px; }
+
+.hoja .tabla {
+  width: 100%;
+  margin-top: 40px;
+  border: 1px solid #D8D2C8;
+  border-radius: 4px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.hoja .tabla th, .hoja .tabla td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 9px 16px;
+  border-bottom: 1px solid #D8D2C8;
+  font-size: 14.5px;
+  line-height: 1.87;
+}
+
+.hoja .tabla tr:last-child td { border-bottom: 0; }
+
+.hoja .tabla th {
+  font-family: var(--font-barlow, 'Barlow Condensed'), 'Arial Narrow', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-size: 12px;
+  color: #5F646B;
+  background: #F4F1EC;
+}
+
+.hoja .tabla td:first-child { font-weight: 600; }
+
+.hoja .tabla tr.destacada td { background: #FFF6F1; }
+
+.hoja .tabla tr.destacada td:first-child { font-weight: 700; }
+
+.hoja .tabla tr.destacada td.cf { font-size: 19px; padding-top: 8px; padding-bottom: 8px; }
+
+.hoja .cierre { margin-top: 28px; }
+
+.hoja .firma { margin-top: 32px; }
+
+.hoja .firma-linea { width: 260px; height: 1px; background: #0F1820; margin-top: 54px; }
+
+.hoja .firma-nombre { margin-top: 10px; font-size: 15px; font-weight: 700; line-height: 1.5; }
+
+.hoja .firma-cargo { font-size: 14px; line-height: 1.45; color: #3F4650; }
+
+.hoja .monto {
+  position: relative;
+  margin-top: 28px;
+  width: 672px;
+  height: 176px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #0F1820;
+  color: #FFFFFF;
+}
+
+.hoja .monto-luz {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 672px;
+  height: 176px;
+  background: radial-gradient(420px 220px at 100% 0%, rgba(255, 176, 124, .30), rgba(255, 81, 0, .16) 42%, rgba(255, 81, 0, 0) 76%);
+}
+
+.hoja .monto-rotulo { font-size: 12px; line-height: 1.4; color: rgba(255, 255, 255, .78); }
+
+.hoja .monto-principal { position: absolute; left: 28px; top: 26px; }
+
+.hoja .monto-principal .cf { font-size: 46px; margin-top: 10px; }
+
+.hoja .monto-principal .moneda { font-size: 20px; letter-spacing: .06em; }
+
+.hoja .monto-limite { position: absolute; right: 28px; top: 26px; text-align: right; }
+
+.hoja .monto-limite .monto-rotulo { color: #FFB48A; }
+
+.hoja .monto-limite .cf { font-size: 30px; margin-top: 12px; }
+
+.hoja .monto-division { position: absolute; left: 28px; top: 118px; width: 616px; height: 1px; background: rgba(255, 255, 255, .18); }
+
+.hoja .monto-saldo { position: absolute; left: 28px; top: 134px; width: 616px; }
+
+.hoja .monto-saldo .monto-rotulo { float: left; }
+
+.hoja .monto-saldo .cf { float: right; font-size: 20px; }
+
+.hoja .como-pagar { margin-top: 28px; }
+
+.hoja .como-pagar .eb { font-size: 12px; line-height: 1.4; color: #5F646B; }
+
+.hoja .como-pagar p { margin-top: 6px; font-size: 14.5px; line-height: 1.55; }
+
+.hoja .pie-linea { position: absolute; left: 72px; top: 920px; width: 672px; height: 1px; background: #D8D2C8; }
+
+.hoja .pie { position: absolute; left: 72px; top: 936px; width: 672px; display: flex; }
+
+.hoja .pie-dato { margin-right: 24px; }
+
+.hoja .pie-dato:last-child { margin-right: 0; flex-grow: 1; }
+
+.hoja .pie-dato .eb { font-size: 12px; line-height: 1.4; color: #5F646B; }
+
+.hoja .pie-dato div + div { font-size: 12.5px; line-height: 1.4; margin-top: 2px; }
+
+.hoja .lema { position: absolute; left: 72px; top: 1000px; font-size: 12.5px; line-height: 1.4; font-weight: 600; color: #CF4205; }
