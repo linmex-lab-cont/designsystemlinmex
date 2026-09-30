@@ -20,6 +20,7 @@
   },
   "plantillas": {
     "oficio": {
+      "templateId": "26534cce-2375-4806-838d-e92e5ff09d1c",
       "archivo": "oficio.html",
       "nombre": "Hoja membretada",
       "desc": "Oficio de una página con franja de contacto.",
@@ -46,6 +47,7 @@
       }
     },
     "liquidacion": {
+      "templateId": "9592dbd6-6988-477e-a84e-7c2966bf608a",
       "archivo": "carta-liquidacion.html",
       "nombre": "Carta de liquidación",
       "desc": "Constancia de pago total del inmueble.",
@@ -75,6 +77,7 @@
       }
     },
     "ficha": {
+      "templateId": "79d09892-35e7-4efa-82fe-71413817d284",
       "archivo": "ficha-pago.html",
       "nombre": "Ficha de pago",
       "desc": "Mensualidad con monto, fecha límite y saldo.",

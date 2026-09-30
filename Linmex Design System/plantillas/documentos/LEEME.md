@@ -35,6 +35,34 @@
 Un campo vacío muestra su `ejemplo`; uno con `defecto` nace con ese valor (`hoy` = fecha del día).
 `soloEn` limita un campo común a las plantillas listadas.
 
+## Documento editable en Studio
+
+Para que un documento hecho por Linx se abra en el editor, se guarda con
+`POST /api/v1/studio/documents` usando el `templateId` de su plantilla (está en `campos.json`) y
+este `document` mínimo; lo que falte lo completa Studio al abrirlo:
+
+```json
+{
+  "motor": "ficha",
+  "pages": [
+    {
+      "kind": "carta",
+      "data": {
+        "valores": { "fecha": "2026-09-30", "folio": "LS-2026-0042", "pago.cliente": "Juana Pérez", "monto": "12500.5" },
+        "listas": {}
+      }
+    }
+  ]
+}
+```
+
+- `valores`: una clave por campo simple; las filas de una tabla van como `tabla.fila`
+  (`pago.cliente`, `inmueble.monto`). Texto plano o HTML sencillo; fecha `AAAA-MM-DD`; monto
+  solo número.
+- `listas`: los campos `lista` (en el oficio, `parrafos`: un texto por párrafo).
+- Claves que no existan en la plantilla se descartan. Lo que falte queda con su ejemplo y el
+  editor no deja exportar hasta llenarlo.
+
 ## Reglas de exportación
 
 Están en `reglas` de `campos.json`: texto entre corchetes bloquea; en la ficha, 18 dígitos
