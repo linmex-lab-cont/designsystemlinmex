@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "clave": "presentacionPliegue",
+  "templateId": "f598284b-cb47-46ac-ac70-33bb8b119a1f",
+  "nombre": "Presentación · Pliegue",
+  "desc": "Presentación editorial con pliegues diagonales, titulares grandes y alternancia claro y oscuro: portada, agenda, texto con imagen, gráfica de línea, cifras y cierre.",
+  "categoria": "presentaciones",
+  "audiencia": "interna",
+  "formatos": { "16x9": { "w": 1920, "h": 1080 } },
+  "laminas": [
+    {
+      "clave": "portada",
+      "nombre": "Portada",
+      "campos": {
+        "portadaRotulo": {"etiqueta": "Rótulo (área)", "tipo": "texto", "defecto": "Dirección General", "maximo": 40},
+        "portadaTitulo": {"etiqueta": "Título de la presentación", "tipo": "texto", "defecto": "Informe de Dirección", "maximo": 28},
+        "portadaFecha": {"etiqueta": "Fecha o periodo", "tipo": "texto", "defecto": "Septiembre 2026", "maximo": 40},
+        "portadaFoto": {"etiqueta": "Foto del pliegue", "tipo": "imagen", "archivo": "aviso-puente.jpg"}
+      }
+    },
+    {
+      "clave": "agenda",
+      "nombre": "Agenda",
+      "campos": {
+        "agendaRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Informe de Dirección", "maximo": 40},
+        "agendaTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Agenda", "maximo": 7},
+        "agendaIntro": {"etiqueta": "Introducción", "tipo": "parrafo", "defecto": "Cinco temas para [60] minutos de revisión.", "maximo": 110},
+        "agendaNumero1": {"etiqueta": "Tema 1 · número", "tipo": "texto", "defecto": "01", "maximo": 2},
+        "agendaTema1": {"etiqueta": "Tema 1 · título", "tipo": "texto", "defecto": "Resumen del mes", "maximo": 22},
+        "agendaDetalle1": {"etiqueta": "Tema 1 · descripción", "tipo": "texto", "defecto": "Lo esencial de septiembre", "maximo": 38},
+        "agendaNumero2": {"etiqueta": "Tema 2 · número", "tipo": "texto", "defecto": "02", "maximo": 2},
+        "agendaTema2": {"etiqueta": "Tema 2 · título", "tipo": "texto", "defecto": "Comercial", "maximo": 22},
+        "agendaDetalle2": {"etiqueta": "Tema 2 · descripción", "tipo": "texto", "defecto": "Ventas y apartados contra la meta", "maximo": 38},
+        "agendaNumero3": {"etiqueta": "Tema 3 · número", "tipo": "texto", "defecto": "03", "maximo": 2},
+        "agendaTema3": {"etiqueta": "Tema 3 · título", "tipo": "texto", "defecto": "Obra y proyectos", "maximo": 22},
+        "agendaDetalle3": {"etiqueta": "Tema 3 · descripción", "tipo": "texto", "defecto": "Avance de Recoleta y Soletta", "maximo": 38},
+        "agendaNumero4": {"etiqueta": "Tema 4 · número", "tipo": "texto", "defecto": "04", "maximo": 2},
+        "agendaTema4": {"etiqueta": "Tema 4 · título", "tipo": "texto", "defecto": "Personas", "maximo": 22},
+        "agendaDetalle4": {"etiqueta": "Tema 4 · descripción", "tipo": "texto", "defecto": "Equipo, ingresos y clima laboral", "maximo": 38},
+        "agendaNumero5": {"etiqueta": "Tema 5 · número", "tipo": "texto", "defecto": "05", "maximo": 2},
+        "agendaTema5": {"etiqueta": "Tema 5 · título", "tipo": "texto", "defecto": "Decisiones pendientes", "maximo": 22},
+        "agendaDetalle5": {"etiqueta": "Tema 5 · descripción", "tipo": "texto", "defecto": "Lo que necesita tu visto bueno hoy", "maximo": 38},
+        "agendaFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "02", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "textoImagen",
+      "nombre": "Texto con imagen",
+      "campos": {
+        "textoImagenRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Obra y proyectos", "maximo": 40},
+        "textoImagenTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "El parque central toma forma", "maximo": 38},
+        "textoImagenParrafo": {"etiqueta": "Párrafo", "tipo": "parrafo", "defecto": "Recoleta cierra septiembre con [00]% de avance general y el parque central suma [00] frentes de obra.", "maximo": 115},
+        "textoImagenPunto1": {"etiqueta": "Punto 1", "tipo": "texto", "defecto": "Urbanización y servicios al [00]%", "maximo": 55},
+        "textoImagenPunto2": {"etiqueta": "Punto 2", "tipo": "texto", "defecto": "Amenidades del parque en [etapa de obra]", "maximo": 55},
+        "textoImagenPunto3": {"etiqueta": "Punto 3", "tipo": "texto", "defecto": "Próxima revisión de obra: 16 de octubre de 2026", "maximo": 55},
+        "textoImagenFoto": {"etiqueta": "Foto del pliegue", "tipo": "imagen", "archivo": "aliados-anfiteatro.jpg"},
+        "textoImagenFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "03", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "grafico",
+      "nombre": "Gráfica de línea",
+      "campos": {
+        "graficoRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Comercial", "maximo": 40},
+        "graficoTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Ventas acumuladas 2026 contra la meta", "maximo": 44},
+        "graficoUnidad": {"etiqueta": "Unidad del eje", "tipo": "texto", "defecto": "Millones de pesos", "maximo": 30},
+        "graficoReal": {"etiqueta": "Serie real (línea naranja)", "tipo": "serie", "grafica": "linea", "unidad": "millones de pesos", "nota": "Nueve meses en abreviatura de tres letras; comparte eje con la meta. La cifra del último mes va junto a la línea.",
+          "puntos": [
+            {"etiqueta": "Ene", "valor": 6},
+            {"etiqueta": "Feb", "valor": 13},
+            {"etiqueta": "Mar", "valor": 21},
+            {"etiqueta": "Abr", "valor": 29},
+            {"etiqueta": "May", "valor": 39},
+            {"etiqueta": "Jun", "valor": 50},
+            {"etiqueta": "Jul", "valor": 61},
+            {"etiqueta": "Ago", "valor": 72},
+            {"etiqueta": "Sep", "valor": 84}
+          ]
+        },
+        "graficoMeta": {"etiqueta": "Serie meta (línea punteada)", "tipo": "serie", "grafica": "linea", "unidad": "millones de pesos", "nota": "Mismos meses que la serie real. La cifra del último mes va junto a la línea.",
+          "puntos": [
+            {"etiqueta": "Ene", "valor": 8},
+            {"etiqueta": "Feb", "valor": 16},
+            {"etiqueta": "Mar", "valor": 24},
+            {"etiqueta": "Abr", "valor": 32},
+            {"etiqueta": "May", "valor": 40},
+            {"etiqueta": "Jun", "valor": 48},
+            {"etiqueta": "Jul", "valor": 56},
+            {"etiqueta": "Ago", "valor": 64},
+            {"etiqueta": "Sep", "valor": 72}
+          ]
+        },
+        "graficoLeyendaReal": {"etiqueta": "Leyenda · línea naranja", "tipo": "texto", "defecto": "Real 2026", "maximo": 30},
+        "graficoLeyendaMeta": {"etiqueta": "Leyenda · línea punteada", "tipo": "texto", "defecto": "Meta 2026", "maximo": 30},
+        "graficoConclusion": {"etiqueta": "Conclusión", "tipo": "texto", "defecto": "[17]% arriba de la meta", "maximo": 45},
+        "graficoConclusionDetalle": {"etiqueta": "Detalle de la conclusión", "tipo": "parrafo", "defecto": "Desde junio las ventas van sobre el plan.", "maximo": 80},
+        "graficoCorte": {"etiqueta": "Fecha de corte", "tipo": "texto", "defecto": "Corte al 30 de septiembre de 2026.", "maximo": 55},
+        "graficoFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "04", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "cifras",
+      "nombre": "Cifras",
+      "campos": {
+        "cifrasRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Resumen del mes", "maximo": 40},
+        "cifrasTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Septiembre en tres cifras", "maximo": 32},
+        "cifrasCorte": {"etiqueta": "Fecha de corte", "tipo": "texto", "defecto": "Corte al 30 de septiembre de 2026", "maximo": 70},
+        "cifrasEtiqueta1": {"etiqueta": "Cifra 1 · rótulo", "tipo": "texto", "defecto": "Apartados", "maximo": 28},
+        "cifrasValor1": {"etiqueta": "Cifra 1 · valor", "tipo": "texto", "defecto": "[000]", "maximo": 5},
+        "cifrasDetalle1": {"etiqueta": "Cifra 1 · detalle", "tipo": "parrafo", "defecto": "Firmados en septiembre, [00] más que en agosto.", "maximo": 90},
+        "cifrasEtiqueta2": {"etiqueta": "Cifra 2 · rótulo", "tipo": "texto", "defecto": "De la meta anual", "maximo": 28},
+        "cifrasValor2": {"etiqueta": "Cifra 2 · valor", "tipo": "texto", "defecto": "[00]%", "maximo": 5},
+        "cifrasDetalle2": {"etiqueta": "Cifra 2 · detalle", "tipo": "parrafo", "defecto": "Avance acumulado contra la meta de ventas 2026.", "maximo": 90},
+        "cifrasEtiqueta3": {"etiqueta": "Cifra 3 · rótulo", "tipo": "texto", "defecto": "Días promedio de cierre", "maximo": 28},
+        "cifrasValor3": {"etiqueta": "Cifra 3 · valor", "tipo": "texto", "defecto": "[00]", "maximo": 5},
+        "cifrasDetalle3": {"etiqueta": "Cifra 3 · detalle", "tipo": "parrafo", "defecto": "Del primer contacto a la firma del apartado.", "maximo": 90},
+        "cifrasFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "05", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "cierre",
+      "nombre": "Cierre",
+      "campos": {
+        "cierreRotulo": {"etiqueta": "Rótulo (área)", "tipo": "texto", "defecto": "Dirección General", "maximo": 40},
+        "cierreTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Gracias", "maximo": 10},
+        "cierreDetalle": {"etiqueta": "Título de la presentación y fecha", "tipo": "texto", "defecto": "Informe de Dirección · septiembre 2026", "maximo": 80}
+      }
+    }
+  ]
+}

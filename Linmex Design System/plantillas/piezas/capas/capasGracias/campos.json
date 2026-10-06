@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "clave": "capasGracias",
+  "templateId": "bdcb4ead-9da9-48a6-a1ce-1161ac7ec6bd",
+  "nombre": "Gracias · capas",
+  "desc": "Agradecimiento o despedida: la palabra GRACIAS gigante y la persona recortada al frente, sobre un bloque navy con el símbolo LINMEX.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "3x4": {
+      "w": 1080,
+      "h": 1440
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    },
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "campos": {
+    "mensaje": {
+      "etiqueta": "Mensaje",
+      "tipo": "parrafo",
+      "defecto": "Por cada momento compartido y por sumar tanto al proyecto.",
+      "maximo": 70
+    },
+    "nombre": {
+      "etiqueta": "Nombre de la persona",
+      "tipo": "texto",
+      "defecto": "[Nombre Apellido]",
+      "maximo": 24
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/modelo-pie.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. De pie, de la cabeza a los muslos y con proporción parecida a 784 x 1277: el diseño lo recorta por arriba y por la derecha."
+    }
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "archivo": "portada-1x1",
+    "buscar": "<div style=\"position: absolute; left: 18px; top: 58px; width: 278px; height: 578px; box-sizing: border-box; border-radius: 26px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 18px; color: rgba(255,255,255,.6)\">[Captura del HUB]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"portadaCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 18px; top: 58px; width: 278px; height: 578px; border-radius: 26px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "portada-4x5",
+    "buscar": "<div style=\"position: absolute; left: 21px; top: 68px; width: 328px; height: 681px; box-sizing: border-box; border-radius: 31px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 20px; color: rgba(255,255,255,.6)\">[Captura del HUB]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"portadaCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 21px; top: 68px; width: 328px; height: 681px; border-radius: 31px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "portada-3x4",
+    "buscar": "<div style=\"position: absolute; left: 22px; top: 72px; width: 348px; height: 722px; box-sizing: border-box; border-radius: 33px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 20px; color: rgba(255,255,255,.6)\">[Captura del HUB]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"portadaCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 22px; top: 72px; width: 348px; height: 722px; border-radius: 33px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "portada-9x16",
+    "buscar": "<div style=\"position: absolute; left: 24px; top: 78px; width: 370px; height: 768px; box-sizing: border-box; border-radius: 35px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 22px; color: rgba(255,255,255,.6)\">[Captura del HUB]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"portadaCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 24px; top: 78px; width: 370px; height: 768px; border-radius: 35px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "portada-16x9",
+    "buscar": "<div style=\"position: absolute; left: 21px; top: 67px; width: 320px; height: 666px; box-sizing: border-box; border-radius: 30px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 20px; color: rgba(255,255,255,.6)\">[Captura del HUB]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"portadaCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 21px; top: 67px; width: 320px; height: 666px; border-radius: 30px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "pasos-1x1",
+    "buscar": "<div style=\"position: absolute; left: 16px; top: 52px; width: 252px; height: 528px; box-sizing: border-box; border-radius: 24px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 17px; color: rgba(255,255,255,.6)\">[Captura de Reportes]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"pasosCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 16px; top: 52px; width: 252px; height: 528px; border-radius: 24px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "pasos-4x5",
+    "buscar": "<div style=\"position: absolute; left: 20px; top: 64px; width: 310px; height: 652px; box-sizing: border-box; border-radius: 30px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 20px; color: rgba(255,255,255,.6)\">[Captura de Reportes]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"pasosCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 20px; top: 64px; width: 310px; height: 652px; border-radius: 30px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "pasos-3x4",
+    "buscar": "<div style=\"position: absolute; left: 21px; top: 68px; width: 328px; height: 687px; box-sizing: border-box; border-radius: 31px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 20px; color: rgba(255,255,255,.6)\">[Captura de Reportes]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"pasosCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 21px; top: 68px; width: 328px; height: 687px; border-radius: 31px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "pasos-9x16",
+    "buscar": "<div style=\"position: absolute; left: 22px; top: 72px; width: 348px; height: 728px; box-sizing: border-box; border-radius: 33px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 22px; color: rgba(255,255,255,.6)\">[Captura de Reportes]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"pasosCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 22px; top: 72px; width: 348px; height: 728px; border-radius: 33px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "pasos-16x9",
+    "buscar": "<div style=\"position: absolute; left: 21px; top: 67px; width: 320px; height: 666px; box-sizing: border-box; border-radius: 30px; border: 2px dashed rgba(255,255,255,.22); display: flex; align-items: center; justify-content: center\">\n        <span class=\"eb\" style=\"font-size: 20px; color: rgba(255,255,255,.6)\">[Captura de Reportes]</span>\n      </div>",
+    "reemplazar": "<img data-imagen=\"pasosCaptura\" src=\"../../_img/captura-ejemplo.svg\" alt=\"Captura de pantalla\" style=\"position: absolute; left: 21px; top: 67px; width: 320px; height: 666px; border-radius: 30px; object-fit: cover; object-position: center top; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "cierre-1x1",
+    "buscar": "<div style=\"position: absolute; left: 48px; top: 60px; width: 320px; height: 320px; border-radius: 4px; background: #FFFFFF\">\n      <div style=\"position: absolute; left: 24px; top: 24px; width: 64px; height: 64px; box-sizing: border-box; border: 12px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 232px; top: 24px; width: 64px; height: 64px; box-sizing: border-box; border: 12px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 24px; top: 232px; width: 64px; height: 64px; box-sizing: border-box; border: 12px solid #0F1820\"></div>\n      <div class=\"eb\" style=\"position: absolute; left: 0; top: 146px; width: 320px; text-align: center; font-size: 22px; color: #4A5560\">[QR del enlace]</div>\n    </div>",
+    "reemplazar": "<img data-imagen=\"cierreQr\" src=\"../../_img/qr-ejemplo.svg\" alt=\"Código QR del enlace\" style=\"position: absolute; left: 48px; top: 60px; width: 320px; height: 320px; border-radius: 4px; background: #FFFFFF; object-fit: contain; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "cierre-4x5",
+    "buscar": "<div style=\"position: absolute; left: 48px; top: 80px; width: 400px; height: 400px; border-radius: 4px; background: #FFFFFF\">\n      <div style=\"position: absolute; left: 30px; top: 30px; width: 80px; height: 80px; box-sizing: border-box; border: 15px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 290px; top: 30px; width: 80px; height: 80px; box-sizing: border-box; border: 15px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 30px; top: 290px; width: 80px; height: 80px; box-sizing: border-box; border: 15px solid #0F1820\"></div>\n      <div class=\"eb\" style=\"position: absolute; left: 0; top: 184px; width: 400px; text-align: center; font-size: 24px; color: #4A5560\">[QR del enlace]</div>\n    </div>",
+    "reemplazar": "<img data-imagen=\"cierreQr\" src=\"../../_img/qr-ejemplo.svg\" alt=\"Código QR del enlace\" style=\"position: absolute; left: 48px; top: 80px; width: 400px; height: 400px; border-radius: 4px; background: #FFFFFF; object-fit: contain; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "cierre-3x4",
+    "buscar": "<div style=\"position: absolute; left: 48px; top: 96px; width: 420px; height: 420px; border-radius: 4px; background: #FFFFFF\">\n      <div style=\"position: absolute; left: 32px; top: 32px; width: 84px; height: 84px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 304px; top: 32px; width: 84px; height: 84px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 32px; top: 304px; width: 84px; height: 84px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div class=\"eb\" style=\"position: absolute; left: 0; top: 194px; width: 420px; text-align: center; font-size: 26px; color: #4A5560\">[QR del enlace]</div>\n    </div>",
+    "reemplazar": "<img data-imagen=\"cierreQr\" src=\"../../_img/qr-ejemplo.svg\" alt=\"Código QR del enlace\" style=\"position: absolute; left: 48px; top: 96px; width: 420px; height: 420px; border-radius: 4px; background: #FFFFFF; object-fit: contain; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "cierre-9x16",
+    "buscar": "<div style=\"position: absolute; left: 48px; top: 100px; width: 440px; height: 440px; border-radius: 4px; background: #FFFFFF\">\n      <div style=\"position: absolute; left: 33px; top: 33px; width: 88px; height: 88px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 319px; top: 33px; width: 88px; height: 88px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 33px; top: 319px; width: 88px; height: 88px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div class=\"eb\" style=\"position: absolute; left: 0; top: 204px; width: 440px; text-align: center; font-size: 26px; color: #4A5560\">[QR del enlace]</div>\n    </div>",
+    "reemplazar": "<img data-imagen=\"cierreQr\" src=\"../../_img/qr-ejemplo.svg\" alt=\"Código QR del enlace\" style=\"position: absolute; left: 48px; top: 100px; width: 440px; height: 440px; border-radius: 4px; background: #FFFFFF; object-fit: contain; display: block\">",
+    "veces": 1
+  },
+  {
+    "archivo": "cierre-16x9",
+    "buscar": "<div style=\"position: absolute; left: 48px; top: 100px; width: 440px; height: 440px; border-radius: 4px; background: #FFFFFF\">\n      <div style=\"position: absolute; left: 33px; top: 33px; width: 88px; height: 88px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 319px; top: 33px; width: 88px; height: 88px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div style=\"position: absolute; left: 33px; top: 319px; width: 88px; height: 88px; box-sizing: border-box; border: 16px solid #0F1820\"></div>\n      <div class=\"eb\" style=\"position: absolute; left: 0; top: 204px; width: 440px; text-align: center; font-size: 26px; color: #4A5560\">[QR del enlace]</div>\n    </div>",
+    "reemplazar": "<img data-imagen=\"cierreQr\" src=\"../../_img/qr-ejemplo.svg\" alt=\"Código QR del enlace\" style=\"position: absolute; left: 48px; top: 100px; width: 440px; height: 440px; border-radius: 4px; background: #FFFFFF; object-fit: contain; display: block\">",
+    "veces": 1
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "clave": "capasBienvenida",
+  "templateId": "d0ede466-6fbd-4fee-9e7a-b1f2bb18f107",
+  "nombre": "Bienvenida · capas",
+  "desc": "Bienvenida a una persona nueva: la palabra BIENVENIDA gigante en naranja y su recorte al frente, con nombre y área.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "3x4": {
+      "w": 1080,
+      "h": 1440
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    },
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "campos": {
+    "mensaje": {
+      "etiqueta": "Mensaje",
+      "tipo": "parrafo",
+      "defecto": "80% actitud y 20% aptitud. ¡A darlo todo desde el primer día!",
+      "maximo": 70
+    },
+    "nombre": {
+      "etiqueta": "Nombre de la persona",
+      "tipo": "texto",
+      "defecto": "[Nombre Apellido]",
+      "maximo": 17
+    },
+    "area": {
+      "etiqueta": "Área",
+      "tipo": "texto",
+      "defecto": "[Área]",
+      "maximo": 18
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/modelo-sentada.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. Sentada o de medio cuerpo y con proporción parecida a 854 x 1037: el diseño lo recorta por la izquierda y por abajo."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "clave": "aviso",
+  "templateId": "15c687ca-b0c1-49ee-9db1-2cb4085c7ad7",
+  "nombre": "Aviso con ilustración",
+  "desc": "Aviso interno con fecha destacada, sobre una ilustración o foto.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": { "w": 1080, "h": 1080 },
+    "4x5": { "w": 1080, "h": 1350 },
+    "3x4": { "w": 1080, "h": 1440 },
+    "9x16": { "w": 1080, "h": 1920 },
+    "16x9": { "w": 1920, "h": 1080 }
+  },
+  "campos": {
+    "dia": { "etiqueta": "Día", "tipo": "texto", "defecto": "16", "maximo": 2 },
+    "mes": { "etiqueta": "Mes (abreviado)", "tipo": "texto", "defecto": "Sep", "maximo": 3 },
+    "rotulo": { "etiqueta": "Rótulo", "tipo": "texto", "defecto": "Aviso · Capital Humano · Miércoles", "maximo": 40 },
+    "titulo": { "etiqueta": "Título", "tipo": "texto", "defecto": "Descanso del 16 de septiembre", "maximo": 40 },
+    "mensaje": { "etiqueta": "Mensaje", "tipo": "parrafo", "defecto": "Día no laborable por las fiestas patrias. Organiza tus entregas de la quincena.", "maximo": 110 },
+    "foto": { "etiqueta": "Foto o ilustración de fondo", "tipo": "imagen", "archivo": "aviso-puente.jpg", "difuminada": "aviso-puente-difuminada.jpg" }
+  }
+}

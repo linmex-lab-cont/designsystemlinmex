@@ -1,0 +1,272 @@
+[
+  {
+    "archivo": "1x1",
+    "buscar": "<br>Vigencia al 31 de octubre de 2026.",
+    "reemplazar": "<br><span>Vigencia al 31 de octubre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "<br>Vigencia al 31 de octubre de 2026.",
+    "reemplazar": "<br><span>Vigencia al 31 de octubre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "<br>Vigencia al 31 de octubre de 2026.",
+    "reemplazar": "<br><span>Vigencia al 31 de octubre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "<br>Vigencia al 31 de octubre de 2026.",
+    "reemplazar": "<br><span>Vigencia al 31 de octubre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "<br>Vigencia al 31 de octubre de 2026.",
+    "reemplazar": "<br><span>Vigencia al 31 de octubre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">$1,000,000<",
+    "reemplazar": ">[$1,000,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">$20,833.33<",
+    "reemplazar": ">[$20,833.33]<",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">$850,000<",
+    "reemplazar": ">[$850,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">$900,000<",
+    "reemplazar": ">[$900,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">$225,000<",
+    "reemplazar": ">[$225,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">$250,000<",
+    "reemplazar": ">[$250,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">$37,500<",
+    "reemplazar": ">[$37,500]<",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">$5,000<",
+    "reemplazar": ">[$5,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">$1,000,000<",
+    "reemplazar": ">[$1,000,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">$20,833.33<",
+    "reemplazar": ">[$20,833.33]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">$850,000<",
+    "reemplazar": ">[$850,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">$900,000<",
+    "reemplazar": ">[$900,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">$225,000<",
+    "reemplazar": ">[$225,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">$250,000<",
+    "reemplazar": ">[$250,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">$37,500<",
+    "reemplazar": ">[$37,500]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">$5,000<",
+    "reemplazar": ">[$5,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">$1,000,000<",
+    "reemplazar": ">[$1,000,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">$20,833.33<",
+    "reemplazar": ">[$20,833.33]<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">$850,000<",
+    "reemplazar": ">[$850,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">$900,000<",
+    "reemplazar": ">[$900,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">$225,000<",
+    "reemplazar": ">[$225,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">$250,000<",
+    "reemplazar": ">[$250,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">$37,500<",
+    "reemplazar": ">[$37,500]<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">$5,000<",
+    "reemplazar": ">[$5,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">$1,000,000<",
+    "reemplazar": ">[$1,000,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">$20,833.33<",
+    "reemplazar": ">[$20,833.33]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">$850,000<",
+    "reemplazar": ">[$850,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">$900,000<",
+    "reemplazar": ">[$900,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">$225,000<",
+    "reemplazar": ">[$225,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">$250,000<",
+    "reemplazar": ">[$250,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">$37,500<",
+    "reemplazar": ">[$37,500]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">$5,000<",
+    "reemplazar": ">[$5,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">$1,000,000<",
+    "reemplazar": ">[$1,000,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">$20,833.33<",
+    "reemplazar": ">[$20,833.33]<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">$850,000<",
+    "reemplazar": ">[$850,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">$900,000<",
+    "reemplazar": ">[$900,000]<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">$225,000<",
+    "reemplazar": ">[$225,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">$250,000<",
+    "reemplazar": ">[$250,000]<",
+    "veces": 2
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">$37,500<",
+    "reemplazar": ">[$37,500]<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">$5,000<",
+    "reemplazar": ">[$5,000]<",
+    "veces": 1
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "clave": "capasInhabil",
+  "templateId": "9cf53dda-77a5-4771-a817-3cb073b9f51e",
+  "nombre": "Día inhábil · capas",
+  "desc": "Aviso de día inhábil: la fecha grande en naranja, la palabra INHÁBIL y una imagen alusiva recortada al frente.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "3x4": {
+      "w": 1080,
+      "h": 1440
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    },
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "campos": {
+    "intro": {
+      "etiqueta": "Frase de apertura",
+      "tipo": "texto",
+      "defecto": "Te informamos que el",
+      "maximo": 36
+    },
+    "dia": {
+      "etiqueta": "Día",
+      "tipo": "texto",
+      "defecto": "16",
+      "maximo": 2
+    },
+    "mes": {
+      "etiqueta": "Mes",
+      "tipo": "texto",
+      "defecto": "noviembre",
+      "maximo": 10,
+      "nota": "Solo el mes, sin «de»: el diseño ya lo antepone."
+    },
+    "motivo": {
+      "etiqueta": "Motivo",
+      "tipo": "parrafo",
+      "defecto": "Por motivo de las festividades de la Conmemoración de la Revolución Mexicana.",
+      "maximo": 80
+    },
+    "foto": {
+      "etiqueta": "Imagen alusiva recortada",
+      "tipo": "imagen",
+      "archivo": "recortes/monumento.png",
+      "nota": "Sube una imagen sin fondo (PNG con transparencia) alusiva a la fecha, más o menos cuadrada (900 x 910); el diseño la recorta por arriba y por la derecha."
+    }
+  }
+}

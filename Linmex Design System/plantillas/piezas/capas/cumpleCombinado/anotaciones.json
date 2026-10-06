@@ -1,0 +1,68 @@
+[
+  {
+    "archivo": "4x5",
+    "buscar": "alt=\"Alicia Domínguez\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "alt=\"Alicia Domínguez\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "class=\"gv\" style=\"margin-top: 14px; font-size: 96px; line-height: .98; color: #FFFFFF\">Feliz<br>cumpleaños",
+    "reemplazar": "class=\"gv\" style=\"white-space: normal; margin-top: 14px; font-size: 96px; line-height: .98; color: #FFFFFF\">Feliz cumpleaños",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">Alicia Domínguez<",
+    "reemplazar": ">[Nombre Apellido]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">20 de septiembre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">Alicia<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">Alicia Domínguez<",
+    "reemplazar": ">[Nombre Apellido]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">20 de septiembre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">Alicia<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "<div class=\"gg\" style=\"",
+    "reemplazar": "<div class=\"gg\" data-ajustar=\"ancho\" style=\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "<div class=\"gg\" style=\"",
+    "reemplazar": "<div class=\"gg\" data-ajustar=\"ancho\" style=\"",
+    "veces": 1
+  }
+]

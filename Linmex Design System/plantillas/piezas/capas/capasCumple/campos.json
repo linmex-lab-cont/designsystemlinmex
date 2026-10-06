@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "clave": "capasCumple",
+  "templateId": "af3e9d4c-9c90-45ce-abb6-e665d07e1b65",
+  "nombre": "Cumpleaños · capas",
+  "desc": "Cumpleaños con globos y confeti: la persona recortada al frente y su nombre en caligrafía sobre fondo blanco y navy.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "3x4": {
+      "w": 1080,
+      "h": 1440
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    },
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "campos": {
+    "nombrePila": {
+      "etiqueta": "Nombre de pila",
+      "tipo": "texto",
+      "defecto": "Nombre",
+      "maximo": 8,
+      "nota": "Solo el nombre de pila: va en caligrafía grande."
+    },
+    "fecha": {
+      "etiqueta": "Fecha del cumpleaños",
+      "tipo": "texto",
+      "defecto": "[00 de mes]",
+      "maximo": 24
+    },
+    "saludo": {
+      "etiqueta": "Saludo",
+      "tipo": "texto",
+      "defecto": "Feliz cumpleaños",
+      "maximo": 20
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/diego-recorte.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. Vertical, de la cabeza a la cintura; la parte baja se desvanece sola."
+    }
+  }
+}

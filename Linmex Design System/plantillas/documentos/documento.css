@@ -56,6 +56,8 @@
 
 .hoja .fecha { font-size: 13.5px; line-height: 1.4; color: #3F4650; }
 
+.hoja .hoja-numero { margin-top: 8px; font-size: 11px; line-height: 1.4; color: #5F646B; }
+
 .hoja .folio {
   display: inline-block;
   margin-top: 10px;
@@ -78,6 +80,8 @@
 
 .hoja .cuerpo.con-destinatario { top: 164px; height: 736px; }
 
+.hoja .cuerpo.continuacion { top: 150px; height: 750px; }
+
 .hoja .rotulo { font-size: 13px; letter-spacing: .18em; color: #CF4205; line-height: 1.4; }
 
 .hoja h1 {
@@ -91,7 +95,25 @@
 
 .hoja p { margin: 0; }
 
-.hoja .parrafos p + p { margin-top: 14px; }
+.hoja .cuerpo-rico > :is(p, ul, ol) + :is(p, ul, ol) { margin-top: 14px; }
+
+.hoja .cuerpo-rico ul, .hoja .cuerpo-rico ol { margin: 0; padding-left: 26px; }
+
+.hoja .cuerpo-rico ul { list-style: disc; }
+
+.hoja .cuerpo-rico ol { list-style: decimal; }
+
+.hoja .cuerpo-rico li ul { list-style: circle; }
+
+.hoja .cuerpo-rico li ol { list-style: lower-alpha; }
+
+.hoja .cuerpo-rico li + li, .hoja .cuerpo-rico li > ul, .hoja .cuerpo-rico li > ol { margin-top: 6px; }
+
+.hoja .cuerpo-rico strong { font-weight: 700; }
+
+.hoja .cuerpo-rico em { font-style: italic; }
+
+.hoja .cuerpo-rico u { text-decoration: underline; text-underline-offset: 2px; }
 
 .hoja .entrada { margin-top: 18px; }
 
@@ -107,7 +129,7 @@
 
 .hoja .saludo { margin-top: 24px; }
 
-.hoja .saludo + .parrafos { margin-top: 14px; }
+.hoja .saludo + .cuerpo-rico { margin-top: 14px; }
 
 .hoja .tabla {
   width: 100%;
@@ -219,3 +241,27 @@
 .hoja .pie-dato div + div { font-size: 12.5px; line-height: 1.4; margin-top: 2px; }
 
 .hoja .lema { position: absolute; left: 72px; top: 1000px; font-size: 12.5px; line-height: 1.4; font-weight: 600; color: #CF4205; }
+
+.hoja .nota { margin-top: 20px; font-size: 13.5px; line-height: 1.55; color: #3F4650; }
+
+.hoja.sobria .filo { background: linear-gradient(90deg, #0F1820 0%, #0F1820 24%, rgba(15, 24, 32, 0) 74%); }
+
+.hoja .cuerpo.esquela { top: 190px; height: 710px; text-align: center; }
+
+.hoja .esquela-marca { width: 56px; height: 2px; margin: 0 auto 26px; background: #0F1820; }
+
+.hoja .esquela .rotulo { color: #5F646B; }
+
+.hoja .esquela-entrada { margin-top: 30px; font-size: 17px; line-height: 1.6; color: #3F4650; }
+
+.hoja .esquela-nombre { margin-top: 18px; font-size: 34px; font-weight: 800; line-height: 1.15; }
+
+.hoja .esquela-relacion { margin: 14px auto 0; width: 520px; font-size: 16px; line-height: 1.6; color: #3F4650; }
+
+.hoja .esquela-division { width: 120px; height: 1px; margin: 40px auto 0; background: #D8D2C8; }
+
+.hoja .esquela-mensaje { margin: 36px auto 0; width: 540px; font-size: 16px; line-height: 1.7; }
+
+.hoja .esquela-cierre { margin-top: 30px; font-size: 17px; font-weight: 700; }
+
+.hoja .esquela-firma { margin-top: 44px; font-size: 14px; line-height: 1.5; color: #3F4650; }

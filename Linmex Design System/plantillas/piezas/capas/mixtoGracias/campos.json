@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "clave": "mixtoGracias",
+  "templateId": "10e12c50-9835-4d01-bb7a-de8dab055930",
+  "nombre": "Gracias · mixto",
+  "desc": "Agradecimiento claro: GRACIAS gigante, persona recortada al frente del símbolo naranja y una tarjeta de vidrio con nombre y mensaje.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    }
+  },
+  "campos": {
+    "nombre": {
+      "etiqueta": "Nombre de la persona",
+      "tipo": "texto",
+      "defecto": "[Nombre Apellido]",
+      "maximo": 22
+    },
+    "mensaje": {
+      "etiqueta": "Mensaje",
+      "tipo": "parrafo",
+      "defecto": "Por cada momento compartido y por sumar tanto al proyecto.",
+      "maximo": 60
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/modelo-pie.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. De pie, de la cabeza a los muslos y con proporción parecida a 784 x 1277: el diseño lo recorta por arriba y por la derecha."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "archivo": "1x1",
+    "buscar": "Consulta términos y condiciones. Vigencia hasta el 31 de diciembre de 2026.",
+    "reemplazar": "Consulta términos y condiciones. <span>Vigencia hasta el 31 de diciembre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "Consulta términos y condiciones. Vigencia hasta el 31 de diciembre de 2026.",
+    "reemplazar": "Consulta términos y condiciones. <span>Vigencia hasta el 31 de diciembre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "Consulta términos y condiciones. Vigencia hasta el 31 de diciembre de 2026.",
+    "reemplazar": "Consulta términos y condiciones. <span>Vigencia hasta el 31 de diciembre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "Consulta términos y condiciones. Vigencia hasta el 31 de diciembre de 2026.",
+    "reemplazar": "Consulta términos y condiciones. <span>Vigencia hasta el 31 de diciembre de 2026.</span>",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "Consulta términos y condiciones. Vigencia hasta el 31 de diciembre de 2026.",
+    "reemplazar": "Consulta términos y condiciones. <span>Vigencia hasta el 31 de diciembre de 2026.</span>",
+    "veces": 1
+  }
+]

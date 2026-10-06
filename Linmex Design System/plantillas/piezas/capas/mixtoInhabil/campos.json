@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "clave": "mixtoInhabil",
+  "templateId": "c520864d-7edc-4207-98a0-7386b736be8c",
+  "nombre": "Día inhábil · mixto",
+  "desc": "Aviso de día inhábil claro: fecha grande, INHÁBIL gigante, imagen alusiva recortada sobre el símbolo naranja y tarjeta de vidrio con el motivo.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    }
+  },
+  "campos": {
+    "intro": {
+      "etiqueta": "Frase de apertura",
+      "tipo": "texto",
+      "defecto": "Te informamos que el",
+      "maximo": 36
+    },
+    "dia": {
+      "etiqueta": "Día",
+      "tipo": "texto",
+      "defecto": "16",
+      "maximo": 2
+    },
+    "mes": {
+      "etiqueta": "Mes",
+      "tipo": "texto",
+      "defecto": "noviembre",
+      "maximo": 10,
+      "nota": "Solo el mes, sin «de»: el diseño ya lo antepone."
+    },
+    "fechaCompleta": {
+      "etiqueta": "Fecha completa",
+      "tipo": "texto",
+      "defecto": "Lunes 16 de noviembre de 2026",
+      "maximo": 32,
+      "nota": "Va en un solo renglón dentro de la tarjeta: con un día de la semana largo (miércoles) omite el año."
+    },
+    "motivo": {
+      "etiqueta": "Motivo",
+      "tipo": "parrafo",
+      "defecto": "Por motivo de las festividades de la Conmemoración de la Revolución Mexicana.",
+      "maximo": 78
+    },
+    "foto": {
+      "etiqueta": "Imagen alusiva recortada",
+      "tipo": "imagen",
+      "archivo": "recortes/monumento.png",
+      "nota": "Sube una imagen sin fondo (PNG con transparencia) alusiva a la fecha, más o menos cuadrada (900 x 910); el diseño la recorta por arriba y por la derecha."
+    }
+  }
+}

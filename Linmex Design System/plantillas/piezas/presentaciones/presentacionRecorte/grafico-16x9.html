@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Recorte · gráfico · 16:9</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap">
+<style>
+body{margin:0;background:#FFF1EA}
+.eb{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.18em}
+.cf{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+</style>
+</head>
+<body>
+<div data-serie="graficoEquipo" data-circunferencia="1558.23" style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #FFF1EA; color: #0F1820; font-family: 'Cairo', sans-serif">
+  <svg viewBox="0 0 897.48 897.48" width="720" height="720" aria-hidden="true" style="position: absolute; left: 1304px; top: 160px; display: block">
+    <path fill="#FFDECE" d="M897.48,0H0v299.16h608.18c5.5,0,8.58,6.34,5.18,10.66l-218.8,277.99c-5.23,6.64-13.21,10.51-21.66,10.51H0v299.16h177.69c8.47,0,16.47-3.88,21.71-10.54l218.89-278.11c5.23-6.64,13.21-10.52,21.66-10.52h457.54v-299.16h-221.9c-5.5,0-8.58-6.34-5.18-10.66L897.48,0Z"></path>
+  </svg>
+
+  <div class="eb" style="position: absolute; left: 96px; top: 112px; font-size: 24px; color: #3A4A57" data-campo="graficoRotulo">Nuestro equipo</div>
+  <h1 style="position: absolute; left: 96px; top: 150px; width: 1100px; margin: 0; font-size: 96px; font-weight: 800; line-height: 1.02; letter-spacing: -.015em" data-campo="graficoTitulo">El equipo por área</h1>
+  <p style="position: absolute; left: 96px; top: 274px; width: 1000px; margin: 0; font-size: 30px; line-height: 1.4; color: #3A4A57" data-campo="graficoParrafo">Así se reparten las personas que hoy forman LINMEX.</p>
+
+  <svg viewBox="-300 -300 600 600" width="520" height="520" role="img" aria-label="Dona: Comercial [45]%, Operación y obra [25]%, Administración [18]%, Capital Humano [12]%" style="position: absolute; left: 96px; top: 370px; display: block">
+    <g transform="rotate(-90)" fill="none" stroke-width="84">
+      <circle data-segmento data-indice="0" r="248" stroke="#FF5100" stroke-dasharray="701.20 1558.23" stroke-dashoffset="0"></circle>
+      <circle data-segmento data-indice="1" r="248" stroke="#0F1820" stroke-dasharray="389.56 1558.23" stroke-dashoffset="-701.20"></circle>
+      <circle data-segmento data-indice="2" r="248" stroke="#3A4A57" stroke-dasharray="280.48 1558.23" stroke-dashoffset="-1090.76"></circle>
+      <circle data-segmento data-indice="3" r="248" stroke="#B9BEC2" stroke-dasharray="186.99 1558.23" stroke-dashoffset="-1371.24"></circle>
+    </g>
+    <g stroke="#FFF1EA" stroke-width="2.3">
+      <line data-separador data-indice="0" x1="0" y1="-200" x2="0" y2="-296"></line>
+      <line data-separador data-indice="1" x1="61.80" y1="190.21" x2="91.47" y2="281.51"></line>
+      <line data-separador data-indice="2" x1="-190.21" y1="61.80" x2="-281.51" y2="91.47"></line>
+      <line data-separador data-indice="3" x1="-136.91" y1="-145.79" x2="-202.63" y2="-215.77"></line>
+    </g>
+  </svg>
+  <div style="position: absolute; left: 96px; top: 370px; width: 520px; height: 520px; display: flex; flex-direction: column; align-items: center; justify-content: center">
+    <div class="cf" style="font-size: 112px" data-campo="graficoCentroCifra">[00]</div>
+    <div style="margin-top: 8px; font-size: 28px; font-weight: 600; color: #3A4A57" data-campo="graficoCentroUnidad">personas</div>
+  </div>
+
+  <div style="position: absolute; left: 720px; top: 400px; width: 500px">
+    <div style="display: flex; align-items: center; gap: 20px; height: 106px; border-top: 1px solid rgba(15,24,32,.18)">
+      <div style="width: 24px; height: 24px; border-radius: 4px; background: #FF5100; flex-shrink: 0"></div>
+      <div style="flex: 1; font-size: 30px; font-weight: 600" data-categoria data-indice="0">Comercial</div>
+      <div class="cf" style="font-size: 56px" data-valor data-indice="0">[45]%</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 20px; height: 106px; border-top: 1px solid rgba(15,24,32,.18)">
+      <div style="width: 24px; height: 24px; border-radius: 4px; background: #0F1820; flex-shrink: 0"></div>
+      <div style="flex: 1; font-size: 30px; font-weight: 600" data-categoria data-indice="1">Operación y obra</div>
+      <div class="cf" style="font-size: 56px" data-valor data-indice="1">[25]%</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 20px; height: 106px; border-top: 1px solid rgba(15,24,32,.18)">
+      <div style="width: 24px; height: 24px; border-radius: 4px; background: #3A4A57; flex-shrink: 0"></div>
+      <div style="flex: 1; font-size: 30px; font-weight: 600" data-categoria data-indice="2">Administración</div>
+      <div class="cf" style="font-size: 56px" data-valor data-indice="2">[18]%</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 20px; height: 106px; border-top: 1px solid rgba(15,24,32,.18); border-bottom: 1px solid rgba(15,24,32,.18)">
+      <div style="width: 24px; height: 24px; border-radius: 4px; background: #B9BEC2; flex-shrink: 0"></div>
+      <div style="flex: 1; font-size: 30px; font-weight: 600" data-categoria data-indice="3">Capital Humano</div>
+      <div class="cf" style="font-size: 56px" data-valor data-indice="3">[12]%</div>
+    </div>
+    <p style="margin: 24px 0 0; font-size: 22px; line-height: 1.4; color: #3A4A57" data-campo="graficoNota">Personal activo al 30 de septiembre de 2026.</p>
+  </div>
+
+  <img src="../../_img/linmex-logo-color.png" alt="LINMEX" style="position: absolute; left: 96px; top: 948px; height: 32px; width: auto; display: block">
+  <div class="cf" style="position: absolute; left: 1624px; top: 944px; width: 200px; height: 40px; display: flex; align-items: center; justify-content: flex-end; font-size: 24px; color: #3A4A57" data-campo="graficoFolio">04</div>
+</div>
+</body>
+</html>

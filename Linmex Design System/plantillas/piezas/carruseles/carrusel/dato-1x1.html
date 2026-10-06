@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Carrusel informativo · dato clave · 1:1</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F1820}
+.eb{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.18em}
+.cf{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+</style>
+</head>
+<body>
+<div style="position: relative; width: 1080px; height: 1080px; overflow: hidden; background: #0F1820; color: #FFFFFF; font-family: 'Cairo', sans-serif">
+  <div style="position: absolute; left: 0; top: 0; width: 1080px; height: 1080px; background: radial-gradient(820px 520px at 14% -12%, rgba(255,176,124,.22), rgba(255,81,0,.08) 42%, transparent 74%), radial-gradient(620px 420px at 30% 30%, rgba(255,81,0,.12), transparent 70%)"></div>
+
+  <div class="eb" style="position: absolute; left: 72px; top: 96px; font-size: 24px; color: rgba(255,255,255,.78)" data-campo="datoRotulo">Fechas de entrega</div>
+  <div style="position: absolute; left: 66px; top: 132px; display: flex; align-items: baseline; gap: 26px"><span class="cf" style="font-size: 260px; color: #FF5100" data-campo="datoCifra1">2</span><span style="font-size: 72px; font-weight: 800; line-height: 1" data-campo="datoConector">y</span><span class="cf" style="font-size: 260px; color: #FF5100" data-campo="datoCifra2">16</span></div>
+  <h1 style="position: absolute; left: 72px; top: 420px; width: 936px; margin: 0; font-size: 56px; font-weight: 800; line-height: 1.05" data-campo="datoTitulo">de cada mes</h1>
+  <p style="position: absolute; left: 72px; top: 510px; width: 900px; margin: 0; font-size: 28px; line-height: 1.45; color: rgba(255,255,255,.86); text-wrap: pretty" data-campo="datoTexto">El 2 entregas la segunda quincena del mes anterior y el 16, la primera del mes en curso. Si la fecha cae en fin de semana o feriado, se recorre al viernes anterior.</p>
+
+  <div style="position: absolute; left: 72px; top: 744px; width: 936px; height: 176px; box-sizing: border-box; padding: 32px 40px; border-radius: 10px; overflow: hidden; z-index: 0; border: 1px solid rgba(255,255,255,.22); box-shadow: 0 30px 60px rgba(4,9,14,.45)">
+    <div style="position: absolute; left: 0; top: 0; width: 936px; height: 176px; z-index: -1; background: linear-gradient(155deg, rgba(255,255,255,.1) 0%, rgba(255,255,255,.03) 42%, rgba(255,255,255,0) 100%), rgba(24,36,47,.72)"></div>
+    <div style="position: absolute; left: 0; top: 0; width: 936px; height: 1px; background: rgba(255,255,255,.36)"></div>
+    <div class="eb" style="font-size: 20px; color: #FFCDB0" data-campo="datoProximoRotulo">Próxima entrega</div>
+    <div style="font-size: 44px; font-weight: 800; line-height: 1.1; margin-top: 10px" data-campo="datoProximo">[Viernes 2 de octubre]</div>
+    <div style="font-size: 22px; font-weight: 600; margin-top: 6px; color: rgba(255,255,255,.86)" data-campo="datoPeriodo">[Quincena del 16 al 30 de septiembre]</div>
+  </div>
+
+  <div style="position: absolute; left: 72px; top: 972px; width: 936px; height: 36px; display: flex; align-items: center; justify-content: space-between">
+    <img src="../../_img/linmex-logo-blanco.png" alt="LINMEX" style="height: 36px; width: auto; display: block">
+    <span class="cf" style="font-size: 24px; color: rgba(255,255,255,.72)">03 / 04</span>
+  </div>
+</div>
+</body>
+</html>

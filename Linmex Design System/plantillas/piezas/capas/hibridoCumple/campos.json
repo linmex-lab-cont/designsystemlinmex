@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "clave": "hibridoCumple",
+  "templateId": "cc37ae03-d5e8-4952-a759-46763c9268ce",
+  "nombre": "Cumpleaños · híbrido",
+  "desc": "Cumpleaños sobre navy: el nombre de pila gigante detrás de la persona recortada, bloque naranja del símbolo y tarjeta de vidrio con el saludo.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "3x4": {
+      "w": 1080,
+      "h": 1440
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    },
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "campos": {
+    "nombrePila": {
+      "etiqueta": "Nombre de pila (palabra gigante)",
+      "tipo": "texto",
+      "defecto": "Nombre",
+      "maximo": 8,
+      "nota": "Solo el nombre de pila, en mayúsculas gigantes. El tamaño está ajustado a 8 letras: con letras anchas (M, N, D, O) se sale de la hoja, por eso conviene nombres de hasta 7 letras. Una mayúscula acentuada al final puede tocar el logo."
+    },
+    "fecha": {
+      "etiqueta": "Fecha del cumpleaños",
+      "tipo": "texto",
+      "defecto": "[00 de mes]",
+      "maximo": 24
+    },
+    "saludo": {
+      "etiqueta": "Saludo",
+      "tipo": "texto",
+      "defecto": "Feliz cumpleaños",
+      "maximo": 18
+    },
+    "nombre": {
+      "etiqueta": "Nombre completo",
+      "tipo": "texto",
+      "defecto": "[Nombre Apellido]",
+      "maximo": 18
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/georgina-recorte.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. Vertical, de la cabeza hacia abajo, con proporción parecida a 501 x 1200."
+    }
+  }
+}

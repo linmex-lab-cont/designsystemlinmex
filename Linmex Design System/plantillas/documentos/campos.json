@@ -1,38 +1,120 @@
 {
   "version": 1,
-  "hoja": { "ancho": 816, "alto": 1056, "pagina": "Carta · 8.5 × 11 in · margen 0", "hojas": 1 },
+  "hoja": {
+    "ancho": 816,
+    "alto": 1056,
+    "pagina": "Carta · 8.5 × 11 in · margen 0",
+    "hojas": 2
+  },
   "membrete": {
     "lugar": "Mérida, Yucatán, a",
     "empresa": "Grupo LINMEX",
     "pie": [
-      { "etiqueta": "Teléfono", "valor": "(999) 343 7716", "ancho": 110 },
-      { "etiqueta": "Correo", "valor": "contacto@grupolinmex.mx", "ancho": 170 },
-      { "etiqueta": "Sitio", "valor": "grupolinmex.mx", "ancho": 100 },
-      { "etiqueta": "Oficina", "valor": "Calle 19 #269A x 36 y 38, Col. Campestre, C.P. 97120, Mérida, Yucatán" }
+      {
+        "etiqueta": "Teléfono",
+        "valor": "(999) 343 7716",
+        "ancho": 110
+      },
+      {
+        "etiqueta": "Correo",
+        "valor": "contacto@grupolinmex.mx",
+        "ancho": 170
+      },
+      {
+        "etiqueta": "Sitio",
+        "valor": "grupolinmex.mx",
+        "ancho": 100
+      },
+      {
+        "etiqueta": "Oficina",
+        "valor": "Calle 19 #269A x 36 y 38, Col. Campestre, C.P. 97120, Mérida, Yucatán"
+      }
     ],
     "lema": "Desarrollos Inmobiliarios con Rentabilidad y Propósito."
   },
   "comunes": {
-    "fecha": { "etiqueta": "Fecha", "tipo": "fecha", "formato": "d 'de' MMMM 'de' yyyy", "defecto": "hoy", "nota": "Se pinta después de «Mérida, Yucatán, a»." },
-    "despedida": { "etiqueta": "Despedida", "tipo": "texto", "defecto": "Atentamente,", "maximo": 40, "soloEn": ["oficio", "liquidacion"] },
-    "firmante": { "etiqueta": "Quien firma", "tipo": "texto", "maximo": 60, "ejemplo": "[Nombre de quien firma]", "soloEn": ["oficio", "liquidacion"] },
-    "firmanteCargo": { "etiqueta": "Cargo de quien firma", "tipo": "texto", "maximo": 60, "ejemplo": "[Cargo]", "soloEn": ["oficio", "liquidacion"] }
+    "fecha": {
+      "etiqueta": "Fecha",
+      "tipo": "fecha",
+      "formato": "d 'de' MMMM 'de' yyyy",
+      "defecto": "hoy",
+      "nota": "Se pinta después de «Mérida, Yucatán, a»."
+    },
+    "despedida": {
+      "etiqueta": "Despedida",
+      "tipo": "texto",
+      "defecto": "Atentamente,",
+      "maximo": 40,
+      "soloEn": [
+        "oficio",
+        "liquidacion"
+      ]
+    },
+    "firmante": {
+      "etiqueta": "Quien firma",
+      "tipo": "texto",
+      "maximo": 60,
+      "ejemplo": "[Nombre de quien firma]",
+      "soloEn": [
+        "oficio",
+        "liquidacion",
+        "recibo",
+        "pagoCliente"
+      ]
+    },
+    "firmanteCargo": {
+      "etiqueta": "Cargo de quien firma",
+      "tipo": "texto",
+      "maximo": 60,
+      "ejemplo": "[Cargo]",
+      "soloEn": [
+        "oficio",
+        "liquidacion",
+        "recibo",
+        "pagoCliente"
+      ]
+    }
   },
   "plantillas": {
     "oficio": {
       "templateId": "26534cce-2375-4806-838d-e92e5ff09d1c",
       "archivo": "oficio.html",
       "nombre": "Hoja membretada",
-      "desc": "Oficio de una página con franja de contacto.",
+      "desc": "Oficio con franja de contacto; si el texto es largo, sigue en una segunda hoja.",
       "audiencia": "interna",
       "campos": {
-        "folio": { "etiqueta": "Folio", "tipo": "texto", "maximo": 20, "ejemplo": "[LIN-2026-000]" },
-        "destinatario": { "etiqueta": "Destinatario", "tipo": "texto", "maximo": 70, "ejemplo": "[Nombre de la persona destinataria]" },
-        "destinatarioCargo": { "etiqueta": "Cargo · empresa", "tipo": "texto", "maximo": 80, "ejemplo": "[Cargo · Empresa]" },
-        "asunto": { "etiqueta": "Asunto", "tipo": "texto", "maximo": 90, "ejemplo": "[Asunto del oficio]" },
-        "saludo": { "etiqueta": "Saludo", "tipo": "texto", "maximo": 60, "ejemplo": "[Saludo, por ejemplo «Estimada Laura:»]" },
+        "folio": {
+          "etiqueta": "Folio",
+          "tipo": "texto",
+          "maximo": 20,
+          "ejemplo": "[LIN-2026-000]"
+        },
+        "destinatario": {
+          "etiqueta": "Destinatario",
+          "tipo": "texto",
+          "maximo": 70,
+          "ejemplo": "[Nombre de la persona destinataria]"
+        },
+        "destinatarioCargo": {
+          "etiqueta": "Cargo · empresa",
+          "tipo": "texto",
+          "maximo": 80,
+          "ejemplo": "[Cargo · Empresa]"
+        },
+        "asunto": {
+          "etiqueta": "Asunto",
+          "tipo": "texto",
+          "maximo": 90,
+          "ejemplo": "[Asunto del oficio]"
+        },
+        "saludo": {
+          "etiqueta": "Saludo",
+          "tipo": "texto",
+          "maximo": 60,
+          "ejemplo": "[Saludo, por ejemplo «Estimada Laura:»]"
+        },
         "parrafos": {
-          "etiqueta": "Párrafos",
+          "etiqueta": "Cuerpo",
           "tipo": "lista",
           "minimo": 1,
           "maximoItems": 6,
@@ -42,7 +124,7 @@
             "[Segundo párrafo: los detalles que hacen falta para entenderlo, con fechas y cifras exactas.]",
             "[Tercer párrafo: lo que se solicita, se acuerda o sigue después.]"
           ],
-          "nota": "Cada elemento es un párrafo; se agregan y se quitan."
+          "nota": "Se escribe directo en la hoja, como en Word: Enter abre párrafo y Mayús+Enter salta de línea. Admite negrita, cursiva, subrayado y listas."
         }
       }
     },
@@ -53,24 +135,90 @@
       "desc": "Constancia de pago total del inmueble.",
       "audiencia": "cliente",
       "campos": {
-        "folio": { "etiqueta": "Folio", "tipo": "texto", "maximo": 20, "ejemplo": "[LIN-2026-000]" },
-        "titulo": { "etiqueta": "Título", "tipo": "texto", "defecto": "Carta de liquidación", "maximo": 40 },
-        "saludo": { "etiqueta": "Saludo", "tipo": "texto", "defecto": "A quien corresponda:", "maximo": 60 },
-        "cliente": { "etiqueta": "Nombre completo del cliente", "tipo": "texto", "maximo": 80, "ejemplo": "[nombre completo del cliente]", "nota": "Va dentro del párrafo fijo «constancia»." },
+        "folio": {
+          "etiqueta": "Folio",
+          "tipo": "texto",
+          "maximo": 20,
+          "ejemplo": "[LIN-2026-000]"
+        },
+        "titulo": {
+          "etiqueta": "Título",
+          "tipo": "texto",
+          "defecto": "Carta de liquidación",
+          "maximo": 40
+        },
+        "saludo": {
+          "etiqueta": "Saludo",
+          "tipo": "texto",
+          "defecto": "A quien corresponda:",
+          "maximo": 60
+        },
+        "cliente": {
+          "etiqueta": "Nombre completo del cliente",
+          "tipo": "texto",
+          "maximo": 80,
+          "ejemplo": "[nombre completo del cliente]",
+          "nota": "Va dentro del párrafo fijo «constancia»."
+        },
         "inmueble": {
           "etiqueta": "Datos del inmueble",
           "tipo": "tabla",
-          "encabezados": ["Concepto", "Dato"],
+          "encabezados": [
+            "Concepto",
+            "Dato"
+          ],
           "filas": [
-            { "clave": "desarrollo", "etiqueta": "Desarrollo", "tipo": "texto", "maximo": 60, "ejemplo": "[Nombre del desarrollo]" },
-            { "clave": "loteManzana", "etiqueta": "Lote y manzana", "tipo": "texto", "maximo": 60, "ejemplo": "[Lote 00 · Manzana 00]" },
-            { "clave": "superficie", "etiqueta": "Superficie", "tipo": "texto", "maximo": 30, "ejemplo": "[000.00 m²]" },
-            { "clave": "monto", "etiqueta": "Monto total liquidado", "tipo": "monto", "moneda": "MXN", "destacada": true, "ejemplo": "[$0,000,000.00]" },
-            { "clave": "fechaLiquidacion", "etiqueta": "Fecha de liquidación", "tipo": "fecha", "formato": "d 'de' MMMM 'de' yyyy", "ejemplo": "[día de mes de año]" },
-            { "clave": "contrato", "etiqueta": "Contrato", "tipo": "texto", "maximo": 40, "ejemplo": "[Folio del contrato]" }
+            {
+              "clave": "desarrollo",
+              "etiqueta": "Desarrollo",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Nombre del desarrollo]"
+            },
+            {
+              "clave": "loteManzana",
+              "etiqueta": "Lote y manzana",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Lote 00 · Manzana 00]"
+            },
+            {
+              "clave": "superficie",
+              "etiqueta": "Superficie",
+              "tipo": "texto",
+              "maximo": 30,
+              "ejemplo": "[000.00 m²]"
+            },
+            {
+              "clave": "monto",
+              "etiqueta": "Monto total liquidado",
+              "tipo": "monto",
+              "moneda": "MXN",
+              "destacada": true,
+              "ejemplo": "[$0,000,000.00]"
+            },
+            {
+              "clave": "fechaLiquidacion",
+              "etiqueta": "Fecha de liquidación",
+              "tipo": "fecha",
+              "formato": "d 'de' MMMM 'de' yyyy",
+              "ejemplo": "[día de mes de año]"
+            },
+            {
+              "clave": "contrato",
+              "etiqueta": "Contrato",
+              "tipo": "texto",
+              "maximo": 40,
+              "ejemplo": "[Folio del contrato]"
+            }
           ]
         },
-        "cierre": { "etiqueta": "Párrafo de cierre", "tipo": "parrafo", "maximo": 300, "defecto": "Se extiende la presente a solicitud de la persona interesada, para los fines que a su interés convengan." }
+        "cierre": {
+          "etiqueta": "Párrafo de cierre",
+          "tipo": "parrafo",
+          "maximo": 300,
+          "defecto": "Se extiende la presente a solicitud de la persona interesada, para los fines que a su interés convengan."
+        }
       },
       "textos": {
         "constancia": "Por medio de la presente, Grupo LINMEX hace constar que {cliente} cubrió en su totalidad el precio del inmueble que se describe a continuación:"
@@ -83,34 +231,380 @@
       "desc": "Mensualidad con monto, fecha límite y saldo.",
       "audiencia": "cliente",
       "campos": {
-        "folio": { "etiqueta": "Folio", "tipo": "texto", "maximo": 20, "ejemplo": "[LS-2026-0000]" },
-        "rotulo": { "etiqueta": "Rótulo", "tipo": "texto", "defecto": "Ficha de pago", "maximo": 30 },
-        "titulo": { "etiqueta": "Título", "tipo": "texto", "defecto": "Mensualidad de tu lote.", "maximo": 40 },
-        "entrada": { "etiqueta": "Párrafo de entrada", "tipo": "parrafo", "maximo": 200, "ejemplo": "Hola [nombre del cliente]: aquí está el detalle de tu siguiente mensualidad. Cualquier duda, tu asesor está para ayudarte." },
+        "folio": {
+          "etiqueta": "Folio",
+          "tipo": "texto",
+          "maximo": 20,
+          "ejemplo": "[LS-2026-0000]"
+        },
+        "rotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "Ficha de pago",
+          "maximo": 30
+        },
+        "titulo": {
+          "etiqueta": "Título",
+          "tipo": "texto",
+          "defecto": "Mensualidad de tu lote.",
+          "maximo": 40
+        },
+        "entrada": {
+          "etiqueta": "Párrafo de entrada",
+          "tipo": "parrafo",
+          "maximo": 200,
+          "ejemplo": "Hola [nombre del cliente]: aquí está el detalle de tu siguiente mensualidad. Cualquier duda, tu asesor está para ayudarte."
+        },
         "pago": {
           "etiqueta": "Datos del pago",
           "tipo": "tabla",
-          "encabezados": ["Dato", "Detalle"],
+          "encabezados": [
+            "Dato",
+            "Detalle"
+          ],
           "filas": [
-            { "clave": "cliente", "etiqueta": "Cliente", "tipo": "texto", "maximo": 80, "ejemplo": "[Nombre completo del cliente]" },
-            { "clave": "desarrollo", "etiqueta": "Desarrollo", "tipo": "texto", "maximo": 60, "ejemplo": "[Desarrollo · etapa]" },
-            { "clave": "lote", "etiqueta": "Lote", "tipo": "texto", "maximo": 60, "ejemplo": "[Manzana 00 · Lote 00 · 000 m²]" },
-            { "clave": "concepto", "etiqueta": "Concepto", "tipo": "texto", "maximo": 60, "ejemplo": "[Mensualidad 00 de 00]" },
-            { "clave": "metodo", "etiqueta": "Método de pago", "tipo": "texto", "maximo": 40, "ejemplo": "[Transferencia SPEI]" }
+            {
+              "clave": "cliente",
+              "etiqueta": "Cliente",
+              "tipo": "texto",
+              "maximo": 80,
+              "ejemplo": "[Nombre completo del cliente]"
+            },
+            {
+              "clave": "desarrollo",
+              "etiqueta": "Desarrollo",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Desarrollo · etapa]"
+            },
+            {
+              "clave": "lote",
+              "etiqueta": "Lote",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Manzana 00 · Lote 00 · 000 m²]"
+            },
+            {
+              "clave": "concepto",
+              "etiqueta": "Concepto",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Mensualidad 00 de 00]"
+            },
+            {
+              "clave": "metodo",
+              "etiqueta": "Método de pago",
+              "tipo": "texto",
+              "maximo": 40,
+              "ejemplo": "[Transferencia SPEI]"
+            }
           ]
         },
-        "monto": { "etiqueta": "Monto de esta mensualidad", "tipo": "monto", "moneda": "MXN", "ejemplo": "[$0,000.00]" },
-        "fechaLimite": { "etiqueta": "Fecha límite", "tipo": "fecha", "formato": "dd · MMM · yyyy", "ejemplo": "[00 · mes · 2026]" },
-        "saldo": { "etiqueta": "Saldo después de este pago", "tipo": "monto", "moneda": "MXN", "ejemplo": "[$000,000.00]" },
-        "comoPagar": { "etiqueta": "Cómo pagar", "tipo": "parrafo", "maximo": 260, "ejemplo": "[Texto de Cobranza con el medio de pago. Los datos bancarios no van en la plantilla: tu asesor te los confirma por los canales oficiales de Grupo LINMEX.]", "nota": "Lo redacta Cobranza. Sin datos bancarios." }
+        "monto": {
+          "etiqueta": "Monto de esta mensualidad",
+          "tipo": "monto",
+          "moneda": "MXN",
+          "ejemplo": "[$0,000.00]"
+        },
+        "fechaLimite": {
+          "etiqueta": "Fecha límite",
+          "tipo": "fecha",
+          "formato": "dd · MMM · yyyy",
+          "ejemplo": "[00 · mes · 2026]"
+        },
+        "saldo": {
+          "etiqueta": "Saldo después de este pago",
+          "tipo": "monto",
+          "moneda": "MXN",
+          "ejemplo": "[$000,000.00]"
+        },
+        "comoPagar": {
+          "etiqueta": "Cómo pagar",
+          "tipo": "parrafo",
+          "maximo": 260,
+          "ejemplo": "[Texto de Cobranza con el medio de pago. Los datos bancarios no van en la plantilla: tu asesor te los confirma por los canales oficiales de Grupo LINMEX.]",
+          "nota": "Lo redacta Cobranza. Sin datos bancarios."
+        }
       },
-      "reglasPropias": ["sinCuentaBancaria"]
+      "reglasPropias": [
+        "sinCuentaBancaria"
+      ]
+    },
+    "recibo": {
+      "templateId": "6db0a16f-f423-41cc-9488-86d0120740c0",
+      "archivo": "recibo-pago.html",
+      "nombre": "Recibo de pago",
+      "desc": "Constancia de un pago recibido, con saldo pendiente.",
+      "audiencia": "cliente",
+      "campos": {
+        "folio": {
+          "etiqueta": "Folio del recibo",
+          "tipo": "texto",
+          "maximo": 20,
+          "ejemplo": "[REC-2026-0000]"
+        },
+        "rotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "Recibo de pago",
+          "maximo": 30
+        },
+        "titulo": {
+          "etiqueta": "Título",
+          "tipo": "texto",
+          "defecto": "Recibimos tu pago.",
+          "maximo": 40
+        },
+        "cliente": {
+          "etiqueta": "Nombre completo del cliente",
+          "tipo": "texto",
+          "maximo": 80,
+          "ejemplo": "[nombre completo del cliente]",
+          "nota": "Va dentro del párrafo fijo «recepcion»."
+        },
+        "pago": {
+          "etiqueta": "Datos del pago",
+          "tipo": "tabla",
+          "encabezados": [
+            "Dato",
+            "Detalle"
+          ],
+          "filas": [
+            {
+              "clave": "desarrollo",
+              "etiqueta": "Desarrollo",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Desarrollo · etapa]"
+            },
+            {
+              "clave": "lote",
+              "etiqueta": "Lote",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Manzana 00 · Lote 00 · 000 m²]"
+            },
+            {
+              "clave": "concepto",
+              "etiqueta": "Concepto",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Mensualidad 00 de 00]"
+            },
+            {
+              "clave": "forma",
+              "etiqueta": "Forma de pago",
+              "tipo": "texto",
+              "maximo": 40,
+              "ejemplo": "[Transferencia SPEI]"
+            },
+            {
+              "clave": "referencia",
+              "etiqueta": "Referencia",
+              "tipo": "texto",
+              "maximo": 50,
+              "ejemplo": "[Referencia o folio de la operación]"
+            }
+          ]
+        },
+        "monto": {
+          "etiqueta": "Monto recibido",
+          "tipo": "monto",
+          "moneda": "MXN",
+          "ejemplo": "[$0,000.00]"
+        },
+        "fechaPago": {
+          "etiqueta": "Fecha de pago",
+          "tipo": "fecha",
+          "formato": "dd · MMM · yyyy",
+          "ejemplo": "[00 · mes · 2026]"
+        },
+        "saldo": {
+          "etiqueta": "Saldo pendiente",
+          "tipo": "monto",
+          "moneda": "MXN",
+          "ejemplo": "[$000,000.00]"
+        },
+        "nota": {
+          "etiqueta": "Nota",
+          "tipo": "parrafo",
+          "maximo": 160,
+          "ejemplo": "[Nota de Administración, por ejemplo si este recibo sustituye o no a la factura.]",
+          "nota": "La redacta Administración."
+        }
+      },
+      "textos": {
+        "recepcion": "Grupo LINMEX recibió de {cliente} la cantidad que se detalla, por el concepto indicado."
+      },
+      "reglasPropias": [
+        "sinCuentaBancaria"
+      ]
+    },
+    "pagoCliente": {
+      "templateId": "277c137a-290d-4099-8518-24385c4846e3",
+      "archivo": "pago-cliente.html",
+      "nombre": "Pago al cliente",
+      "desc": "Aviso de un pago de LINMEX al cliente: devolución, bonificación o reembolso.",
+      "audiencia": "cliente",
+      "campos": {
+        "folio": {
+          "etiqueta": "Folio",
+          "tipo": "texto",
+          "maximo": 20,
+          "ejemplo": "[PAG-2026-0000]"
+        },
+        "rotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "Pago al cliente",
+          "maximo": 30
+        },
+        "titulo": {
+          "etiqueta": "Título",
+          "tipo": "texto",
+          "defecto": "Te enviamos un pago.",
+          "maximo": 40
+        },
+        "entrada": {
+          "etiqueta": "Párrafo de entrada",
+          "tipo": "parrafo",
+          "maximo": 120,
+          "ejemplo": "Hola [nombre del cliente]: Grupo LINMEX te hizo el pago que se detalla aquí."
+        },
+        "pago": {
+          "etiqueta": "Datos del pago",
+          "tipo": "tabla",
+          "encabezados": [
+            "Dato",
+            "Detalle"
+          ],
+          "filas": [
+            {
+              "clave": "beneficiario",
+              "etiqueta": "Beneficiario",
+              "tipo": "texto",
+              "maximo": 80,
+              "ejemplo": "[Nombre completo del cliente]"
+            },
+            {
+              "clave": "motivo",
+              "etiqueta": "Motivo",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Devolución, bonificación o reembolso]"
+            },
+            {
+              "clave": "inmueble",
+              "etiqueta": "Inmueble",
+              "tipo": "texto",
+              "maximo": 60,
+              "ejemplo": "[Desarrollo · Manzana 00 · Lote 00]"
+            },
+            {
+              "clave": "contrato",
+              "etiqueta": "Contrato",
+              "tipo": "texto",
+              "maximo": 40,
+              "ejemplo": "[Folio del contrato]"
+            }
+          ]
+        },
+        "monto": {
+          "etiqueta": "Monto pagado",
+          "tipo": "monto",
+          "moneda": "MXN",
+          "ejemplo": "[$0,000.00]"
+        },
+        "fechaPago": {
+          "etiqueta": "Fecha de pago",
+          "tipo": "fecha",
+          "formato": "dd · MMM · yyyy",
+          "ejemplo": "[00 · mes · 2026]"
+        },
+        "forma": {
+          "etiqueta": "Forma de pago",
+          "tipo": "texto",
+          "maximo": 24,
+          "ejemplo": "[Transferencia SPEI]",
+          "nota": "Va en la caja navy, abajo a la derecha."
+        },
+        "nota": {
+          "etiqueta": "Nota",
+          "tipo": "parrafo",
+          "maximo": 180,
+          "ejemplo": "[Texto de Tesorería sobre cuándo se refleja el pago y a quién avisar. Sin datos bancarios: la cuenta destino se confirma por los canales oficiales.]",
+          "nota": "La redacta Tesorería. Sin datos bancarios."
+        }
+      },
+      "reglasPropias": [
+        "sinCuentaBancaria"
+      ]
+    },
+    "esquela": {
+      "templateId": "6f40172d-d9cf-4832-b482-9cd032d35a85",
+      "archivo": "esquela.html",
+      "nombre": "Esquela",
+      "desc": "Condolencia de Capital Humano, sobria y sin naranja.",
+      "audiencia": "interna",
+      "membrete": {
+        "folio": false,
+        "lema": false,
+        "filo": "navy"
+      },
+      "campos": {
+        "rotulo": {
+          "etiqueta": "Área",
+          "tipo": "texto",
+          "defecto": "Capital Humano",
+          "maximo": 30
+        },
+        "entrada": {
+          "etiqueta": "Frase de entrada",
+          "tipo": "texto",
+          "maximo": 90,
+          "defecto": "Grupo LINMEX lamenta profundamente el sensible fallecimiento de"
+        },
+        "fallecido": {
+          "etiqueta": "Nombre de la persona",
+          "tipo": "texto",
+          "maximo": 50,
+          "ejemplo": "[Nombre completo de la persona]"
+        },
+        "relacion": {
+          "etiqueta": "Parentesco",
+          "tipo": "texto",
+          "maximo": 120,
+          "ejemplo": "[Parentesco y a quién del equipo acompañamos, por ejemplo «padre de nuestra compañera Laura Pérez, de Ventas»]"
+        },
+        "mensaje": {
+          "etiqueta": "Mensaje",
+          "tipo": "parrafo",
+          "maximo": 300,
+          "defecto": "Nos unimos a la pena que embarga a su familia y les hacemos llegar nuestras más sinceras condolencias. Elevamos nuestros pensamientos por su eterno descanso."
+        },
+        "despedida": {
+          "etiqueta": "Despedida",
+          "tipo": "texto",
+          "maximo": 40,
+          "defecto": "Descanse en paz."
+        },
+        "firmante": {
+          "etiqueta": "Firma",
+          "tipo": "texto",
+          "maximo": 60,
+          "defecto": "Grupo LINMEX y todo su equipo"
+        }
+      },
+      "reglasPropias": [
+        "sinAcento"
+      ]
     }
   },
   "reglas": [
-    "Un campo sin llenar muestra su ejemplo entre corchetes; si queda algún texto entre corchetes, la exportación se bloquea.",
-    "En la ficha no hay campo para CLABE ni cuenta; un texto con 18 dígitos seguidos bloquea la exportación.",
-    "El cuerpo tiene alto fijo (150 a 900 px) y el pie no se mueve: si el texto no cabe, se avisa antes de exportar en lugar de cortarlo.",
-    "Una sola hoja por documento en esta versión."
+    "Un campo vacío muestra su ejemplo en gris solo como guía mientras se edita: la guía nunca se imprime ni cuenta como contenido. Un campo vacío o con texto entre corchetes bloquea la exportación.",
+    "En la ficha, el recibo y el pago al cliente no hay campo para CLABE ni cuenta; un texto con 18 dígitos seguidos bloquea la exportación, también dentro del cuerpo (regla «sinCuentaBancaria»).",
+    "La esquela no lleva folio, lema ni naranja: el filo va en navy (regla «sinAcento», clase «sobria» en la hoja).",
+    "El cuerpo tiene alto fijo y el pie no se mueve: si el texto no cabe, el documento sigue en otra hoja con el mismo membrete y pie, sin repetir destinatario ni asunto. Los párrafos no se parten entre hojas y la firma no se queda sola.",
+    "Hasta «hoja.hojas» hojas por documento (2); si el texto pide más, la exportación se bloquea."
   ]
 }

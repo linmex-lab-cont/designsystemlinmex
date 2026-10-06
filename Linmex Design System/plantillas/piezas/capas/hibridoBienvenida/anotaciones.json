@@ -1,0 +1,62 @@
+[
+  {
+    "archivo": "1x1",
+    "buscar": "alt=\"Colaboradora de LINMEX sentada en un sillón\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": "<p style=\"margin: 8px 0 0; font-size: 26px; line-height: 1.4; color: rgba(255,255,255,.94)\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; margin: 8px 0 0; font-size: 26px; line-height: 1.4; color: rgba(255,255,255,.94)\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "alt=\"Colaboradora de LINMEX sentada en un sillón\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "<p style=\"margin: 10px 0 0; font-size: 27px; line-height: 1.4; color: rgba(255,255,255,.94)\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; margin: 10px 0 0; font-size: 27px; line-height: 1.4; color: rgba(255,255,255,.94)\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "alt=\"Colaboradora de LINMEX sentada en un sillón\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "<p style=\"margin: 12px 0 0; font-size: 27px; line-height: 1.4; color: rgba(255,255,255,.94)\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; margin: 12px 0 0; font-size: 27px; line-height: 1.4; color: rgba(255,255,255,.94)\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "alt=\"Colaboradora de LINMEX sentada en un sillón\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "<p style=\"margin: 10px 0 0; font-size: 27px; line-height: 1.4; color: rgba(255,255,255,.94)\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; margin: 10px 0 0; font-size: 27px; line-height: 1.4; color: rgba(255,255,255,.94)\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "alt=\"Colaboradora de LINMEX sentada en un sillón\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "<p style=\"margin: 12px 0 0; font-size: 30px; line-height: 1.4; color: rgba(255,255,255,.94); text-wrap: pretty\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "reemplazar": "<p style=\"margin: 12px 0 0; font-size: 30px; line-height: 1.4; color: rgba(255,255,255,.94); text-wrap: balance\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud</b>. ¡A darlo todo desde el primer día!</p>",
+    "veces": 1
+  }
+]

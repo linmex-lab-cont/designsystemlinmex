@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Tabla de precios · 16:9</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap">
+<style>
+body{margin:0;background:#0F1820}
+.eb{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.18em}
+.cf{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+</style>
+</head>
+<body>
+<div style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #0F1820; color: #FFFFFF; font-family: 'Cairo', sans-serif">
+  <img data-imagen-difuminada="fondo" src="../../_img/desarrollo-difuminada.jpg" alt="" style="position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; object-fit: cover; display: block; opacity: .62">
+  <div style="position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; background: radial-gradient(1100px 560px at 50% -10%, rgba(255,176,124,.30), rgba(255,81,0,.18) 40%, transparent 74%), radial-gradient(120% 116% at 50% 42%, transparent 56%, rgba(4,9,14,.46) 100%), linear-gradient(90deg, rgba(4,9,14,.4) 0%, rgba(4,9,14,0) 50%)"></div>
+
+  <div class="eb" style="position: absolute; left: 96px; top: 96px; height: 50px; padding: 0 22px; display: flex; align-items: center; border-radius: 4px; border: 1px solid rgba(255,122,60,.62); color: #FF8A52; font-size: 22px" data-campo="rotulo">Esquemas de financiamiento</div>
+  <h1 style="position: absolute; left: 96px; top: 176px; width: 656px; margin: 0; font-size: 108px; font-weight: 800; line-height: 1.02; letter-spacing: -.01em" data-campo="titulo">Lotes residenciales</h1>
+  <div style="position: absolute; left: 96px; top: 452px; display: flex; gap: 72px">
+    <div>
+      <div class="eb" style="font-size: 22px; color: rgba(255,255,255,.66)" data-campo="precioListaRotulo">Precio de lista</div>
+      <div class="cf" style="font-size: 66px; margin-top: 10px" data-campo="precioLista">[$1,000,000]</div>
+    </div>
+    <div>
+      <div class="eb" style="font-size: 22px; color: rgba(255,255,255,.66)" data-campo="precioM2Rotulo">Precio por m²</div>
+      <div class="cf" style="font-size: 66px; margin-top: 10px" data-campo="precioM2">[$5,000]</div>
+    </div>
+  </div>
+
+  <p style="position: absolute; left: 96px; top: 824px; width: 656px; margin: 0; font-size: 21px; line-height: 1.45; color: rgba(255,255,255,.66)">Precios y condiciones sujetos a disponibilidad. Aplican restricciones.<br><span data-campo="vigencia">Vigencia al 31 de octubre de 2026.</span></p>
+  <div style="position: absolute; left: 96px; top: 944px; width: 656px; height: 40px; display: flex; align-items: center; justify-content: space-between">
+    <img src="../../_img/linmex-logo-blanco.png" alt="LINMEX" style="height: 40px; width: auto; display: block">
+    <span class="eb" style="font-size: 21px; letter-spacing: .14em; color: rgba(255,255,255,.86)">grupolinmex.mx</span>
+  </div>
+
+  <div style="position: absolute; left: 800px; top: 96px; width: 1056px; height: 888px; border-radius: 10px; overflow: hidden; z-index: 0; border: 1px solid rgba(255,255,255,.26); box-shadow: 0 40px 90px rgba(4,9,14,.48)">
+    <div style="position: absolute; left: 0; top: 0; width: 1056px; height: 888px; z-index: -1; background: linear-gradient(155deg, rgba(255,255,255,.13) 0%, rgba(255,255,255,.04) 42%, rgba(255,255,255,0) 100%), rgba(15,24,32,.56)"></div>
+    <div style="position: absolute; left: 0; top: 0; width: 1056px; height: 1px; background: rgba(255,255,255,.42)"></div>
+
+    <div class="eb" style="position: absolute; left: 312px; top: 44px; width: 236px; height: 84px; display: flex; align-items: center; justify-content: center; font-size: 28px; letter-spacing: .12em; color: rgba(255,255,255,.74)" data-campo="plazo1">Contado</div>
+    <div class="eb" style="position: absolute; left: 548px; top: 44px; width: 236px; height: 84px; display: flex; align-items: center; justify-content: center; font-size: 28px; letter-spacing: .12em; color: rgba(255,255,255,.74)" data-campo="plazo2">12 MSI</div>
+    <div class="eb" style="position: absolute; left: 784px; top: 44px; width: 236px; height: 84px; display: flex; align-items: center; justify-content: center; font-size: 28px; letter-spacing: .12em; color: rgba(255,255,255,.74)" data-campo="plazo3">24 MSI</div>
+
+    <div class="eb" style="position: absolute; left: 60px; top: 128px; height: 140px; display: flex; align-items: center; font-size: 27px; letter-spacing: .1em; color: rgba(255,255,255,.86)" data-campo="descuentoRotulo">Descuento</div>
+    <div class="cf" style="position: absolute; left: 312px; top: 128px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px" data-campo="descuento1">15%</div>
+    <div class="cf" style="position: absolute; left: 548px; top: 128px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px" data-campo="descuento2">10%</div>
+    <div class="cf" style="position: absolute; left: 784px; top: 128px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px; color: rgba(255,255,255,.5)">—</div>
+
+    <div style="position: absolute; left: 20px; top: 282px; width: 1016px; height: 112px; border-radius: 4px; background: #FF5100; box-shadow: 0 16px 40px rgba(255,81,0,.34)"></div>
+    <div class="eb" style="position: absolute; left: 60px; top: 268px; height: 140px; display: flex; align-items: center; font-size: 27px; letter-spacing: .1em; color: #FFFFFF" data-campo="precioRotulo">Precio</div>
+    <div class="cf" style="position: absolute; left: 312px; top: 268px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 49px" data-campo="precio1">[$850,000]</div>
+    <div class="cf" style="position: absolute; left: 548px; top: 268px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 49px" data-campo="precio2">[$900,000]</div>
+    <div class="cf" style="position: absolute; left: 784px; top: 268px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 49px" data-campo="precio3">[$1,000,000]</div>
+
+    <div class="eb" style="position: absolute; left: 60px; top: 408px; height: 140px; display: flex; align-items: center; font-size: 27px; letter-spacing: .1em; color: rgba(255,255,255,.86)" data-campo="engancheRotulo">Enganche 25%</div>
+    <div class="cf" style="position: absolute; left: 312px; top: 408px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px; color: rgba(255,255,255,.5)">—</div>
+    <div class="cf" style="position: absolute; left: 548px; top: 408px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px" data-campo="enganche2">[$225,000]</div>
+    <div class="cf" style="position: absolute; left: 784px; top: 408px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px" data-campo="enganche3">[$250,000]</div>
+    <div style="position: absolute; left: 40px; top: 547px; width: 976px; height: 1px; background: rgba(255,255,255,.14)"></div>
+
+    <div class="eb" style="position: absolute; left: 60px; top: 548px; height: 140px; display: flex; align-items: center; font-size: 27px; letter-spacing: .1em; color: rgba(255,255,255,.86)" data-campo="mensualRotulo">Pago mensual</div>
+    <div class="cf" style="position: absolute; left: 312px; top: 548px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px; color: rgba(255,255,255,.5)">—</div>
+    <div class="cf" style="position: absolute; left: 548px; top: 548px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px" data-campo="mensual2">[$37,500]</div>
+    <div class="cf" style="position: absolute; left: 784px; top: 548px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px" data-campo="mensual3">[$20,833.33]</div>
+    <div style="position: absolute; left: 40px; top: 687px; width: 976px; height: 1px; background: rgba(255,255,255,.14)"></div>
+
+    <div class="eb" style="position: absolute; left: 60px; top: 688px; height: 140px; display: flex; align-items: center; font-size: 27px; letter-spacing: .1em; color: rgba(255,255,255,.86)" data-campo="finalRotulo">Pago final 25%</div>
+    <div class="cf" style="position: absolute; left: 312px; top: 688px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px; color: rgba(255,255,255,.5)">—</div>
+    <div class="cf" style="position: absolute; left: 548px; top: 688px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px" data-campo="final2">[$225,000]</div>
+    <div class="cf" style="position: absolute; left: 784px; top: 688px; width: 236px; height: 140px; display: flex; align-items: center; justify-content: center; font-size: 44px" data-campo="final3">[$250,000]</div>
+  </div>
+</div>
+</body>
+</html>

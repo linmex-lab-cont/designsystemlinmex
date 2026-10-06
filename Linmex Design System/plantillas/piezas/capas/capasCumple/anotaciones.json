@@ -1,0 +1,92 @@
+[
+  {
+    "archivo": "1x1",
+    "buscar": "alt=\"Diego Guerrero, colaborador de LINMEX\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "alt=\"Diego Guerrero, colaborador de LINMEX\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "alt=\"Diego Guerrero, colaborador de LINMEX\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "alt=\"Diego Guerrero, colaborador de LINMEX\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "alt=\"Diego Guerrero, colaborador de LINMEX\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">5 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">Diego<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">5 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">Diego<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">5 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">Diego<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">5 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">Diego<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">5 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">Diego<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  }
+]

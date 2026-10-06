@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Pliegue · gráfica · 16:9</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap">
+<style>
+body{margin:0;background:#F3F1EC}
+.eb{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.18em}
+.cf{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+</style>
+</head>
+<body>
+<div data-serie="graficoReal graficoMeta" data-base="800" data-alto="500" style="position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #F3F1EC; color: #0F1820; font-family: 'Cairo', sans-serif">
+  <div style="position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; background: #E4E1DA; clip-path: polygon(1180px 1080px, 1920px 505px, 1920px 1080px)"></div>
+  <div style="position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; background: #FBFAF7; clip-path: polygon(1180px 1080px, 1920px 505px, 1920px 545px, 1232px 1080px)"></div>
+
+  <div class="eb" style="position: absolute; left: 96px; top: 96px; font-size: 24px; color: #3A4A57" data-campo="graficoRotulo">Comercial</div>
+  <h1 style="position: absolute; left: 96px; top: 130px; width: 1728px; margin: 0; font-size: 80px; font-weight: 800; line-height: 1.05; letter-spacing: -.015em" data-campo="graficoTitulo">Ventas acumuladas 2026 contra la meta</h1>
+  <div class="eb" style="position: absolute; left: 96px; top: 252px; font-size: 18px; color: #3A4A57" data-campo="graficoUnidad">Millones de pesos</div>
+
+  <svg viewBox="0 0 1920 1080" width="1920" height="1080" aria-hidden="true" style="position: absolute; left: 0; top: 0; display: block">
+    <g stroke="#0F1820" stroke-opacity=".12" stroke-width="1">
+      <line x1="184" y1="300.5" x2="1104" y2="300.5"></line>
+      <line x1="184" y1="425.5" x2="1104" y2="425.5"></line>
+      <line x1="184" y1="550.5" x2="1104" y2="550.5"></line>
+      <line x1="184" y1="675.5" x2="1104" y2="675.5"></line>
+    </g>
+    <line x1="184" y1="800.5" x2="1104" y2="800.5" stroke="#0F1820" stroke-opacity=".36" stroke-width="1"></line>
+    <polyline data-linea data-de="graficoMeta" points="184,760 299,720 414,680 529,640 644,600 759,560 874,520 989,480 1104,440" fill="none" stroke="#0F1820" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="butt" stroke-linejoin="round"></polyline>
+    <circle data-punto data-de="graficoMeta" data-indice="8" cx="1104" cy="440" r="5" fill="#0F1820" stroke="#F3F1EC" stroke-width="2"></circle>
+    <polyline data-linea data-de="graficoReal" points="184,770 299,735 414,695 529,655 644,605 759,550 874,495 989,440 1104,380" fill="none" stroke="#FF5100" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline>
+    <g fill="#FF5100" stroke="#F3F1EC" stroke-width="2">
+      <circle data-punto data-de="graficoReal" data-indice="0" cx="184" cy="770" r="6"></circle>
+      <circle data-punto data-de="graficoReal" data-indice="1" cx="299" cy="735" r="6"></circle>
+      <circle data-punto data-de="graficoReal" data-indice="2" cx="414" cy="695" r="6"></circle>
+      <circle data-punto data-de="graficoReal" data-indice="3" cx="529" cy="655" r="6"></circle>
+      <circle data-punto data-de="graficoReal" data-indice="4" cx="644" cy="605" r="6"></circle>
+      <circle data-punto data-de="graficoReal" data-indice="5" cx="759" cy="550" r="6"></circle>
+      <circle data-punto data-de="graficoReal" data-indice="6" cx="874" cy="495" r="6"></circle>
+      <circle data-punto data-de="graficoReal" data-indice="7" cx="989" cy="440" r="6"></circle>
+      <circle data-punto data-de="graficoReal" data-indice="8" cx="1104" cy="380" r="6"></circle>
+    </g>
+  </svg>
+
+  <div class="cf" style="position: absolute; left: 96px; top: 290px; width: 64px; font-size: 20px; line-height: 20px; text-align: right; color: #3A4A57" data-eje="1">[100]</div>
+  <div class="cf" style="position: absolute; left: 96px; top: 415px; width: 64px; font-size: 20px; line-height: 20px; text-align: right; color: #3A4A57" data-eje="2">[75]</div>
+  <div class="cf" style="position: absolute; left: 96px; top: 540px; width: 64px; font-size: 20px; line-height: 20px; text-align: right; color: #3A4A57" data-eje="3">[50]</div>
+  <div class="cf" style="position: absolute; left: 96px; top: 665px; width: 64px; font-size: 20px; line-height: 20px; text-align: right; color: #3A4A57" data-eje="4">[25]</div>
+  <div class="cf" style="position: absolute; left: 96px; top: 790px; width: 64px; font-size: 20px; line-height: 20px; text-align: right; color: #3A4A57" data-eje="5">0</div>
+
+  <div class="eb" style="position: absolute; left: 126.5px; top: 822px; width: 1035px; height: 22px; display: flex; font-size: 18px; line-height: 22px; letter-spacing: .12em; color: #3A4A57">
+    <span style="width: 115px; text-align: center" data-categoria data-indice="0">Ene</span><span style="width: 115px; text-align: center" data-categoria data-indice="1">Feb</span><span style="width: 115px; text-align: center" data-categoria data-indice="2">Mar</span><span style="width: 115px; text-align: center" data-categoria data-indice="3">Abr</span><span style="width: 115px; text-align: center" data-categoria data-indice="4">May</span><span style="width: 115px; text-align: center" data-categoria data-indice="5">Jun</span><span style="width: 115px; text-align: center" data-categoria data-indice="6">Jul</span><span style="width: 115px; text-align: center" data-categoria data-indice="7">Ago</span><span style="width: 115px; text-align: center" data-categoria data-indice="8">Sep</span>
+  </div>
+
+  <div class="cf" style="position: absolute; left: 1124px; top: 362px; font-size: 36px; color: #0F1820" data-valor data-de="graficoReal" data-indice="8">[84]</div>
+  <div class="cf" style="position: absolute; left: 1124px; top: 422px; font-size: 36px; color: #0F1820" data-valor data-de="graficoMeta" data-indice="8">[72]</div>
+
+  <div style="position: absolute; left: 1320px; top: 296px; width: 504px">
+    <div style="display: flex; align-items: center; gap: 16px; height: 40px; font-size: 26px; font-weight: 600">
+      <svg viewBox="0 0 48 14" width="48" height="14" aria-hidden="true" style="display: block; flex-shrink: 0"><line x1="2" y1="7" x2="46" y2="7" stroke="#FF5100" stroke-width="3" stroke-linecap="round"></line><circle cx="24" cy="7" r="5" fill="#FF5100" stroke="#F3F1EC" stroke-width="2"></circle></svg>
+      <span data-campo="graficoLeyendaReal">Real 2026</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 16px; height: 40px; margin-top: 8px; font-size: 26px; font-weight: 600">
+      <svg viewBox="0 0 48 14" width="48" height="14" aria-hidden="true" style="display: block; flex-shrink: 0"><line x1="1" y1="7" x2="47" y2="7" stroke="#0F1820" stroke-width="3" stroke-dasharray="10 8"></line></svg>
+      <span data-campo="graficoLeyendaMeta">Meta 2026</span>
+    </div>
+    <div style="width: 80px; height: 6px; margin-top: 64px; background: #0F1820"></div>
+    <div style="margin-top: 18px; font-size: 44px; font-weight: 700; line-height: 1.15" data-campo="graficoConclusion">[17]% arriba de la meta</div>
+    <div style="margin-top: 6px; font-size: 28px; line-height: 1.4; color: #3A4A57" data-campo="graficoConclusionDetalle">Desde junio las ventas van sobre el plan.</div>
+    <div style="margin-top: 40px; font-size: 20px; line-height: 1.4; color: #3A4A57" data-campo="graficoCorte">Corte al 30 de septiembre de 2026.</div>
+  </div>
+
+  <img src="../../_img/linmex-logo-color.png" alt="LINMEX" style="position: absolute; left: 96px; top: 948px; height: 32px; width: auto; display: block">
+  <div class="cf" style="position: absolute; left: 1624px; top: 944px; width: 200px; height: 40px; display: flex; align-items: center; justify-content: flex-end; font-size: 24px; color: #3A4A57" data-campo="graficoFolio">04</div>
+</div>
+</body>
+</html>

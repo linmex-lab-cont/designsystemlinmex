@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "clave": "tablaPrecios",
+  "templateId": "04907d21-ff15-4f37-b27e-c8fe40ff2428",
+  "nombre": "Tabla de precios y esquemas de financiamiento",
+  "desc": "Precio de lista, precio por m² y tabla comparativa de contado, 12 y 24 meses sin intereses para un desarrollo.",
+  "categoria": "comunicacion",
+  "audiencia": "cliente",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "3x4": {
+      "w": 1080,
+      "h": 1440
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    },
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "campos": {
+    "rotulo": {
+      "etiqueta": "Rótulo superior",
+      "tipo": "texto",
+      "defecto": "Esquemas de financiamiento",
+      "maximo": 36
+    },
+    "titulo": {
+      "etiqueta": "Título",
+      "tipo": "texto",
+      "defecto": "Lotes residenciales",
+      "maximo": 19,
+      "nota": "En 16:9 el título solo cabe en dos líneas: evita varias palabras cortas seguidas."
+    },
+    "precioListaRotulo": {
+      "etiqueta": "Rótulo del precio de lista",
+      "tipo": "texto",
+      "defecto": "Precio de lista",
+      "maximo": 20
+    },
+    "precioLista": {
+      "etiqueta": "Precio de lista",
+      "tipo": "texto",
+      "defecto": "[$1,000,000]",
+      "maximo": 12
+    },
+    "precioM2Rotulo": {
+      "etiqueta": "Rótulo del precio por m²",
+      "tipo": "texto",
+      "defecto": "Precio por m²",
+      "maximo": 20
+    },
+    "precioM2": {
+      "etiqueta": "Precio por m²",
+      "tipo": "texto",
+      "defecto": "[$5,000]",
+      "maximo": 10
+    },
+    "plazo1": {
+      "etiqueta": "Columna 1 (encabezado)",
+      "tipo": "texto",
+      "defecto": "Contado",
+      "maximo": 12
+    },
+    "plazo2": {
+      "etiqueta": "Columna 2 (encabezado)",
+      "tipo": "texto",
+      "defecto": "12 MSI",
+      "maximo": 12
+    },
+    "plazo3": {
+      "etiqueta": "Columna 3 (encabezado)",
+      "tipo": "texto",
+      "defecto": "24 MSI",
+      "maximo": 12
+    },
+    "descuentoRotulo": {
+      "etiqueta": "Fila de descuento (nombre)",
+      "tipo": "texto",
+      "defecto": "Descuento",
+      "maximo": 18
+    },
+    "descuento1": {
+      "etiqueta": "Descuento en la columna 1",
+      "tipo": "texto",
+      "defecto": "15%",
+      "maximo": 6
+    },
+    "descuento2": {
+      "etiqueta": "Descuento en la columna 2",
+      "tipo": "texto",
+      "defecto": "10%",
+      "maximo": 6
+    },
+    "precioRotulo": {
+      "etiqueta": "Fila de precio (nombre)",
+      "tipo": "texto",
+      "defecto": "Precio",
+      "maximo": 18
+    },
+    "precio1": {
+      "etiqueta": "Precio en la columna 1",
+      "tipo": "texto",
+      "defecto": "[$850,000]",
+      "maximo": 10
+    },
+    "precio2": {
+      "etiqueta": "Precio en la columna 2",
+      "tipo": "texto",
+      "defecto": "[$900,000]",
+      "maximo": 10
+    },
+    "precio3": {
+      "etiqueta": "Precio en la columna 3",
+      "tipo": "texto",
+      "defecto": "[$1,000,000]",
+      "maximo": 12
+    },
+    "engancheRotulo": {
+      "etiqueta": "Fila de enganche (nombre)",
+      "tipo": "texto",
+      "defecto": "Enganche 25%",
+      "maximo": 18
+    },
+    "enganche2": {
+      "etiqueta": "Enganche en la columna 2",
+      "tipo": "texto",
+      "defecto": "[$225,000]",
+      "maximo": 11
+    },
+    "enganche3": {
+      "etiqueta": "Enganche en la columna 3",
+      "tipo": "texto",
+      "defecto": "[$250,000]",
+      "maximo": 11
+    },
+    "mensualRotulo": {
+      "etiqueta": "Fila de pago mensual (nombre)",
+      "tipo": "texto",
+      "defecto": "Pago mensual",
+      "maximo": 18
+    },
+    "mensual2": {
+      "etiqueta": "Pago mensual en la columna 2",
+      "tipo": "texto",
+      "defecto": "[$37,500]",
+      "maximo": 11
+    },
+    "mensual3": {
+      "etiqueta": "Pago mensual en la columna 3",
+      "tipo": "texto",
+      "defecto": "[$20,833.33]",
+      "maximo": 12
+    },
+    "finalRotulo": {
+      "etiqueta": "Fila de pago final (nombre)",
+      "tipo": "texto",
+      "defecto": "Pago final 25%",
+      "maximo": 18
+    },
+    "final2": {
+      "etiqueta": "Pago final en la columna 2",
+      "tipo": "texto",
+      "defecto": "[$225,000]",
+      "maximo": 11
+    },
+    "final3": {
+      "etiqueta": "Pago final en la columna 3",
+      "tipo": "texto",
+      "defecto": "[$250,000]",
+      "maximo": 11
+    },
+    "vigencia": {
+      "etiqueta": "Vigencia",
+      "tipo": "texto",
+      "defecto": "Vigencia al 31 de octubre de 2026.",
+      "maximo": 44
+    },
+    "fondo": {
+      "etiqueta": "Foto de fondo",
+      "tipo": "imagen",
+      "archivo": "desarrollo-difuminada.jpg",
+      "difuminada": "desarrollo-difuminada.jpg",
+      "nota": "El fondo del diseño es esta misma foto ya difuminada; si se cambia, el motor difumina la nueva."
+    }
+  }
+}

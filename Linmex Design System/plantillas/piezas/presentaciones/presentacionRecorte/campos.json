@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "clave": "presentacionRecorte",
+  "templateId": "99d41fa3-438a-45d5-ac9e-d201b8421f8f",
+  "nombre": "Presentación · Recorte",
+  "desc": "Presentación clara sobre durazno con el símbolo de LINMEX como recorte de foto o mancha: portada, agenda, texto con imagen, dona, cifras y cierre.",
+  "categoria": "presentaciones",
+  "audiencia": "interna",
+  "formatos": { "16x9": { "w": 1920, "h": 1080 } },
+  "laminas": [
+    {
+      "clave": "portada",
+      "nombre": "Portada",
+      "campos": {
+        "portadaRotulo": {"etiqueta": "Rótulo (área y tema)", "tipo": "texto", "defecto": "Capital Humano · inducción", "maximo": 45},
+        "portadaTitulo": {"etiqueta": "Título de la presentación", "tipo": "texto", "defecto": "Bienvenida a LINMEX", "maximo": 25},
+        "portadaSubtitulo": {"etiqueta": "Subtítulo", "tipo": "texto", "defecto": "Tu primera semana con el equipo", "maximo": 60},
+        "portadaFoto": {"etiqueta": "Foto recortada en el símbolo", "tipo": "imagen", "archivo": "promo-parque.jpg"}
+      }
+    },
+    {
+      "clave": "agenda",
+      "nombre": "Agenda",
+      "campos": {
+        "agendaRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Inducción · lunes a viernes", "maximo": 50},
+        "agendaTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Tu primera semana", "maximo": 22},
+        "agendaIntro": {"etiqueta": "Introducción", "tipo": "parrafo", "defecto": "Cinco días para conocer al equipo, tus herramientas y los desarrollos. Siempre habrá alguien de Capital Humano contigo.", "maximo": 140},
+        "agendaNumero1": {"etiqueta": "Día 1 · número", "tipo": "texto", "defecto": "01", "maximo": 2},
+        "agendaDia1": {"etiqueta": "Día 1 · rótulo", "tipo": "texto", "defecto": "Lunes", "maximo": 20},
+        "agendaTema1": {"etiqueta": "Día 1 · título", "tipo": "texto", "defecto": "Bienvenida y recorrido", "maximo": 40},
+        "agendaDetalle1": {"etiqueta": "Día 1 · descripción", "tipo": "parrafo", "defecto": "Te recibimos, conoces a tu equipo y recorres la oficina.", "maximo": 85},
+        "agendaNumero2": {"etiqueta": "Día 2 · número", "tipo": "texto", "defecto": "02", "maximo": 2},
+        "agendaDia2": {"etiqueta": "Día 2 · rótulo", "tipo": "texto", "defecto": "Martes", "maximo": 20},
+        "agendaTema2": {"etiqueta": "Día 2 · título", "tipo": "texto", "defecto": "Tus herramientas", "maximo": 40},
+        "agendaDetalle2": {"etiqueta": "Día 2 · descripción", "tipo": "parrafo", "defecto": "Activamos tu correo, tus accesos y lo que usa tu puesto.", "maximo": 85},
+        "agendaNumero3": {"etiqueta": "Día 3 · número", "tipo": "texto", "defecto": "03", "maximo": 2},
+        "agendaDia3": {"etiqueta": "Día 3 · rótulo", "tipo": "texto", "defecto": "Miércoles", "maximo": 20},
+        "agendaTema3": {"etiqueta": "Día 3 · título", "tipo": "texto", "defecto": "Conoce los desarrollos", "maximo": 40},
+        "agendaDetalle3": {"etiqueta": "Día 3 · descripción", "tipo": "parrafo", "defecto": "Visitas los proyectos y ves lo que ofrecemos a cada familia.", "maximo": 85},
+        "agendaNumero4": {"etiqueta": "Día 4 · número", "tipo": "texto", "defecto": "04", "maximo": 2},
+        "agendaDia4": {"etiqueta": "Día 4 · rótulo", "tipo": "texto", "defecto": "Jueves", "maximo": 20},
+        "agendaTema4": {"etiqueta": "Día 4 · título", "tipo": "texto", "defecto": "Tu área y tus metas", "maximo": 40},
+        "agendaDetalle4": {"etiqueta": "Día 4 · descripción", "tipo": "parrafo", "defecto": "Acuerdas con tu líder tus metas de [90] días.", "maximo": 85},
+        "agendaNumero5": {"etiqueta": "Día 5 · número", "tipo": "texto", "defecto": "05", "maximo": 2},
+        "agendaDia5": {"etiqueta": "Día 5 · rótulo", "tipo": "texto", "defecto": "Viernes", "maximo": 20},
+        "agendaTema5": {"etiqueta": "Día 5 · título", "tipo": "texto", "defecto": "Cierre de semana", "maximo": 40},
+        "agendaDetalle5": {"etiqueta": "Día 5 · descripción", "tipo": "parrafo", "defecto": "Resolvemos tus dudas y platicamos cómo te fue.", "maximo": 85},
+        "agendaFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "02", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "textoImagen",
+      "nombre": "Texto con imagen",
+      "campos": {
+        "textoImagenRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Conoce LINMEX", "maximo": 40},
+        "textoImagenTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Quiénes somos", "maximo": 17},
+        "textoImagenParrafo": {"etiqueta": "Párrafo", "tipo": "parrafo", "defecto": "LINMEX desarrolla proyectos inmobiliarios en Mérida que dan rentabilidad a quien invierte y propósito a quien los vive.", "maximo": 125},
+        "textoImagenCita": {"etiqueta": "Frase destacada", "tipo": "texto", "defecto": "«Desarrollos Inmobiliarios con Rentabilidad y Propósito.»", "maximo": 100},
+        "textoImagenNumero1": {"etiqueta": "Punto 1 · número", "tipo": "texto", "defecto": "01", "maximo": 2},
+        "textoImagenPuntoTitulo1": {"etiqueta": "Punto 1 · inicio en negritas", "tipo": "texto", "defecto": "Rentabilidad.", "maximo": 25},
+        "textoImagenPunto1": {"etiqueta": "Punto 1 · texto", "tipo": "texto", "defecto": "Cada proyecto hace crecer el patrimonio.", "maximo": 90},
+        "textoImagenNumero2": {"etiqueta": "Punto 2 · número", "tipo": "texto", "defecto": "02", "maximo": 2},
+        "textoImagenPuntoTitulo2": {"etiqueta": "Punto 2 · inicio en negritas", "tipo": "texto", "defecto": "Propósito.", "maximo": 25},
+        "textoImagenPunto2": {"etiqueta": "Punto 2 · texto", "tipo": "texto", "defecto": "Parques, cultura y comunidad, no solo terrenos.", "maximo": 90},
+        "textoImagenNumero3": {"etiqueta": "Punto 3 · número", "tipo": "texto", "defecto": "03", "maximo": 2},
+        "textoImagenPuntoTitulo3": {"etiqueta": "Punto 3 · inicio en negritas", "tipo": "texto", "defecto": "Un solo equipo.", "maximo": 25},
+        "textoImagenPunto3": {"etiqueta": "Punto 3 · texto", "tipo": "texto", "defecto": "Comercial, obra y administración, con el mismo rumbo.", "maximo": 90},
+        "textoImagenFoto": {"etiqueta": "Foto", "tipo": "imagen", "archivo": "fachada-linmex.jpg"},
+        "textoImagenFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "03", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "grafico",
+      "nombre": "Gráfica de dona",
+      "campos": {
+        "graficoRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Nuestro equipo", "maximo": 40},
+        "graficoTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "El equipo por área", "maximo": 25},
+        "graficoParrafo": {"etiqueta": "Párrafo", "tipo": "parrafo", "defecto": "Así se reparten las personas que hoy forman LINMEX.", "maximo": 120},
+        "graficoEquipo": {"etiqueta": "Reparto por área", "tipo": "serie", "grafica": "dona", "unidad": "%", "nota": "Cuatro partes en porcentaje que suman 100. Nombres de hasta 20 caracteres.",
+          "puntos": [
+            {"etiqueta": "Comercial", "valor": 45},
+            {"etiqueta": "Operación y obra", "valor": 25},
+            {"etiqueta": "Administración", "valor": 18},
+            {"etiqueta": "Capital Humano", "valor": 12}
+          ]
+        },
+        "graficoCentroCifra": {"etiqueta": "Cifra al centro de la dona", "tipo": "texto", "defecto": "[00]", "maximo": 6},
+        "graficoCentroUnidad": {"etiqueta": "Unidad al centro de la dona", "tipo": "texto", "defecto": "personas", "maximo": 18},
+        "graficoNota": {"etiqueta": "Nota", "tipo": "texto", "defecto": "Personal activo al 30 de septiembre de 2026.", "maximo": 50},
+        "graficoFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "04", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "cifras",
+      "nombre": "Cifras",
+      "campos": {
+        "cifrasRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Lo que hemos construido", "maximo": 40},
+        "cifrasTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "LINMEX en cifras", "maximo": 21},
+        "cifrasFoto": {"etiqueta": "Foto recortada en el símbolo", "tipo": "imagen", "archivo": "aviso-puente.jpg"},
+        "cifrasValor1": {"etiqueta": "Cifra 1 · valor", "tipo": "texto", "defecto": "[00]", "maximo": 7},
+        "cifrasDetalle1": {"etiqueta": "Cifra 1 · detalle", "tipo": "texto", "defecto": "años construyendo en Yucatán", "maximo": 34},
+        "cifrasValor2": {"etiqueta": "Cifra 2 · valor (en naranja)", "tipo": "texto", "defecto": "[0,000]", "maximo": 7},
+        "cifrasDetalle2": {"etiqueta": "Cifra 2 · detalle", "tipo": "texto", "defecto": "familias con patrimonio", "maximo": 34},
+        "cifrasValor3": {"etiqueta": "Cifra 3 · valor", "tipo": "texto", "defecto": "[0]", "maximo": 7},
+        "cifrasDetalle3": {"etiqueta": "Cifra 3 · detalle", "tipo": "texto", "defecto": "desarrollos", "maximo": 34},
+        "cifrasValor4": {"etiqueta": "Cifra 4 · valor", "tipo": "texto", "defecto": "[000]", "maximo": 7},
+        "cifrasDetalle4": {"etiqueta": "Cifra 4 · detalle", "tipo": "texto", "defecto": "personas en el equipo", "maximo": 34},
+        "cifrasFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "05", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "cierre",
+      "nombre": "Cierre",
+      "campos": {
+        "cierreRotulo": {"etiqueta": "Rótulo (área)", "tipo": "texto", "defecto": "Capital Humano", "maximo": 40},
+        "cierreTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Qué gusto tenerte en el equipo", "maximo": 38},
+        "cierreCorreo": {"etiqueta": "Correo de contacto", "tipo": "texto", "defecto": "[correo de Capital Humano]", "maximo": 40},
+        "cierreTelefono": {"etiqueta": "Teléfono o extensión", "tipo": "texto", "defecto": "Ext. [extensión]", "maximo": 40}
+      }
+    }
+  ]
+}

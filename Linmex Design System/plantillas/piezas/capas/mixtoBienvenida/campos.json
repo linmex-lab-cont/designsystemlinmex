@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "clave": "mixtoBienvenida",
+  "templateId": "6a0ada75-4c41-42da-b0bf-44f5dfb47f85",
+  "nombre": "Bienvenida · mixto",
+  "desc": "Bienvenida clara: BIENVENIDA gigante, persona recortada al frente del bloque naranja y una tarjeta de vidrio con área, nombre y mensaje.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    }
+  },
+  "campos": {
+    "area": {
+      "etiqueta": "Área",
+      "tipo": "texto",
+      "defecto": "[Área]",
+      "maximo": 30
+    },
+    "nombre": {
+      "etiqueta": "Nombre de la persona",
+      "tipo": "texto",
+      "defecto": "[Nombre Apellido]",
+      "maximo": 27
+    },
+    "mensaje": {
+      "etiqueta": "Mensaje",
+      "tipo": "parrafo",
+      "defecto": "80% actitud y 20% aptitud. ¡A darlo todo desde el primer día!",
+      "maximo": 75
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/modelo-sentada.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. Sentada o de medio cuerpo y con proporción parecida a 854 x 1037: el diseño lo recorta por la izquierda y por abajo."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Recibo de pago</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&amp;family=Barlow+Condensed:wght@600;700&amp;display=swap">
+<link rel="stylesheet" href="documento.css">
+<style>
+@page { size: 8.5in 11in; margin: 0; }
+html, body { margin: 0; padding: 0; background: #FFFFFF; }
+</style>
+</head>
+<body>
+<div class="hoja" data-plantilla="recibo">
+  <div class="filo"></div>
+  <img class="logo" src="linmex-logo.svg" alt="LINMEX">
+  <div class="encabezado">
+    <div class="fecha">Mérida, Yucatán, a <span data-campo="fecha">[1 de octubre de 2026]</span></div>
+    <div class="folio eb">Recibo · <span data-campo="folio">[REC-2026-0000]</span></div>
+  </div>
+
+  <div class="cuerpo">
+    <div class="rotulo eb" data-campo="rotulo">Recibo de pago</div>
+    <h1 data-campo="titulo">Recibimos tu pago.</h1>
+    <p class="entrada" style="margin-top: 16px">Grupo LINMEX recibió de <span data-campo="cliente">[nombre completo del cliente]</span> la cantidad que se detalla, por el concepto indicado.</p>
+
+    <table class="tabla" data-tabla="pago" style="margin-top: 24px">
+      <thead><tr><th style="width: 200px">Dato</th><th>Detalle</th></tr></thead>
+      <tbody>
+        <tr data-fila="desarrollo"><td>Desarrollo</td><td data-valor>[Desarrollo · etapa]</td></tr>
+        <tr data-fila="lote"><td>Lote</td><td data-valor>[Manzana 00 · Lote 00 · 000 m²]</td></tr>
+        <tr data-fila="concepto"><td>Concepto</td><td data-valor>[Mensualidad 00 de 00]</td></tr>
+        <tr data-fila="forma"><td>Forma de pago</td><td data-valor>[Transferencia SPEI]</td></tr>
+        <tr data-fila="referencia"><td>Referencia</td><td data-valor>[Referencia o folio de la operación]</td></tr>
+      </tbody>
+    </table>
+
+    <div class="monto" style="margin-top: 20px">
+      <div class="monto-luz"></div>
+      <div class="monto-principal">
+        <div class="monto-rotulo eb">Monto recibido</div>
+        <div class="cf"><span data-campo="monto">[$0,000.00]</span> <span class="moneda">MXN</span></div>
+      </div>
+      <div class="monto-limite">
+        <div class="monto-rotulo eb">Fecha de pago</div>
+        <div class="cf" data-campo="fechaPago">[00 · mes · 2026]</div>
+      </div>
+      <div class="monto-division"></div>
+      <div class="monto-saldo">
+        <span class="monto-rotulo eb">Saldo pendiente</span>
+        <span class="cf"><span data-campo="saldo">[$000,000.00]</span> MXN</span>
+      </div>
+    </div>
+
+    <p class="nota" style="margin-top: 16px" data-campo="nota">[Nota de Administración, por ejemplo si este recibo sustituye o no a la factura.]</p>
+
+    <div class="firma" style="margin-top: 16px">
+      <div class="firma-linea" style="margin-top: 30px"></div>
+      <div class="firma-nombre" data-campo="firmante">[Nombre de quien recibe]</div>
+      <div class="firma-cargo"><span data-campo="firmanteCargo">[Cargo]</span> · Grupo LINMEX</div>
+    </div>
+  </div>
+
+  <div class="pie-linea"></div>
+  <div class="pie">
+    <div class="pie-dato" style="width: 110px"><div class="eb">Teléfono</div><div>(999) 343 7716</div></div>
+    <div class="pie-dato" style="width: 170px"><div class="eb">Correo</div><div>contacto@grupolinmex.mx</div></div>
+    <div class="pie-dato" style="width: 100px"><div class="eb">Sitio</div><div>grupolinmex.mx</div></div>
+    <div class="pie-dato"><div class="eb">Oficina</div><div>Calle 19 #269A x 36 y 38, Col. Campestre, C.P. 97120, Mérida, Yucatán</div></div>
+  </div>
+  <div class="lema">Desarrollos Inmobiliarios con Rentabilidad y Propósito.</div>
+</div>
+</body>
+</html>

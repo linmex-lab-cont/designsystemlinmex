@@ -1,0 +1,14 @@
+[
+  {
+    "archivo": "4x5",
+    "buscar": "alt=\"Colaboradora de LINMEX sentada en un sillón, con los brazos cruzados\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "<p style=\"margin: 12px 0 0; font-size: 28px; font-weight: 500; line-height: 1.3; color: #0F1820\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud.</b><br>¡A darlo todo desde el primer día!</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; margin: 12px 0 0; font-size: 28px; font-weight: 500; line-height: 1.3; color: #0F1820\"><b style=\"font-weight: 700\">80% actitud</b> y <b style=\"font-weight: 700\">20% aptitud.</b><br>¡A darlo todo desde el primer día!</p>",
+    "veces": 1
+  }
+]

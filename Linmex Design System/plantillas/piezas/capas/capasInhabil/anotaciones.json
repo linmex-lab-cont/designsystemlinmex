@@ -1,0 +1,92 @@
+[
+  {
+    "archivo": "1x1",
+    "buscar": "alt=\"Monumento a la Revolución en duotono gris y naranja\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": "<p style=\"position: absolute; left: 705px; top: 438px; width: 262px; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; position: absolute; left: 705px; top: 438px; width: 262px; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">De noviembre<",
+    "reemplazar": ">De <span>noviembre</span><",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "alt=\"Monumento a la Revolución en duotono gris y naranja\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "<p style=\"position: absolute; left: 705px; top: 518px; width: 262px; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; position: absolute; left: 705px; top: 518px; width: 262px; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">De noviembre<",
+    "reemplazar": ">De <span>noviembre</span><",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "alt=\"Monumento a la Revolución en duotono gris y naranja\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "<p style=\"position: absolute; left: 712px; top: 558px; width: 262px; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; position: absolute; left: 712px; top: 558px; width: 262px; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">De noviembre<",
+    "reemplazar": ">De <span>noviembre</span><",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "alt=\"Monumento a la Revolución en duotono gris y naranja\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "<p style=\"position: absolute; left: 748px; top: 842px; width: 262px; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; position: absolute; left: 748px; top: 842px; width: 262px; margin: 0; font-size: 28px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">De noviembre<",
+    "reemplazar": ">De <span>noviembre</span><",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "alt=\"Monumento a la Revolución en duotono gris y naranja\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "<p style=\"position: absolute; left: 876px; top: 606px; width: 360px; margin: 0; font-size: 32px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "reemplazar": "<p style=\"text-wrap: balance; position: absolute; left: 876px; top: 606px; width: 360px; margin: 0; font-size: 32px; font-weight: 600; line-height: 1.2; color: #FFFFFF; z-index: 4\">Por motivo de las festividades de la <b style=\"font-weight: 800\">Conmemoración de la Revolución Mexicana</b>.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">De noviembre<",
+    "reemplazar": ">De <span>noviembre</span><",
+    "veces": 1
+  }
+]

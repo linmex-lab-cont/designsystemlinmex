@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "clave": "cumpleCombinado",
+  "templateId": "d206d5db-2c7a-4a80-bd27-e44ad0db3509",
+  "nombre": "Cumpleaños · combinado",
+  "desc": "Cumpleaños sobre navy: el nombre de pila gigante, globo con el símbolo, persona recortada al frente y tarjeta de vidrio con fecha, saludo y nombre.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    }
+  },
+  "campos": {
+    "nombrePila": {
+      "etiqueta": "Nombre de pila (palabra gigante)",
+      "tipo": "texto",
+      "defecto": "Nombre",
+      "maximo": 6,
+      "nota": "Solo el nombre de pila, en mayúsculas gigantes. El tamaño está ajustado a 6 letras: con 7 o más se sale de la hoja y con letras anchas (M, N, X) también con 6; conviene nombres de hasta 5 letras. Una mayúscula acentuada al final puede tocar el logo."
+    },
+    "fecha": {
+      "etiqueta": "Fecha del cumpleaños",
+      "tipo": "texto",
+      "defecto": "[00 de mes]",
+      "maximo": 24
+    },
+    "saludo": {
+      "etiqueta": "Saludo",
+      "tipo": "texto",
+      "defecto": "Feliz cumpleaños",
+      "maximo": 16
+    },
+    "nombre": {
+      "etiqueta": "Nombre completo",
+      "tipo": "texto",
+      "defecto": "[Nombre Apellido]",
+      "maximo": 18
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/cumpleanera-recorte.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. Vertical, de la cabeza hacia abajo, con proporción parecida a 553 x 1200."
+    }
+  }
+}

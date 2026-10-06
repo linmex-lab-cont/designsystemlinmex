@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "clave": "hibridoInhabil",
+  "templateId": "d4966355-2e7b-4843-9c5d-2ff9a8153f0b",
+  "nombre": "Día inhábil · híbrido",
+  "desc": "Aviso de día inhábil sobre navy: la fecha en degradado naranja, INHÁBIL gigante, imagen alusiva recortada y tarjeta de vidrio con el motivo.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "3x4": {
+      "w": 1080,
+      "h": 1440
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    },
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "campos": {
+    "intro": {
+      "etiqueta": "Frase de apertura",
+      "tipo": "texto",
+      "defecto": "Te informamos que el",
+      "maximo": 36
+    },
+    "dia": {
+      "etiqueta": "Día",
+      "tipo": "texto",
+      "defecto": "16",
+      "maximo": 2,
+      "nota": "El diseño está medido para el 16: los días 20 y 22 al 29 ensanchan la cifra y rozan el «DE»."
+    },
+    "mes": {
+      "etiqueta": "Mes",
+      "tipo": "texto",
+      "defecto": "noviembre",
+      "maximo": 10,
+      "nota": "Solo el mes, sin «de»: el diseño ya lo antepone."
+    },
+    "fechaCompleta": {
+      "etiqueta": "Fecha completa",
+      "tipo": "texto",
+      "defecto": "Lunes 16 de noviembre de 2026",
+      "maximo": 34,
+      "nota": "Día de la semana, día, mes y año; si es larga se parte en dos renglones."
+    },
+    "motivo": {
+      "etiqueta": "Motivo",
+      "tipo": "parrafo",
+      "defecto": "Por motivo de las festividades de la Conmemoración de la Revolución Mexicana.",
+      "maximo": 100
+    },
+    "foto": {
+      "etiqueta": "Imagen alusiva recortada",
+      "tipo": "imagen",
+      "archivo": "recortes/monumento.png",
+      "nota": "Sube una imagen sin fondo (PNG con transparencia) alusiva a la fecha, más o menos cuadrada (900 x 910)."
+    }
+  }
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "archivo": "1x1",
+    "buscar": "alt=\"Georgina Cámara\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": "Feliz<br>cumpleaños",
+    "reemplazar": "Feliz cumpleaños",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "alt=\"Georgina Cámara\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "Feliz<br>cumpleaños",
+    "reemplazar": "Feliz cumpleaños",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "alt=\"Georgina Cámara\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "Feliz<br>cumpleaños",
+    "reemplazar": "Feliz cumpleaños",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "alt=\"Georgina Cámara\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "Feliz<br>cumpleaños",
+    "reemplazar": "Feliz cumpleaños",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "alt=\"Georgina Cámara\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">Georgina Cámara<",
+    "reemplazar": ">[Nombre Apellido]<",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">15 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": ">Georgina<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">Georgina Cámara<",
+    "reemplazar": ">[Nombre Apellido]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">15 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">Georgina<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">Georgina Cámara<",
+    "reemplazar": ">[Nombre Apellido]<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">15 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": ">Georgina<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">Georgina Cámara<",
+    "reemplazar": ">[Nombre Apellido]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">15 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": ">Georgina<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">Georgina Cámara<",
+    "reemplazar": ">[Nombre Apellido]<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">15 de octubre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": ">Georgina<",
+    "reemplazar": ">Nombre<",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": "<div class=\"gg\" style=\"",
+    "reemplazar": "<div class=\"gg\" data-ajustar=\"ancho\" style=\"",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "<div class=\"gg\" style=\"",
+    "reemplazar": "<div class=\"gg\" data-ajustar=\"ancho\" style=\"",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "<div class=\"gg\" style=\"",
+    "reemplazar": "<div class=\"gg\" data-ajustar=\"ancho\" style=\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "<div class=\"gg\" style=\"",
+    "reemplazar": "<div class=\"gg\" data-ajustar=\"ancho\" style=\"",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "<div class=\"gg\" style=\"",
+    "reemplazar": "<div class=\"gg\" data-ajustar=\"ancho\" style=\"",
+    "veces": 1
+  }
+]

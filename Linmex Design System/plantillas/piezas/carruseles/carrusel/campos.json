@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "clave": "carrusel",
+  "templateId": "5aa91775-8dc5-4887-ae32-60338001d699",
+  "nombre": "Carrusel guía rápida de cuatro láminas",
+  "desc": "Carrusel informativo para redes o comunicación interna: portada, pasos con captura, dato destacado y cierre con código QR.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": { "w": 1080, "h": 1080 },
+    "4x5": { "w": 1080, "h": 1350 },
+    "3x4": { "w": 1080, "h": 1440 },
+    "9x16": { "w": 1080, "h": 1920 },
+    "16x9": { "w": 1920, "h": 1080 }
+  },
+  "laminas": [
+    {
+      "clave": "portada",
+      "nombre": "Portada",
+      "campos": {
+        "portadaRotulo": { "etiqueta": "Rótulo superior", "tipo": "texto", "defecto": "Guía rápida · LINMEX HUB", "maximo": 30 },
+        "portadaTitulo": { "etiqueta": "Título de la portada", "tipo": "texto", "defecto": "Tu reporte de quincena, en tres pasos", "maximo": 38 },
+        "portadaSubtitulo": { "etiqueta": "Subtítulo", "tipo": "parrafo", "defecto": "Qué enviar, cuándo y desde dónde.", "maximo": 48 },
+        "portadaCaptura": { "etiqueta": "Captura de pantalla del teléfono", "tipo": "imagen", "archivo": "captura-ejemplo.svg", "nota": "Mejor una captura vertical de teléfono; se recorta desde arriba para llenar el marco." }
+      }
+    },
+    {
+      "clave": "pasos",
+      "nombre": "Pasos",
+      "campos": {
+        "pasosRotulo": { "etiqueta": "Rótulo superior", "tipo": "texto", "defecto": "Paso a paso", "maximo": 26 },
+        "pasosTitulo": { "etiqueta": "Título de la lámina", "tipo": "texto", "defecto": "Envía tu reporte desde el HUB", "maximo": 30 },
+        "paso1": { "etiqueta": "Paso 1", "tipo": "texto", "defecto": "Entra a hub.linmexlab.cloud con tu cuenta.", "maximo": 56 },
+        "paso2": { "etiqueta": "Paso 2", "tipo": "texto", "defecto": "Abre Reportes: la quincena abierta ya viene elegida.", "maximo": 56 },
+        "paso3": { "etiqueta": "Paso 3", "tipo": "texto", "defecto": "Revisa tus actividades y envía antes del corte.", "maximo": 56 },
+        "pasosNota": { "etiqueta": "Nota al pie de los pasos", "tipo": "parrafo", "defecto": "¿Se te pasó algo? Corrígelo y vuelve a enviarlo: se actualiza, no se duplica.", "maximo": 90 },
+        "pasosCaptura": { "etiqueta": "Captura de pantalla del teléfono", "tipo": "imagen", "archivo": "captura-ejemplo.svg", "nota": "Mejor una captura vertical de teléfono; se recorta desde arriba para llenar el marco." }
+      }
+    },
+    {
+      "clave": "dato",
+      "nombre": "Dato destacado",
+      "campos": {
+        "datoRotulo": { "etiqueta": "Rótulo superior", "tipo": "texto", "defecto": "Fechas de entrega", "maximo": 26 },
+        "datoCifra1": { "etiqueta": "Cifra grande 1", "tipo": "texto", "defecto": "2", "maximo": 1 },
+        "datoConector": { "etiqueta": "Palabra entre las cifras", "tipo": "texto", "defecto": "y", "maximo": 1 },
+        "datoCifra2": { "etiqueta": "Cifra grande 2", "tipo": "texto", "defecto": "16", "maximo": 2 },
+        "datoTitulo": { "etiqueta": "Texto bajo las cifras", "tipo": "texto", "defecto": "de cada mes", "maximo": 22 },
+        "datoTexto": { "etiqueta": "Explicación", "tipo": "parrafo", "defecto": "El 2 entregas la segunda quincena del mes anterior y el 16, la primera del mes en curso. Si la fecha cae en fin de semana o feriado, se recorre al viernes anterior.", "maximo": 180 },
+        "datoProximoRotulo": { "etiqueta": "Rótulo de la tarjeta", "tipo": "texto", "defecto": "Próxima entrega", "maximo": 24 },
+        "datoProximo": { "etiqueta": "Fecha de la próxima entrega", "tipo": "texto", "defecto": "[Viernes 2 de octubre]", "maximo": 24 },
+        "datoPeriodo": { "etiqueta": "Periodo que cubre", "tipo": "texto", "defecto": "[Quincena del 16 al 30 de septiembre]", "maximo": 44 }
+      }
+    },
+    {
+      "clave": "cierre",
+      "nombre": "Cierre",
+      "campos": {
+        "cierreRotulo": { "etiqueta": "Rótulo superior", "tipo": "texto", "defecto": "¿Dudas?", "maximo": 16 },
+        "cierreTitulo": { "etiqueta": "Título del cierre", "tipo": "texto", "defecto": "Entra al HUB y envía tu reporte a tiempo", "maximo": 40 },
+        "cierreTexto": { "etiqueta": "Mensaje de apoyo", "tipo": "parrafo", "defecto": "Si algo no te cuadra, escríbele a [área o responsable].", "maximo": 70 },
+        "cierreMensaje": { "etiqueta": "Mensaje junto al código QR", "tipo": "texto", "defecto": "Tu quincena y tus reportes en un solo lugar.", "maximo": 50 },
+        "cierreEnlace": { "etiqueta": "Dirección del enlace", "tipo": "texto", "defecto": "hub.linmexlab.cloud", "maximo": 20 },
+        "cierreBoton": { "etiqueta": "Texto del botón", "tipo": "texto", "defecto": "Entrar al HUB", "maximo": 18 },
+        "cierreQr": { "etiqueta": "Código QR del enlace", "tipo": "imagen", "archivo": "qr-ejemplo.svg", "nota": "Imagen cuadrada del QR, con su margen blanco." }
+      }
+    }
+  ]
+}

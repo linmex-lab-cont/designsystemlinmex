@@ -1,0 +1,62 @@
+[
+  {
+    "archivo": "1x1",
+    "buscar": "Mensualidades<br>gratis",
+    "reemplazar": "Mensualidades gratis",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": "Vigencia del 1 al 30 de noviembre de 2026. Consulta términos y condiciones.",
+    "reemplazar": "<span>Vigencia del 1 al 30 de noviembre de 2026.</span> Consulta términos y condiciones.",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "Mensualidades<br>gratis",
+    "reemplazar": "Mensualidades gratis",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "Vigencia del 1 al 30 de noviembre de 2026. Consulta términos y condiciones.",
+    "reemplazar": "<span>Vigencia del 1 al 30 de noviembre de 2026.</span> Consulta términos y condiciones.",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "Mensualidades<br>gratis",
+    "reemplazar": "Mensualidades gratis",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "Vigencia del 1 al 30 de noviembre de 2026. Consulta términos y condiciones.",
+    "reemplazar": "<span>Vigencia del 1 al 30 de noviembre de 2026.</span> Consulta términos y condiciones.",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "Mensualidades<br>gratis",
+    "reemplazar": "Mensualidades gratis",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "Vigencia del 1 al 30 de noviembre de 2026. Consulta términos y condiciones.",
+    "reemplazar": "<span>Vigencia del 1 al 30 de noviembre de 2026.</span> Consulta términos y condiciones.",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "Mensualidades<br>gratis",
+    "reemplazar": "Mensualidades gratis",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "Vigencia del 1 al 30 de noviembre de 2026. Consulta términos y condiciones.",
+    "reemplazar": "<span>Vigencia del 1 al 30 de noviembre de 2026.</span> Consulta términos y condiciones.",
+    "veces": 1
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "clave": "presentacionBrasa",
+  "templateId": "982ec375-cf93-4bec-85b7-142d06a27aac",
+  "nombre": "Presentación · Brasa",
+  "desc": "Presentación oscura con vidrio y el símbolo en degradado naranja: portada, sección, agenda, contenido, texto con imagen, gráfica, cifras y cierres.",
+  "categoria": "presentaciones",
+  "audiencia": "interna",
+  "formatos": { "16x9": { "w": 1920, "h": 1080 } },
+  "laminas": [
+    {
+      "clave": "portada",
+      "nombre": "Portada",
+      "campos": {
+        "portadaRotulo": {"etiqueta": "Rótulo (área o tema)", "tipo": "texto", "defecto": "Comercial", "maximo": 40},
+        "portadaTitulo": {"etiqueta": "Título de la presentación", "tipo": "texto", "defecto": "Capacitación de venta interna", "maximo": 42},
+        "portadaDetalle": {"etiqueta": "Ponente y fecha", "tipo": "texto", "defecto": "[Nombre del ponente] · 6 de octubre de 2026", "maximo": 66}
+      }
+    },
+    {
+      "clave": "seccion",
+      "nombre": "Sección",
+      "campos": {
+        "seccionNumero": {"etiqueta": "Número de sección", "tipo": "texto", "defecto": "02", "maximo": 2},
+        "seccionTitulo": {"etiqueta": "Título de la sección", "tipo": "texto", "defecto": "Resultados del trimestre", "maximo": 40},
+        "seccionFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "04", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "agenda",
+      "nombre": "Agenda",
+      "campos": {
+        "agendaRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Agenda · capacitación de venta interna", "maximo": 60},
+        "agendaTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Lo que vamos a ver hoy", "maximo": 50},
+        "agendaIntro": {"etiqueta": "Introducción", "tipo": "parrafo", "defecto": "Cinco bloques, del cliente a la práctica. Duración total: [3] horas.", "maximo": 150},
+        "agendaNumero1": {"etiqueta": "Tema 1 · número", "tipo": "texto", "defecto": "01", "maximo": 2},
+        "agendaTema1": {"etiqueta": "Tema 1 · título", "tipo": "texto", "defecto": "El cliente de LINMEX", "maximo": 28},
+        "agendaDetalle1": {"etiqueta": "Tema 1 · descripción", "tipo": "parrafo", "defecto": "Quién nos compra, qué busca y cómo decide.", "maximo": 66},
+        "agendaDuracion1": {"etiqueta": "Tema 1 · duración", "tipo": "texto", "defecto": "[30] min", "maximo": 14},
+        "agendaNumero2": {"etiqueta": "Tema 2 · número", "tipo": "texto", "defecto": "02", "maximo": 2},
+        "agendaTema2": {"etiqueta": "Tema 2 · título", "tipo": "texto", "defecto": "Nuestros desarrollos", "maximo": 28},
+        "agendaDetalle2": {"etiqueta": "Tema 2 · descripción", "tipo": "parrafo", "defecto": "Recoleta y Soletta, lado a lado.", "maximo": 66},
+        "agendaDuracion2": {"etiqueta": "Tema 2 · duración", "tipo": "texto", "defecto": "[40] min", "maximo": 14},
+        "agendaNumero3": {"etiqueta": "Tema 3 · número", "tipo": "texto", "defecto": "03", "maximo": 2},
+        "agendaTema3": {"etiqueta": "Tema 3 · título", "tipo": "texto", "defecto": "El proceso de venta", "maximo": 28},
+        "agendaDetalle3": {"etiqueta": "Tema 3 · descripción", "tipo": "parrafo", "defecto": "Del primer contacto al apartado, paso por paso.", "maximo": 66},
+        "agendaDuracion3": {"etiqueta": "Tema 3 · duración", "tipo": "texto", "defecto": "[40] min", "maximo": 14},
+        "agendaNumero4": {"etiqueta": "Tema 4 · número", "tipo": "texto", "defecto": "04", "maximo": 2},
+        "agendaTema4": {"etiqueta": "Tema 4 · título", "tipo": "texto", "defecto": "Objeciones frecuentes", "maximo": 28},
+        "agendaDetalle4": {"etiqueta": "Tema 4 · descripción", "tipo": "parrafo", "defecto": "Las dudas que más escuchas y cómo responderlas.", "maximo": 66},
+        "agendaDuracion4": {"etiqueta": "Tema 4 · duración", "tipo": "texto", "defecto": "[30] min", "maximo": 14},
+        "agendaNumero5": {"etiqueta": "Tema 5 · número", "tipo": "texto", "defecto": "05", "maximo": 2},
+        "agendaTema5": {"etiqueta": "Tema 5 · título", "tipo": "texto", "defecto": "Práctica", "maximo": 28},
+        "agendaDetalle5": {"etiqueta": "Tema 5 · descripción", "tipo": "parrafo", "defecto": "Simula una visita completa, en parejas y con casos reales.", "maximo": 66},
+        "agendaDuracion5": {"etiqueta": "Tema 5 · duración", "tipo": "texto", "defecto": "[40] min", "maximo": 14},
+        "agendaPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "agendaFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "02", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "contenido",
+      "nombre": "Contenido con avance",
+      "campos": {
+        "contenidoRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Resultados · septiembre 2026", "maximo": 60},
+        "contenidoTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Avance por eje estratégico", "maximo": 55},
+        "contenidoNumero1": {"etiqueta": "Punto 1 · número", "tipo": "texto", "defecto": "01", "maximo": 2},
+        "contenidoTema1": {"etiqueta": "Punto 1 · título (también rotula su barra)", "tipo": "texto", "defecto": "Incremento de ventas", "maximo": 44},
+        "contenidoDetalle1": {"etiqueta": "Punto 1 · detalle", "tipo": "parrafo", "defecto": "[68]% de avance en las líneas del semestre.", "maximo": 100},
+        "contenidoNumero2": {"etiqueta": "Punto 2 · número", "tipo": "texto", "defecto": "02", "maximo": 2},
+        "contenidoTema2": {"etiqueta": "Punto 2 · título (también rotula su barra)", "tipo": "texto", "defecto": "Bienestar del equipo", "maximo": 44},
+        "contenidoDetalle2": {"etiqueta": "Punto 2 · detalle", "tipo": "parrafo", "defecto": "Pulso mensual estable, sin alertas.", "maximo": 100},
+        "contenidoNumero3": {"etiqueta": "Punto 3 · número", "tipo": "texto", "defecto": "03", "maximo": 2},
+        "contenidoTema3": {"etiqueta": "Punto 3 · título (también rotula su barra)", "tipo": "texto", "defecto": "Operar de manera eficiente", "maximo": 44},
+        "contenidoDetalle3": {"etiqueta": "Punto 3 · detalle", "tipo": "parrafo", "defecto": "[2] líneas con retraso: ver el detalle.", "maximo": 100},
+        "contenidoPanelRotulo": {"etiqueta": "Rótulo del panel", "tipo": "texto", "defecto": "Avance del semestre", "maximo": 50},
+        "contenidoAvance": {"etiqueta": "Avance de cada punto", "tipo": "serie", "grafica": "barras-html", "unidad": "%", "nota": "Tres barras de 0 a 100; los nombres de las barras son los títulos de los puntos.",
+          "puntos": [
+            {"etiqueta": "Incremento de ventas", "valor": 68},
+            {"etiqueta": "Bienestar del equipo", "valor": 74},
+            {"etiqueta": "Operar de manera eficiente", "valor": 52}
+          ]
+        },
+        "contenidoNota": {"etiqueta": "Nota del panel", "tipo": "parrafo", "defecto": "Porcentaje de líneas cerradas del semestre. Corte al 16 de septiembre de 2026.", "maximo": 80},
+        "contenidoPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "contenidoFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "03", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "textoImagen",
+      "nombre": "Texto con imagen",
+      "campos": {
+        "textoImagenRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Nuestros desarrollos · Recoleta", "maximo": 60},
+        "textoImagenTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Primero el parque, después el plano", "maximo": 48},
+        "textoImagenParrafo": {"etiqueta": "Párrafo", "tipo": "parrafo", "defecto": "Recoleta es el primer proyecto de Capitalia, en Motul: lotes residenciales alrededor de un parque central de 4 hectáreas. En la visita, el parque es tu mejor argumento.", "maximo": 190},
+        "textoImagenPunto1": {"etiqueta": "Punto 1", "tipo": "texto", "defecto": "Recorre el parque antes de abrir el plano.", "maximo": 60},
+        "textoImagenPunto2": {"etiqueta": "Punto 2", "tipo": "texto", "defecto": "Habla de la vida diaria, no de metros cuadrados.", "maximo": 60},
+        "textoImagenPunto3": {"etiqueta": "Punto 3", "tipo": "texto", "defecto": "Cierra cada visita con una fecha para el apartado.", "maximo": 60},
+        "textoImagenFoto": {"etiqueta": "Foto", "tipo": "imagen", "archivo": "promo-parque.jpg"},
+        "textoImagenPieFoto": {"etiqueta": "Pie de foto", "tipo": "texto", "defecto": "Imagen ilustrativa · parque central de Recoleta, Motul", "maximo": 90},
+        "textoImagenPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "textoImagenFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "05", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "grafico",
+      "nombre": "Gráfica de barras",
+      "campos": {
+        "graficoRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Resultados · tercer trimestre 2026", "maximo": 60},
+        "graficoTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "Recoleta encabeza los apartados", "maximo": 55},
+        "graficoResumen": {"etiqueta": "Lectura principal", "tipo": "parrafo", "defecto": "Recoleta concentra [41]% de los apartados del trimestre; Soletta le sigue con [118].", "maximo": 115},
+        "graficoDetalle": {"etiqueta": "Lectura secundaria", "tipo": "parrafo", "defecto": "[Desarrollo 3] y [Desarrollo 4] suman [116] entre los dos.", "maximo": 100},
+        "graficoTotalRotulo": {"etiqueta": "Rótulo del total", "tipo": "texto", "defecto": "Total del trimestre", "maximo": 40},
+        "graficoTotalUnidad": {"etiqueta": "Unidad del total", "tipo": "texto", "defecto": "apartados", "maximo": 30},
+        "graficoPanelRotulo": {"etiqueta": "Rótulo de la gráfica", "tipo": "texto", "defecto": "Apartados por desarrollo · tercer trimestre 2026", "maximo": 65},
+        "graficoApartados": {"etiqueta": "Datos de la gráfica", "tipo": "serie", "grafica": "barras-html", "unidad": "apartados", "nota": "Cuatro barras horizontales: la mayor ocupa todo el largo y el total del trimestre es la suma. Nombres de hasta 14 caracteres.",
+          "puntos": [
+            {"etiqueta": "Recoleta", "valor": 164},
+            {"etiqueta": "Soletta", "valor": 118},
+            {"etiqueta": "[Desarrollo 3]", "valor": 73},
+            {"etiqueta": "[Desarrollo 4]", "valor": 43}
+          ]
+        },
+        "graficoNota": {"etiqueta": "Nota de la gráfica", "tipo": "parrafo", "defecto": "Apartados registrados por desarrollo, de julio a septiembre. Corte al 30 de septiembre de 2026.", "maximo": 105},
+        "graficoPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "graficoFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "06", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    {
+      "clave": "cifras",
+      "nombre": "Cifras",
+      "campos": {
+        "cifrasRotulo": {"etiqueta": "Rótulo", "tipo": "texto", "defecto": "Resultados · tercer trimestre 2026", "maximo": 60},
+        "cifrasTitulo": {"etiqueta": "Título", "tipo": "texto", "defecto": "El trimestre en cuatro cifras", "maximo": 55},
+        "cifrasIntro": {"etiqueta": "Introducción", "tipo": "parrafo", "defecto": "Resultados del equipo comercial, de julio a septiembre de 2026.", "maximo": 150},
+        "cifrasEtiqueta1": {"etiqueta": "Cifra 1 · rótulo", "tipo": "texto", "defecto": "Apartados del trimestre", "maximo": 24},
+        "cifrasValor1": {"etiqueta": "Cifra 1 · valor", "tipo": "texto", "defecto": "[398]", "maximo": 5},
+        "cifrasDetalle1": {"etiqueta": "Cifra 1 · detalle", "tipo": "parrafo", "defecto": "En los cuatro desarrollos, de julio a septiembre.", "maximo": 80},
+        "cifrasEtiqueta2": {"etiqueta": "Cifra 2 · rótulo", "tipo": "texto", "defecto": "Conversión", "maximo": 24},
+        "cifrasValor2": {"etiqueta": "Cifra 2 · valor (el % va fijo)", "tipo": "texto", "defecto": "[18]", "maximo": 4},
+        "cifrasDetalle2": {"etiqueta": "Cifra 2 · detalle", "tipo": "parrafo", "defecto": "De cada 100 prospectos, [18] apartan un lote.", "maximo": 80},
+        "cifrasEtiqueta3": {"etiqueta": "Cifra 3 · rótulo", "tipo": "texto", "defecto": "Días promedio de cierre", "maximo": 24},
+        "cifrasValor3": {"etiqueta": "Cifra 3 · valor", "tipo": "texto", "defecto": "[21]", "maximo": 5},
+        "cifrasDetalle3": {"etiqueta": "Cifra 3 · detalle", "tipo": "parrafo", "defecto": "Del primer contacto a la firma del apartado.", "maximo": 80},
+        "cifrasEtiqueta4": {"etiqueta": "Cifra 4 · rótulo", "tipo": "texto", "defecto": "Visitas por venta", "maximo": 24},
+        "cifrasValor4": {"etiqueta": "Cifra 4 · valor", "tipo": "texto", "defecto": "[4.6]", "maximo": 5},
+        "cifrasDetalle4": {"etiqueta": "Cifra 4 · detalle", "tipo": "parrafo", "defecto": "Recorridos en el desarrollo antes de cada apartado.", "maximo": 80},
+        "cifrasPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "cifrasFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "07", "maximo": 2, "nota": "Número de lámina en el pie."}
+      }
+    },
+    { "clave": "cierre", "nombre": "Cierre naranja", "campos": {} },
+    { "clave": "cierreNavy", "nombre": "Cierre navy", "campos": {} }
+  ]
+}

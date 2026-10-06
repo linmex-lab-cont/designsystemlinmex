@@ -1,0 +1,20 @@
+[
+  {
+    "archivo": "4x5",
+    "buscar": "alt=\"Alicia Domínguez, colaboradora de LINMEX\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">Alicia Domínguez<",
+    "reemplazar": ">[Nombre Apellido]<",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": ">20 de septiembre<",
+    "reemplazar": ">[00 de mes]<",
+    "veces": 1
+  }
+]

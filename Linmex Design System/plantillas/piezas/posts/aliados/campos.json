@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "clave": "aliados",
+  "templateId": "234920ac-0474-4e9a-8bae-e66391b29477",
+  "nombre": "Promoción para aliados comerciales",
+  "desc": "Promoción exclusiva para brokers y aliados comerciales registrados: cuatro beneficios, llamada a la acción y vigencia.",
+  "categoria": "comunicacion",
+  "audiencia": "cliente",
+  "formatos": {
+    "1x1": { "w": 1080, "h": 1080 },
+    "4x5": { "w": 1080, "h": 1350 },
+    "3x4": { "w": 1080, "h": 1440 },
+    "9x16": { "w": 1080, "h": 1920 },
+    "16x9": { "w": 1920, "h": 1080 }
+  },
+  "campos": {
+    "rotulo": { "etiqueta": "Rótulo superior", "tipo": "texto", "defecto": "Aliados comerciales LINMEX", "maximo": 34 },
+    "titulo": { "etiqueta": "Título", "tipo": "texto", "defecto": "Hoy te toca a ti.", "maximo": 20 },
+    "introduccion": { "etiqueta": "Introducción", "tipo": "parrafo", "defecto": "Has ayudado a cientos a construir patrimonio. Como nuestro aliado, en LINMEX movemos todo a tu favor:", "maximo": 120 },
+    "beneficio1": { "etiqueta": "Beneficio 1", "tipo": "texto", "defecto": "Sin enganche.", "maximo": 34 },
+    "beneficio2": { "etiqueta": "Beneficio 2", "tipo": "texto", "defecto": "Comisión como descuento directo.", "maximo": 34 },
+    "beneficio3": { "etiqueta": "Beneficio 3", "tipo": "texto", "defecto": "[+0%] de descuento adicional.", "maximo": 34 },
+    "beneficio4": { "etiqueta": "Beneficio 4", "tipo": "texto", "defecto": "Hasta [00] MSI.", "maximo": 34 },
+    "boton": { "etiqueta": "Texto del botón", "tipo": "texto", "defecto": "Hazte dueño hoy", "maximo": 22 },
+    "vigencia": { "etiqueta": "Vigencia", "tipo": "texto", "defecto": "Válido al 31 de diciembre de 2026.", "maximo": 44 },
+    "foto": { "etiqueta": "Foto de fondo", "tipo": "imagen", "archivo": "aliados-anfiteatro.jpg", "difuminada": "aliados-anfiteatro-difuminada.jpg" }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "archivo": "1x1",
+    "buscar": "alt=\"Colaboradora de LINMEX de pie, con los brazos cruzados\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "1x1",
+    "buscar": "<p style=\"margin: 14px 0 0; font-size: 27px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: pretty\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "reemplazar": "<p style=\"margin: 14px 0 0; font-size: 27px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: balance\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "alt=\"Colaboradora de LINMEX de pie, con los brazos cruzados\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "4x5",
+    "buscar": "<p style=\"margin: 16px 0 0; font-size: 28px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: pretty\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "reemplazar": "<p style=\"margin: 16px 0 0; font-size: 28px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: balance\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "alt=\"Colaboradora de LINMEX de pie, con los brazos cruzados\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "3x4",
+    "buscar": "<p style=\"margin: 16px 0 0; font-size: 28px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: pretty\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "reemplazar": "<p style=\"margin: 16px 0 0; font-size: 28px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: balance\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "alt=\"Colaboradora de LINMEX de pie, con los brazos cruzados\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "9x16",
+    "buscar": "<p style=\"margin: 16px 0 0; font-size: 28px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: pretty\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "reemplazar": "<p style=\"margin: 16px 0 0; font-size: 28px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: balance\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "alt=\"Colaboradora de LINMEX de pie, con los brazos cruzados\"",
+    "reemplazar": "alt=\"\"",
+    "veces": 1
+  },
+  {
+    "archivo": "16x9",
+    "buscar": "<p style=\"margin: 16px 0 0; font-size: 28px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: pretty\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "reemplazar": "<p style=\"margin: 16px 0 0; font-size: 28px; line-height: 1.42; color: rgba(255,255,255,.94); text-wrap: balance\">Por cada <b style=\"font-weight: 700\">momento compartido</b><br>y <b style=\"font-weight: 700\">por sumar</b> tanto al proyecto.</p>",
+    "veces": 1
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "clave": "mixtoCumple",
+  "templateId": "f8ef1b56-a6a3-482a-a32d-1d2e25d6f200",
+  "nombre": "Cumpleaños · mixto",
+  "desc": "Cumpleaños claro con globos y confeti: la persona recortada al frente del símbolo naranja y una tarjeta de vidrio con la fecha, el saludo y el nombre.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    }
+  },
+  "campos": {
+    "fecha": {
+      "etiqueta": "Fecha del cumpleaños",
+      "tipo": "texto",
+      "defecto": "[00 de mes]",
+      "maximo": 24
+    },
+    "saludo": {
+      "etiqueta": "Saludo",
+      "tipo": "texto",
+      "defecto": "Feliz cumpleaños",
+      "maximo": 20
+    },
+    "nombre": {
+      "etiqueta": "Nombre completo",
+      "tipo": "texto",
+      "defecto": "[Nombre Apellido]",
+      "maximo": 24
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/cumpleanera-recorte.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. Vertical, de la cabeza a la cintura, con proporción parecida a 553 x 1200; la parte baja se desvanece sola."
+    }
+  }
+}

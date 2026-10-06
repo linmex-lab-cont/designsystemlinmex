@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "clave": "hibridoGracias",
+  "templateId": "9c607f7b-bf6e-466d-b59f-f4b7e7367c3c",
+  "nombre": "Gracias · híbrido",
+  "desc": "Despedida o agradecimiento sobre navy: GRACIAS gigante, bloque naranja del símbolo, persona recortada al frente y tarjeta de vidrio con el mensaje.",
+  "categoria": "comunicacion",
+  "audiencia": "interna",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "3x4": {
+      "w": 1080,
+      "h": 1440
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    },
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "campos": {
+    "rotulo": {
+      "etiqueta": "Rótulo",
+      "tipo": "texto",
+      "defecto": "Hasta pronto",
+      "maximo": 30
+    },
+    "nombre": {
+      "etiqueta": "Nombre de la persona",
+      "tipo": "texto",
+      "defecto": "[Nombre Apellido]",
+      "maximo": 19
+    },
+    "mensaje": {
+      "etiqueta": "Mensaje",
+      "tipo": "parrafo",
+      "defecto": "Por cada momento compartido y por sumar tanto al proyecto.",
+      "maximo": 100
+    },
+    "foto": {
+      "etiqueta": "Recorte de la persona",
+      "tipo": "imagen",
+      "archivo": "recortes/modelo-pie.png",
+      "nota": "Sube un recorte de la persona sin fondo (PNG con transparencia). Con fondo tapa el diseño. De pie, de cuerpo casi completo y con proporción parecida a 784 x 1277."
+    }
+  }
+}

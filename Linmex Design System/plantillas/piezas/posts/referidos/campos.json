@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "clave": "referidos",
+  "templateId": "e705e76d-7ac4-4c14-83c4-75b40fa62a8d",
+  "nombre": "Programa de referidos",
+  "desc": "Invita a los clientes a recomendar un desarrollo: bonificación para quien refiere, beneficio para quien llega y vigencia.",
+  "categoria": "comunicacion",
+  "audiencia": "cliente",
+  "formatos": {
+    "1x1": { "w": 1080, "h": 1080 },
+    "4x5": { "w": 1080, "h": 1350 },
+    "3x4": { "w": 1080, "h": 1440 },
+    "9x16": { "w": 1080, "h": 1920 },
+    "16x9": { "w": 1920, "h": 1080 }
+  },
+  "campos": {
+    "rotulo": { "etiqueta": "Rótulo del programa", "tipo": "texto", "defecto": "Programa de referidos LINMEX", "maximo": 34 },
+    "titulo": { "etiqueta": "Título", "tipo": "texto", "defecto": "Las cosas buenas ¡se comparten!", "maximo": 32 },
+    "bonoRotulo": { "etiqueta": "Rótulo de la bonificación (quien refiere)", "tipo": "texto", "defecto": "Si tu amigo compra, tú ganas", "maximo": 30 },
+    "bonoMonto": { "etiqueta": "Monto de la bonificación", "tipo": "texto", "defecto": "De [$0,000] a [$0,000]", "maximo": 22 },
+    "bonoDetalle": { "etiqueta": "Detalle de la bonificación", "tipo": "texto", "defecto": "MXN en bonificaciones a tu cuenta", "maximo": 36 },
+    "ganaRotulo": { "etiqueta": "Rótulo del beneficio (quien llega)", "tipo": "texto", "defecto": "Y tu amigo también gana", "maximo": 30 },
+    "ganaMonto": { "etiqueta": "Monto del beneficio", "tipo": "texto", "defecto": "Hasta [$00,000]", "maximo": 18 },
+    "ganaDetalle": { "etiqueta": "Detalle del beneficio", "tipo": "texto", "defecto": "MXN en beneficios VIP", "maximo": 36 },
+    "mensaje": { "etiqueta": "Mensaje de cierre", "tipo": "texto", "defecto": "Dale el pase VIP a tus personas favoritas.", "maximo": 42 },
+    "vigencia": { "etiqueta": "Vigencia", "tipo": "texto", "defecto": "Vigencia hasta el 31 de diciembre de 2026.", "maximo": 56 },
+    "fondo": { "etiqueta": "Foto de fondo", "tipo": "imagen", "archivo": "desarrollo-difuminada.jpg", "difuminada": "desarrollo-difuminada.jpg", "nota": "El fondo del diseño es esta misma foto ya difuminada; si se cambia, el motor difumina la nueva." },
+    "fotoRecoleta": { "etiqueta": "Foto izquierda (Recoleta)", "tipo": "imagen", "archivo": "referidos-recoleta.jpg", "nota": "El logo de Recoleta debajo de la foto es fijo." },
+    "fotoSoletta": { "etiqueta": "Foto derecha (Soletta)", "tipo": "imagen", "archivo": "referidos-soletta.jpg", "nota": "El logo de Soletta debajo de la foto es fijo." }
+  }
+}
