@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "clave": "postLinmex",
+  "templateId": "27376d11-f145-4a0a-bf8f-bcc5785b5d06",
+  "nombre": "Post de Grupo LINMEX",
+  "desc": "Posts externos del grupo para redes: un logro en cifra, una vacante, una alianza y una frase de marca.",
+  "categoria": "comunicacion",
+  "audiencia": "publico",
+  "etiquetas": [
+    "post",
+    "redes",
+    "instagram",
+    "facebook",
+    "whatsapp",
+    "historia",
+    "feed",
+    "linmex",
+    "institucional",
+    "reclutamiento",
+    "alianza",
+    "logro"
+  ],
+  "marca": "linmex",
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    }
+  },
+  "alternativas": true,
+  "laminas": [
+    {
+      "clave": "logro",
+      "nombre": "Cifra de logro",
+      "desc": "Un logro del grupo en una cifra heroica sobre el bloque naranja, con su línea de contexto y una foto a sangre en un tercio.",
+      "campos": {
+        "logroFoto": {
+          "etiqueta": "Foto",
+          "tipo": "imagen",
+          "archivo": "promo-parque.jpg",
+          "nota": "Se recorta en una franja vertical de un tercio del ancho, a sangre."
+        },
+        "logroRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "Seguimos creciendo",
+          "maximo": 30,
+          "nota": "Sale en mayúsculas."
+        },
+        "logroCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "[0,000]",
+          "maximo": 8,
+          "nota": "Solo la cifra: si es larga, se ajusta sola al ancho del bloque."
+        },
+        "logroContexto": {
+          "etiqueta": "Línea de contexto",
+          "tipo": "texto",
+          "defecto": "familias ya construyen su patrimonio con nosotros.",
+          "maximo": 70,
+          "nota": "Completa la cifra: empieza en minúscula."
+        },
+        "logroNota": {
+          "etiqueta": "Fuente o fecha de la cifra",
+          "tipo": "texto",
+          "defecto": "Cifra al [mes] de [año].",
+          "maximo": 60
+        }
+      }
+    },
+    {
+      "clave": "vacante",
+      "nombre": "Vacante abierta",
+      "desc": "Reclutamiento y empleo: el puesto en grande, tres requisitos cortos y el llamado «Postúlate», sin foto.",
+      "campos": {
+        "vacanteRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "Estamos contratando",
+          "maximo": 32,
+          "nota": "Sale en mayúsculas."
+        },
+        "vacantePuesto": {
+          "etiqueta": "Puesto",
+          "tipo": "texto",
+          "defecto": "[Nombre del puesto]",
+          "maximo": 29,
+          "nota": "Caben dos renglones."
+        },
+        "vacanteLugar": {
+          "etiqueta": "Área y ciudad",
+          "tipo": "texto",
+          "defecto": "[Área] · Mérida, Yucatán",
+          "maximo": 48
+        },
+        "vacanteRequisito1": {
+          "etiqueta": "Requisito 1",
+          "tipo": "texto",
+          "defecto": "Experiencia de [0] años",
+          "maximo": 40
+        },
+        "vacanteRequisito2": {
+          "etiqueta": "Requisito 2",
+          "tipo": "texto",
+          "defecto": "Manejo de [herramienta]",
+          "maximo": 40
+        },
+        "vacanteRequisito3": {
+          "etiqueta": "Requisito 3",
+          "tipo": "texto",
+          "defecto": "Disponibilidad de horario",
+          "maximo": 40
+        },
+        "vacanteLlamado": {
+          "etiqueta": "Llamado",
+          "tipo": "texto",
+          "defecto": "Postúlate",
+          "maximo": 11
+        },
+        "vacanteContacto": {
+          "etiqueta": "Cómo postularse",
+          "tipo": "texto",
+          "defecto": "Envía tu CV a [correo]",
+          "maximo": 60,
+          "nota": "El correo o WhatsApp de reclutamiento vigente."
+        }
+      }
+    },
+    {
+      "clave": "alianza",
+      "nombre": "Nueva alianza",
+      "desc": "Anuncio de una alianza: foto con vidrio, el logo LINMEX junto al del aliado, titular y una línea.",
+      "campos": {
+        "alianzaFoto": {
+          "etiqueta": "Foto de fondo",
+          "tipo": "imagen",
+          "archivo": "aliados-anfiteatro.jpg",
+          "difuminada": "aliados-anfiteatro-difuminada.jpg"
+        },
+        "alianzaAliado": {
+          "etiqueta": "Logo del aliado",
+          "tipo": "imagen",
+          "archivo": "postlinmex-aliado-ejemplo.svg",
+          "opcional": true,
+          "nota": "PNG o SVG con fondo transparente, en una versión clara que se lea sobre el vidrio oscuro."
+        },
+        "alianzaRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "Nueva alianza",
+          "maximo": 16,
+          "nota": "Sale en mayúsculas."
+        },
+        "alianzaTitulo": {
+          "etiqueta": "Titular",
+          "tipo": "texto",
+          "defecto": "Juntos construimos más valor para Yucatán.",
+          "maximo": 56
+        },
+        "alianzaLinea": {
+          "etiqueta": "Línea de la alianza",
+          "tipo": "texto",
+          "defecto": "Sumamos a [Nombre del aliado] para [objetivo de la alianza].",
+          "maximo": 100
+        }
+      }
+    },
+    {
+      "clave": "frase",
+      "nombre": "Frase de marca",
+      "desc": "Frase de marca tipográfica sobre navy, con el símbolo LINMEX recortado a sangre.",
+      "campos": {
+        "fraseRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "Liderazgo visionario",
+          "maximo": 32,
+          "nota": "Sale en mayúsculas."
+        },
+        "fraseTexto": {
+          "etiqueta": "Frase",
+          "tipo": "texto",
+          "defecto": "Crece tu inversión.",
+          "maximo": 24
+        },
+        "fraseAcento": {
+          "etiqueta": "Frase en naranja",
+          "tipo": "texto",
+          "defecto": "Asegura tu patrimonio.",
+          "maximo": 24
+        },
+        "fraseApoyo": {
+          "etiqueta": "Línea de apoyo",
+          "tipo": "texto",
+          "defecto": "Desarrollos inmobiliarios con rentabilidad y propósito.",
+          "maximo": 64
+        }
+      }
+    }
+  ]
+}

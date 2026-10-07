@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "clave": "postCapitalia",
+  "templateId": "d0c620b1-e25f-40d7-a085-df0790e179d9",
+  "nombre": "Post Capitalia",
+  "desc": "Posts de Capitalia para redes en cinco diseños: mensualidad con foto en arco, frase sobre foto difuminada, tarjeta crema con precio, cartel de distrito y dato en pétalo. Morado, naranja y crema, DM Sans y respaldo de Grupo LINMEX al pie.",
+  "categoria": "promocion",
+  "audiencia": "publico",
+  "marca": "capitalia",
+  "etiquetas": [
+    "post",
+    "redes",
+    "instagram",
+    "facebook",
+    "whatsapp",
+    "historia",
+    "feed",
+    "capitalia",
+    "recoleta",
+    "distrito",
+    "mensualidad",
+    "frase"
+  ],
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    }
+  },
+  "alternativas": true,
+  "laminas": [
+    {
+      "clave": "arco",
+      "nombre": "Mensualidad en arco",
+      "desc": "Mensualidad desde con la foto recortada en arco y la palabra clave en naranja, sobre morado.",
+      "campos": {
+        "arcoFoto": {
+          "etiqueta": "Foto en arco",
+          "tipo": "imagen",
+          "archivo": "promo-parque.jpg",
+          "nota": "Render o foto cálida del complejo; se recorta en arco."
+        },
+        "arcoTitulo": {
+          "etiqueta": "Titular",
+          "tipo": "texto",
+          "defecto": "Una ciudad planeada no solo se construye;",
+          "maximo": 60,
+          "nota": "Primer tiempo de la frase; la palabra clave va aparte."
+        },
+        "arcoClave": {
+          "etiqueta": "Palabra clave",
+          "tipo": "texto",
+          "defecto": "SE VIVE",
+          "maximo": 14,
+          "nota": "Segundo tiempo, en naranja; sale en mayúsculas."
+        },
+        "arcoRotulo": {
+          "etiqueta": "Rótulo de la cifra",
+          "tipo": "texto",
+          "defecto": "MENSUALIDADES DESDE",
+          "maximo": 30,
+          "nota": "Sale en mayúsculas."
+        },
+        "arcoCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "[$0,000]",
+          "maximo": 10,
+          "nota": "Mensualidad o precio vigente, con el signo de pesos."
+        },
+        "arcoUnidad": {
+          "etiqueta": "Unidad",
+          "tipo": "texto",
+          "defecto": "mxn",
+          "maximo": 6
+        }
+      }
+    },
+    {
+      "clave": "frase",
+      "nombre": "Frase sobre foto",
+      "desc": "Frase institucional en dos tiempos sobre foto difuminada, sin precio.",
+      "campos": {
+        "fraseFoto": {
+          "etiqueta": "Foto de fondo",
+          "tipo": "imagen",
+          "archivo": "aliados-anfiteatro.jpg",
+          "difuminada": "aliados-anfiteatro-difuminada.jpg",
+          "nota": "Se ve difuminada detrás de la frase."
+        },
+        "fraseTitulo": {
+          "etiqueta": "Titular",
+          "tipo": "texto",
+          "defecto": "Una ciudad no solo crece:",
+          "maximo": 60,
+          "nota": "Primer tiempo de la frase."
+        },
+        "fraseClave": {
+          "etiqueta": "Palabra clave",
+          "tipo": "texto",
+          "defecto": "SE PLANEA",
+          "maximo": 16,
+          "nota": "Segundo tiempo; sale en mayúsculas."
+        },
+        "fraseTexto": {
+          "etiqueta": "Texto",
+          "tipo": "parrafo",
+          "defecto": "La plusvalía no nace solo del tiempo. Nace de la vida que un lugar es capaz de generar.",
+          "maximo": 140
+        }
+      }
+    },
+    {
+      "clave": "tarjeta",
+      "nombre": "Tarjeta con precio",
+      "desc": "Tarjeta crema sobre foto con el precio o la mensualidad y dos datos del lote.",
+      "campos": {
+        "tarjetaFoto": {
+          "etiqueta": "Foto de fondo",
+          "tipo": "imagen",
+          "archivo": "aliados-anfiteatro.jpg",
+          "nota": "Render o foto del complejo; la tarjeta va encima, al centro."
+        },
+        "tarjetaTitulo": {
+          "etiqueta": "Titular",
+          "tipo": "texto",
+          "defecto": "Si se vive,",
+          "maximo": 20,
+          "nota": "Primer tiempo de la frase."
+        },
+        "tarjetaClave": {
+          "etiqueta": "Palabra clave",
+          "tipo": "texto",
+          "defecto": "SE VENDE",
+          "maximo": 12,
+          "nota": "Segundo tiempo; sale en mayúsculas."
+        },
+        "tarjetaRotulo": {
+          "etiqueta": "Rótulo de la cifra",
+          "tipo": "texto",
+          "defecto": "DESDE",
+          "maximo": 16,
+          "nota": "Va en la etiqueta naranja; sale en mayúsculas."
+        },
+        "tarjetaCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "[$0,000]",
+          "maximo": 10,
+          "nota": "Mensualidad o precio vigente, con el signo de pesos."
+        },
+        "tarjetaUnidad": {
+          "etiqueta": "Unidad",
+          "tipo": "texto",
+          "defecto": "al mes",
+          "maximo": 10
+        },
+        "tarjetaDato1": {
+          "etiqueta": "Primer dato",
+          "tipo": "texto",
+          "defecto": "Lotes desde [000] m²",
+          "maximo": 30
+        },
+        "tarjetaDato2": {
+          "etiqueta": "Segundo dato",
+          "tipo": "texto",
+          "defecto": "Entrega [mes y año]",
+          "maximo": 36
+        }
+      }
+    },
+    {
+      "clave": "distrito",
+      "nombre": "Cartel de distrito",
+      "desc": "Cartel de un distrito de Capitalia: nombre en grande, frase con remate en itálica y foto en círculo.",
+      "campos": {
+        "distritoFoto": {
+          "etiqueta": "Foto del distrito",
+          "tipo": "imagen",
+          "archivo": "referidos-recoleta.jpg",
+          "nota": "Se recorta en círculo, al centro del trazo del símbolo."
+        },
+        "distritoEtiqueta": {
+          "etiqueta": "Etiqueta",
+          "tipo": "texto",
+          "defecto": "ETAPA 1",
+          "maximo": 20,
+          "nota": "Etapa o estado del distrito; sale en mayúsculas."
+        },
+        "distritoNombre": {
+          "etiqueta": "Nombre del distrito",
+          "tipo": "texto",
+          "defecto": "RECOLETA",
+          "maximo": 14,
+          "nota": "Recoleta, Providencia, Carrasco, Miraflores, Marbella o Condado; sale en mayúsculas y se ajusta al ancho."
+        },
+        "distritoFrase": {
+          "etiqueta": "Frase",
+          "tipo": "texto",
+          "defecto": "Recoleta, donde",
+          "maximo": 30
+        },
+        "distritoEnfasis": {
+          "etiqueta": "Remate en itálica",
+          "tipo": "texto",
+          "defecto": "la vida inicia",
+          "maximo": 30
+        }
+      }
+    },
+    {
+      "clave": "dato",
+      "nombre": "Dato en pétalo",
+      "desc": "Cifra grande dentro del pétalo naranja con la frase en dos tiempos, sobre crema y sin foto.",
+      "campos": {
+        "datoCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "6",
+          "maximo": 4,
+          "nota": "Una cifra corta: 6, 48, 25k, 10%."
+        },
+        "datoTitulo": {
+          "etiqueta": "Titular",
+          "tipo": "texto",
+          "defecto": "distritos,",
+          "maximo": 30,
+          "nota": "Primer tiempo de la frase."
+        },
+        "datoClave": {
+          "etiqueta": "Palabra clave",
+          "tipo": "texto",
+          "defecto": "UNA MISMA VISIÓN",
+          "maximo": 22,
+          "nota": "Segundo tiempo; sale en mayúsculas."
+        },
+        "datoTexto": {
+          "etiqueta": "Texto",
+          "tipo": "parrafo",
+          "defecto": "Crear espacios donde la vida pueda suceder.",
+          "maximo": 100
+        }
+      }
+    }
+  ]
+}

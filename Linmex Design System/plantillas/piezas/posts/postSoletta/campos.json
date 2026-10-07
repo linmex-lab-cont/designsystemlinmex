@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "clave": "postSoletta",
+  "templateId": "e4bda2fb-d6cc-481a-a1e7-10af110db950",
+  "nombre": "Post de Soletta",
+  "desc": "Posts para redes de Soletta en Chicxulub y Sisal: plan de financiamiento, por qué Sisal, «Agenda tu cita» y frase de marca.",
+  "categoria": "promocion",
+  "audiencia": "publico",
+  "marca": "soletta",
+  "etiquetas": [
+    "post",
+    "redes",
+    "instagram",
+    "facebook",
+    "whatsapp",
+    "historia",
+    "feed",
+    "soletta",
+    "chicxulub",
+    "sisal",
+    "financiamiento",
+    "cita"
+  ],
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    }
+  },
+  "alternativas": true,
+  "laminas": [
+    {
+      "clave": "plan",
+      "nombre": "Plan de financiamiento · Chicxulub",
+      "desc": "Plan de financiamiento en Chicxulub: titular en dos pesos y dos cifras grandes con su etiqueta en pastilla, en durazno.",
+      "variante": "chicxulub",
+      "campos": {
+        "planTitulo": {
+          "etiqueta": "Titular · línea fina",
+          "tipo": "texto",
+          "defecto": "Tu visión merece",
+          "maximo": 30
+        },
+        "planPalabra": {
+          "etiqueta": "Titular · línea en color",
+          "tipo": "texto",
+          "defecto": "un plan a tu medida",
+          "maximo": 20,
+          "nota": "Un solo renglón: si no cabe, se encoge."
+        },
+        "planRotulo": {
+          "etiqueta": "Nombre del plan",
+          "tipo": "texto",
+          "defecto": "PLAN INVERSIONISTA",
+          "maximo": 44,
+          "nota": "En mayúsculas."
+        },
+        "planCifra1": {
+          "etiqueta": "Cifra 1",
+          "tipo": "texto",
+          "defecto": "[00]",
+          "maximo": 4,
+          "nota": "Solo el número: el % ya está en el diseño."
+        },
+        "planEtiqueta1": {
+          "etiqueta": "Cifra 1 · etiqueta",
+          "tipo": "texto",
+          "defecto": "DE ENGANCHE",
+          "maximo": 18,
+          "nota": "En mayúsculas."
+        },
+        "planCifra2": {
+          "etiqueta": "Cifra 2",
+          "tipo": "texto",
+          "defecto": "[00]",
+          "maximo": 4,
+          "nota": "Solo el número: el % ya está en el diseño."
+        },
+        "planEtiqueta2": {
+          "etiqueta": "Cifra 2 · etiqueta",
+          "tipo": "texto",
+          "defecto": "A [00] MSI",
+          "maximo": 22,
+          "nota": "En mayúsculas."
+        },
+        "planCondiciones": {
+          "etiqueta": "Descuento y vigencia",
+          "tipo": "parrafo",
+          "defecto": "Hasta [00]% de descuento según el plazo. Vigencia: [mes de 2026]. Aplican restricciones.",
+          "maximo": 223,
+          "nota": "Lo que va en negritas (Ctrl+B) sale más grande; Enter hace salto de renglón."
+        }
+      }
+    },
+    {
+      "clave": "planSisal",
+      "nombre": "Plan de financiamiento · Sisal",
+      "desc": "Plan de financiamiento en Sisal: titular en dos pesos y dos cifras grandes con su etiqueta en pastilla, en azul.",
+      "variante": "sisal",
+      "campos": {
+        "planSisalTitulo": {
+          "etiqueta": "Titular · línea fina",
+          "tipo": "texto",
+          "defecto": "Tu visión merece",
+          "maximo": 30
+        },
+        "planSisalPalabra": {
+          "etiqueta": "Titular · línea en color",
+          "tipo": "texto",
+          "defecto": "un plan a tu medida",
+          "maximo": 20,
+          "nota": "Un solo renglón: si no cabe, se encoge."
+        },
+        "planSisalRotulo": {
+          "etiqueta": "Nombre del plan",
+          "tipo": "texto",
+          "defecto": "PLAN INVERSIONISTA",
+          "maximo": 44,
+          "nota": "En mayúsculas."
+        },
+        "planSisalCifra1": {
+          "etiqueta": "Cifra 1",
+          "tipo": "texto",
+          "defecto": "[00]",
+          "maximo": 4,
+          "nota": "Solo el número: el % ya está en el diseño."
+        },
+        "planSisalEtiqueta1": {
+          "etiqueta": "Cifra 1 · etiqueta",
+          "tipo": "texto",
+          "defecto": "DE ENGANCHE",
+          "maximo": 18,
+          "nota": "En mayúsculas."
+        },
+        "planSisalCifra2": {
+          "etiqueta": "Cifra 2",
+          "tipo": "texto",
+          "defecto": "[00]",
+          "maximo": 4,
+          "nota": "Solo el número: el % ya está en el diseño."
+        },
+        "planSisalEtiqueta2": {
+          "etiqueta": "Cifra 2 · etiqueta",
+          "tipo": "texto",
+          "defecto": "A [00] MSI",
+          "maximo": 22,
+          "nota": "En mayúsculas."
+        },
+        "planSisalCondiciones": {
+          "etiqueta": "Descuento y vigencia",
+          "tipo": "parrafo",
+          "defecto": "Hasta [00]% de descuento según el plazo. Vigencia: [mes de 2026]. Aplican restricciones.",
+          "maximo": 223,
+          "nota": "Lo que va en negritas (Ctrl+B) sale más grande; Enter hace salto de renglón."
+        }
+      }
+    },
+    {
+      "clave": "porque",
+      "nombre": "Por qué Sisal",
+      "desc": "Por qué invertir en Sisal: ventana redonda con ilustración, titular y tres datos con disco y su fuente.",
+      "variante": "sisal",
+      "campos": {
+        "porqueImagen": {
+          "etiqueta": "Foto o ilustración",
+          "tipo": "imagen",
+          "archivo": "postsoletta-ventana.jpg",
+          "nota": "Se recorta en la ventana redonda. La de muestra es una ilustración, no fotografía de Sisal."
+        },
+        "porqueTitulo": {
+          "etiqueta": "Titular · línea fina",
+          "tipo": "texto",
+          "defecto": "Por qué invertir en",
+          "maximo": 38
+        },
+        "porquePalabra": {
+          "etiqueta": "Lugar",
+          "tipo": "texto",
+          "defecto": "Sisal",
+          "maximo": 12,
+          "nota": "Un solo renglón: si no cabe, se encoge."
+        },
+        "porqueManuscrita": {
+          "etiqueta": "Línea manuscrita",
+          "tipo": "texto",
+          "defecto": "tierra firme frente al mar",
+          "maximo": 50
+        },
+        "porqueDato1": {
+          "etiqueta": "Dato 1",
+          "tipo": "parrafo",
+          "defecto": "Playa Platino",
+          "maximo": 67,
+          "nota": "Datos atribuibles, con su fuente al pie."
+        },
+        "porqueDato2": {
+          "etiqueta": "Dato 2",
+          "tipo": "parrafo",
+          "defecto": "Pueblo Mágico",
+          "maximo": 63
+        },
+        "porqueDato3": {
+          "etiqueta": "Dato 3",
+          "tipo": "parrafo",
+          "defecto": "Yucatán, el estado más seguro de México",
+          "maximo": 61
+        },
+        "porqueFuente": {
+          "etiqueta": "Fuente de los datos",
+          "tipo": "parrafo",
+          "defecto": "Fuente: Índice de Paz México 2026, Instituto para la Economía y la Paz.",
+          "maximo": 160
+        }
+      }
+    },
+    {
+      "clave": "cita",
+      "nombre": "Agenda tu cita · Chicxulub",
+      "desc": "Una sola llamada «Agenda tu cita» con la ilustración de costa en el borde y el titular en tres voces, en durazno.",
+      "variante": "chicxulub",
+      "campos": {
+        "citaIlustracion": {
+          "etiqueta": "Ilustración",
+          "tipo": "imagen",
+          "archivo": "postsoletta-terraza.jpg",
+          "nota": "Ilustración de costa en los bordes y el centro libre: el texto va encima. No es fotografía del lugar."
+        },
+        "citaTitulo": {
+          "etiqueta": "Titular · línea fina",
+          "tipo": "texto",
+          "defecto": "Ven a conocer",
+          "maximo": 23
+        },
+        "citaPalabra": {
+          "etiqueta": "Titular · palabra en color",
+          "tipo": "texto",
+          "defecto": "Chicxulub",
+          "maximo": 10,
+          "nota": "Un solo renglón: si no cabe, se encoge."
+        },
+        "citaManuscrita": {
+          "etiqueta": "Línea manuscrita",
+          "tipo": "texto",
+          "defecto": "a pasos del mar",
+          "maximo": 32
+        },
+        "citaBoton": {
+          "etiqueta": "Texto del botón",
+          "tipo": "texto",
+          "defecto": "Agenda tu cita",
+          "maximo": 22
+        },
+        "citaContacto": {
+          "etiqueta": "Contacto",
+          "tipo": "texto",
+          "defecto": "[Nombre Apellido] · [999 000 0000]",
+          "maximo": 58,
+          "deUsuario": [
+            "nombre",
+            "telefono"
+          ],
+          "nota": "Nace con tu nombre y teléfono."
+        }
+      }
+    },
+    {
+      "clave": "citaSisal",
+      "nombre": "Agenda tu cita · Sisal",
+      "desc": "Una sola llamada «Agenda tu cita» con la ilustración de costa en el borde y el titular en tres voces, en azul.",
+      "variante": "sisal",
+      "campos": {
+        "citaSisalIlustracion": {
+          "etiqueta": "Ilustración",
+          "tipo": "imagen",
+          "archivo": "postsoletta-costa.jpg",
+          "nota": "Ilustración de costa en los bordes y el centro libre: el texto va encima. No es fotografía del lugar."
+        },
+        "citaSisalTitulo": {
+          "etiqueta": "Titular · línea fina",
+          "tipo": "texto",
+          "defecto": "Ven a conocer",
+          "maximo": 22
+        },
+        "citaSisalPalabra": {
+          "etiqueta": "Titular · palabra en color",
+          "tipo": "texto",
+          "defecto": "Sisal",
+          "maximo": 9,
+          "nota": "Un solo renglón: si no cabe, se encoge."
+        },
+        "citaSisalManuscrita": {
+          "etiqueta": "Línea manuscrita",
+          "tipo": "texto",
+          "defecto": "a pasos del mar",
+          "maximo": 25
+        },
+        "citaSisalBoton": {
+          "etiqueta": "Texto del botón",
+          "tipo": "texto",
+          "defecto": "Agenda tu cita",
+          "maximo": 22
+        },
+        "citaSisalContacto": {
+          "etiqueta": "Contacto",
+          "tipo": "texto",
+          "defecto": "[Nombre Apellido] · [999 000 0000]",
+          "maximo": 43,
+          "deUsuario": [
+            "nombre",
+            "telefono"
+          ],
+          "nota": "Nace con tu nombre y teléfono."
+        }
+      }
+    },
+    {
+      "clave": "frase",
+      "nombre": "Frase de marca",
+      "desc": "Frase de marca tipográfica sobre crema, con el logo de las dos playas y el sol del logo recortado al pie.",
+      "campos": {
+        "fraseRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "LOTES DE INVERSIÓN FRENTE AL MAR",
+          "maximo": 56,
+          "nota": "En mayúsculas."
+        },
+        "fraseTexto": {
+          "etiqueta": "Frase",
+          "tipo": "parrafo",
+          "defecto": "Tú eliges tu lugar en la costa.",
+          "maximo": 45,
+          "nota": "Lo que marques en negritas (Ctrl+B) sale en azul."
+        },
+        "fraseManuscrita": {
+          "etiqueta": "Línea manuscrita",
+          "tipo": "texto",
+          "defecto": "Invierte a pasos del mar",
+          "maximo": 37
+        },
+        "fraseContacto": {
+          "etiqueta": "Contacto",
+          "tipo": "texto",
+          "defecto": "[Nombre Apellido] · [999 000 0000]",
+          "maximo": 75,
+          "deUsuario": [
+            "nombre",
+            "telefono"
+          ],
+          "nota": "Nace con tu nombre y teléfono."
+        }
+      }
+    }
+  ]
+}

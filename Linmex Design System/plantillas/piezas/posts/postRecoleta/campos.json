@@ -1,0 +1,252 @@
+{
+  "version": 1,
+  "clave": "postRecoleta",
+  "templateId": "81aaf242-3439-4e82-999a-30131a4dc605",
+  "nombre": "Post de Recoleta",
+  "desc": "Posts de Recoleta, primer distrito de Capitalia, para redes: avance de etapa, precio de entrada, ubicación, amenidad del parque y cartel con la frase del distrito.",
+  "categoria": "promocion",
+  "audiencia": "publico",
+  "marca": "recoleta",
+  "etiquetas": [
+    "post",
+    "redes",
+    "instagram",
+    "facebook",
+    "whatsapp",
+    "historia",
+    "feed",
+    "recoleta",
+    "capitalia",
+    "motul",
+    "parque",
+    "lotes"
+  ],
+  "formatos": {
+    "1x1": {
+      "w": 1080,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    },
+    "9x16": {
+      "w": 1080,
+      "h": 1920
+    }
+  },
+  "alternativas": true,
+  "laminas": [
+    {
+      "clave": "etapa",
+      "nombre": "Avance de etapa",
+      "desc": "Etiqueta de etapa, frase en dos líneas y foto en curva que sube desde abajo.",
+      "campos": {
+        "etapaEtiqueta": {
+          "etiqueta": "Etiqueta de etapa",
+          "tipo": "texto",
+          "defecto": "[ETAPA 0]",
+          "maximo": 24,
+          "nota": "En mayúsculas, p. ej. «ETAPA 1»."
+        },
+        "etapaFrase": {
+          "etiqueta": "Frase",
+          "tipo": "texto",
+          "defecto": "Así avanza",
+          "maximo": 25
+        },
+        "etapaFraseItalica": {
+          "etiqueta": "Frase · segunda línea en itálica",
+          "tipo": "texto",
+          "defecto": "tu patrimonio",
+          "maximo": 25
+        },
+        "etapaParrafo": {
+          "etiqueta": "Párrafo",
+          "tipo": "parrafo",
+          "defecto": "Avanzamos en [obra de esta etapa]. Conoce los lotes disponibles y agenda tu visita.",
+          "maximo": 140,
+          "nota": "Qué avanza: obra, entrega o apertura de lotes. Caben tres renglones."
+        },
+        "etapaFoto": {
+          "etiqueta": "Foto en curva",
+          "tipo": "imagen",
+          "archivo": "referidos-recoleta.jpg",
+          "nota": "Foto horizontal del parque o de la obra; se recorta con dos esquinas en curva."
+        }
+      }
+    },
+    {
+      "clave": "precio",
+      "nombre": "Precio de entrada",
+      "desc": "Rótulo de tensión, cifra grande con su unidad, plazo y foto en círculo.",
+      "campos": {
+        "precioRotulo": {
+          "etiqueta": "Rótulo de tensión",
+          "tipo": "texto",
+          "defecto": "Entra a Recoleta desde",
+          "maximo": 36,
+          "nota": "En mayúsculas."
+        },
+        "precioCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "[$000,000]",
+          "maximo": 14,
+          "nota": "Precio o mensualidad con su signo, p. ej. «$000,000». Confirma la cifra vigente con Ventas."
+        },
+        "precioUnidad": {
+          "etiqueta": "Unidad",
+          "tipo": "texto",
+          "defecto": "MXN",
+          "maximo": 10,
+          "nota": "MXN o «al mes»."
+        },
+        "precioPlazo": {
+          "etiqueta": "Plazo",
+          "tipo": "texto",
+          "defecto": "Hasta [00] meses sin intereses",
+          "maximo": 44
+        },
+        "precioVigencia": {
+          "etiqueta": "Vigencia y condiciones",
+          "tipo": "texto",
+          "defecto": "Vigencia: [mes de 2026]. Consulta términos y condiciones.",
+          "maximo": 110,
+          "nota": "Caben dos renglones."
+        },
+        "precioFoto": {
+          "etiqueta": "Foto en círculo",
+          "tipo": "imagen",
+          "archivo": "promo-parque.jpg",
+          "nota": "Render o foto del parque; se recorta en círculo."
+        }
+      }
+    },
+    {
+      "clave": "ubicacion",
+      "nombre": "Ubicación y distancias",
+      "desc": "Titular en dos líneas, dos datos de ubicación con su fuente y foto en pétalo.",
+      "campos": {
+        "ubicacionTitulo": {
+          "etiqueta": "Titular",
+          "tipo": "texto",
+          "defecto": "Cerca de Mérida,",
+          "maximo": 28
+        },
+        "ubicacionTituloItalica": {
+          "etiqueta": "Titular · segunda línea en itálica",
+          "tipo": "texto",
+          "defecto": "en Motul, Yucatán",
+          "maximo": 28
+        },
+        "ubicacionDato1Valor": {
+          "etiqueta": "Dato 1 · valor",
+          "tipo": "texto",
+          "defecto": "[a 00 min de Mérida]",
+          "maximo": 21,
+          "nota": "Las fuentes no coinciden (20 o 25 min de Mérida): confirma la distancia con Ventas antes de publicar."
+        },
+        "ubicacionDato1Rotulo": {
+          "etiqueta": "Dato 1 · rótulo",
+          "tipo": "texto",
+          "defecto": "Tiempo estimado en auto",
+          "maximo": 30,
+          "nota": "En mayúsculas."
+        },
+        "ubicacionDato2Valor": {
+          "etiqueta": "Dato 2 · valor",
+          "tipo": "texto",
+          "defecto": "[0 ha]",
+          "maximo": 12
+        },
+        "ubicacionDato2Rotulo": {
+          "etiqueta": "Dato 2 · rótulo",
+          "tipo": "texto",
+          "defecto": "De parque central",
+          "maximo": 19,
+          "nota": "En mayúsculas."
+        },
+        "ubicacionFuente": {
+          "etiqueta": "Fuente del dato",
+          "tipo": "texto",
+          "defecto": "Fuente: [nombre de la fuente y fecha del dato]",
+          "maximo": 110,
+          "nota": "De dónde salen los datos (estudio, mapa o medición) y su fecha."
+        },
+        "ubicacionFoto": {
+          "etiqueta": "Foto en pétalo",
+          "tipo": "imagen",
+          "archivo": "postrecoleta-merida.jpg",
+          "nota": "Se recorta en pétalo; sin texto ni logos en la foto."
+        }
+      }
+    },
+    {
+      "clave": "amenidad",
+      "nombre": "Amenidad del parque",
+      "desc": "Una amenidad del parque por pieza: foto en círculo, nombre y una línea.",
+      "campos": {
+        "amenidadRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "Amenidad del parque",
+          "maximo": 30,
+          "nota": "En mayúsculas."
+        },
+        "amenidadNombre": {
+          "etiqueta": "Nombre de la amenidad",
+          "tipo": "texto",
+          "defecto": "Anfiteatro",
+          "maximo": 22
+        },
+        "amenidadLinea": {
+          "etiqueta": "Una línea",
+          "tipo": "texto",
+          "defecto": "Para la música, el cine y las tardes en familia.",
+          "maximo": 96,
+          "nota": "Caben dos renglones."
+        },
+        "amenidadFoto": {
+          "etiqueta": "Foto en círculo",
+          "tipo": "imagen",
+          "archivo": "aliados-anfiteatro.jpg",
+          "nota": "Una sola amenidad (anfiteatro, área infantil, food trucks…); se recorta en círculo."
+        }
+      }
+    },
+    {
+      "clave": "cartel",
+      "nombre": "Cartel de Recoleta",
+      "desc": "Cartel tipográfico sin foto: la palabra RECOLETA, el trazo del símbolo y la frase del distrito.",
+      "campos": {
+        "cartelRotulo": {
+          "etiqueta": "Rótulo de la etiqueta",
+          "tipo": "texto",
+          "defecto": "Primer distrito de Capitalia",
+          "maximo": 36,
+          "nota": "En mayúsculas."
+        },
+        "cartelFrase": {
+          "etiqueta": "Frase",
+          "tipo": "texto",
+          "defecto": "Recoleta, donde",
+          "maximo": 26
+        },
+        "cartelFraseItalica": {
+          "etiqueta": "Frase · segunda línea en itálica",
+          "tipo": "texto",
+          "defecto": "la vida inicia",
+          "maximo": 26
+        },
+        "cartelCierre": {
+          "etiqueta": "Cierre",
+          "tipo": "texto",
+          "defecto": "Motul, Yucatán",
+          "maximo": 30,
+          "nota": "En mayúsculas."
+        }
+      }
+    }
+  ]
+}
