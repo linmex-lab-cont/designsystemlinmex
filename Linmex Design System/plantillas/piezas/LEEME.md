@@ -277,7 +277,7 @@ por marca está en `ORDEN_DE_SECCIONES` (`src/lib/studio/secciones.ts`).
 | Dirección, Marketing (Diseño, Contenidos, Trafficker), Investigación y Desarrollo | todo: Marketing y Diseño aprueban y curan las plantillas (Vero y Javier en F0); Dirección y Sistemas administran |
 | Administración (Tesorería, Cobranza, Contabilidad) | Documentos (todos: carta de liquidación, recibo de pago, pago al cliente, ficha de pago, esquela, hoja membretada), Presentaciones y el `aviso` |
 | Capital Humano | Capital Humano, Posts (solo `aviso`), Carrusel, Documentos (`oficio`, `esquela`), Presentaciones |
-| Comercial (consultores, coordinaciones de venta, Experto Patrimonial) | Promociones, Presentaciones, Posts (`promocion`, `tablaPrecios`, `aliados`, `referidos`), Documentos (`ficha` de pago y `oficio`) |
+| Comercial (consultores, coordinaciones de venta, Experto Patrimonial) | Promociones, Presentaciones, Posts (`post`, `promocion`, `tablaPrecios`, `aliados`, `referidos`), Documentos (`ficha` de pago y `oficio`) |
 | Operaciones (Atención a Clientes, Mesa de Control, Postventa) | Presentaciones, Documentos (`ficha`, `oficio`) y el `aviso` |
 | Gestión de Proyectos | Presentaciones, `oficio` y el `aviso` |
 | Vacía o desconocida | Presentaciones y la hoja membretada (`oficio`), con la línea para pedir por ticket lo que falte |
