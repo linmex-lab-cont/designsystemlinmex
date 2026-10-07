@@ -42,7 +42,22 @@ Cada `.html` abre solo en el navegador (con las fuentes de Google) y su raíz es
 
 Una pieza de varias láminas cambia `campos` por
 `"laminas": [{ "clave": "portada", "nombre": "Portada", "campos": { … } }]`; las claves de
-campo no se repiten entre láminas.
+campo no se repiten entre láminas. Cada lámina puede traer `desc`, `variante` (de la marca,
+p. ej. `chicxulub`) y su propia `vigencia`.
+
+### Diseños alternativos
+
+Con `"alternativas": true` en la raíz, las láminas no son páginas sino **diseños distintos de la
+misma pieza** (los bonos: Chicxulub, Sisal, alianzas…). Entonces:
+
+- La galería y la tarjeta del chat muestran una tarjeta por diseño, con clave
+  `<pieza>#<lámina>` (`bonoSoletta#sisal`) y nombre «<pieza> · <lámina>».
+- Un documento nuevo lleva una sola lámina: la elegida. En el editor el riel muestra una página
+  y el cambio de diseño vive en el panel Diseño («Cambiar diseño»), no como páginas.
+- Al cambiar de diseño se conserva lo que la persona ya escribió: los campos se emparejan por
+  nombre sin el prefijo de la lámina y con el mismo tipo (`chicxulubMonto` ↔ `sisalMonto`); los
+  valores iguales al defecto del origen no se trasladan.
+- Las piezas cuyas láminas sí son páginas (presentaciones, carrusel) no llevan la marca.
 
 ### Etiquetas de búsqueda
 
@@ -312,7 +327,8 @@ original (posiciones, tamaños y líneas de base del desarme de cada mesa en
   de fuente, como en el original.
 - `campos.json` lleva además `"audiencia": "externa"`, `"categoria": "promocion"`,
   `"datosReales": true` y `"vigencia": "AAAA-MM"` (último mes en que valen los datos) para que
-  el catálogo avise cuando caduque. Una lámina puede traer su propia `vigencia` y su `variante`.
+  el catálogo y el Chequeo avisen cuando caduque («Revisa los datos»); el aviso no bloquea la
+  descarga, porque la pieza aprobada se puede usar tal cual mientras Ventas no diga otra cosa. Una lámina puede traer su propia `vigencia` y su `variante`.
 - Cifras: el campo es solo el número; `$`, `MXN` y `.00` son fijos y van en la misma fila con
   `data-ajustar="ancho"` y el ancho disponible. Los tamaños de la fila van en `em`, así que si
   la cifra crece la fila entera se encoge en proporción y sigue centrada.
