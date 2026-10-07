@@ -274,11 +274,13 @@ por marca está en `ORDEN_DE_SECCIONES` (`src/lib/studio/secciones.ts`).
 
 | `department` | Ve |
 |---|---|
-| Dirección, Marketing, Diseño, Sistemas (Investigación y Desarrollo), Administración | todo |
-| Tesorería, Cobranza, Contabilidad, Finanzas | Documentos (todos: carta de liquidación, recibo de pago, pago al cliente, ficha de pago, esquela, hoja membretada) y Presentaciones |
-| Capital Humano, Recursos Humanos, RH | Capital Humano, Posts (solo `aviso`), Carrusel, Documentos (`oficio`, `esquela`), Presentaciones |
-| Ventas, Comercial, Consultores | Promociones, Presentaciones, Posts (`promocion`, `tablaPrecios`, `aliados`, `referidos`), Documentos (`ficha` de pago y `oficio`) |
-| Otra o vacía (hoy Operaciones, Experto Patrimonial, Gestión de Proyectos) | Presentaciones y la hoja membretada (`oficio`), con la línea para pedir por ticket lo que falte |
+| Dirección, Marketing (Diseño, Contenidos, Trafficker), Investigación y Desarrollo | todo: Marketing y Diseño aprueban y curan las plantillas (Vero y Javier en F0); Dirección y Sistemas administran |
+| Administración (Tesorería, Cobranza, Contabilidad) | Documentos (todos: carta de liquidación, recibo de pago, pago al cliente, ficha de pago, esquela, hoja membretada), Presentaciones y el `aviso` |
+| Capital Humano | Capital Humano, Posts (solo `aviso`), Carrusel, Documentos (`oficio`, `esquela`), Presentaciones |
+| Comercial (consultores, coordinaciones de venta, Experto Patrimonial) | Promociones, Presentaciones, Posts (`promocion`, `tablaPrecios`, `aliados`, `referidos`), Documentos (`ficha` de pago y `oficio`) |
+| Operaciones (Atención a Clientes, Mesa de Control, Postventa) | Presentaciones, Documentos (`ficha`, `oficio`) y el `aviso` |
+| Gestión de Proyectos | Presentaciones, `oficio` y el `aviso` |
+| Vacía o desconocida | Presentaciones y la hoja membretada (`oficio`), con la línea para pedir por ticket lo que falte |
 
 Los documentos de cobranza (liquidación, recibo, pago al cliente) salen del descubrimiento F0 del
 13 de agosto de 2026: los produce Tesorería/Cobranza «a manivela»; Ventas pidió solo la
