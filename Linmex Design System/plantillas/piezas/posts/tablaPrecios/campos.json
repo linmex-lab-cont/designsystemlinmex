@@ -6,6 +6,7 @@
   "desc": "Precio de lista, precio por m² y tabla comparativa de contado, 12 y 24 meses sin intereses para un desarrollo.",
   "categoria": "comunicacion",
   "audiencia": "cliente",
+  "etiquetas": ["precios", "lista de precios", "tabla", "financiamiento", "esquemas", "enganche", "mensualidades", "cotización", "msi", "flyer", "ventas", "whatsapp"],
   "formatos": {
     "1x1": {
       "w": 1080,

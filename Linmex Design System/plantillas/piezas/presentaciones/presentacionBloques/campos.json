@@ -6,6 +6,7 @@
   "desc": "Presentación clara sobre crema con bloques sólidos naranja, navy y blanco: portada, agenda, texto con imagen, gráfica de barras, cifras y cierre.",
   "categoria": "presentaciones",
   "audiencia": "interna",
+  "etiquetas": ["presentación", "ppt", "powerpoint", "diapositivas", "slides", "resultados", "informe", "reporte", "trimestre", "junta", "dirección comercial"],
   "formatos": { "16x9": { "w": 1920, "h": 1080 } },
   "laminas": [
     {
@@ -19,8 +20,8 @@
         "portadaInsignia": {"etiqueta": "Insignia · periodo corto", "tipo": "texto", "defecto": "3T", "maximo": 3},
         "portadaInsigniaAnio": {"etiqueta": "Insignia · año", "tipo": "texto", "defecto": "2026", "maximo": 8},
         "portadaPresentaRotulo": {"etiqueta": "Rótulo de quien presenta", "tipo": "texto", "defecto": "Presenta", "maximo": 30},
-        "portadaPresentador": {"etiqueta": "Nombre de quien presenta", "tipo": "texto", "defecto": "[Nombre Apellido]", "maximo": 40},
-        "portadaPuestoFecha": {"etiqueta": "Puesto y fecha", "tipo": "texto", "defecto": "[Puesto] · 6 de octubre de 2026", "maximo": 60}
+        "portadaPresentador": {"etiqueta": "Nombre de quien presenta", "tipo": "texto", "defecto": "[Nombre Apellido]", "maximo": 40, "deUsuario": "nombre"},
+        "portadaPuestoFecha": {"etiqueta": "Puesto y fecha", "tipo": "texto", "defecto": "[Puesto] · 6 de octubre de 2026", "maximo": 60, "deUsuario": ["puesto"]}
       }
     },
     {
@@ -122,8 +123,8 @@
         "cierrePregunta": {"etiqueta": "Pregunta", "tipo": "texto", "defecto": "¿Preguntas?", "maximo": 30},
         "cierreMensaje": {"etiqueta": "Mensaje", "tipo": "texto", "defecto": "Con gusto te respondemos.", "maximo": 42},
         "cierrePresentoRotulo": {"etiqueta": "Rótulo de quien presentó", "tipo": "texto", "defecto": "Presentó", "maximo": 30},
-        "cierrePresentador": {"etiqueta": "Nombre de quien presentó", "tipo": "texto", "defecto": "[Nombre Apellido]", "maximo": 40},
-        "cierrePuestoCorreo": {"etiqueta": "Puesto y correo", "tipo": "texto", "defecto": "[Puesto] · [nombre@grupolinmex.mx]", "maximo": 55},
+        "cierrePresentador": {"etiqueta": "Nombre de quien presentó", "tipo": "texto", "defecto": "[Nombre Apellido]", "maximo": 40, "deUsuario": "nombre"},
+        "cierrePuestoCorreo": {"etiqueta": "Puesto y correo", "tipo": "texto", "defecto": "[Puesto] · [nombre@grupolinmex.mx]", "maximo": 55, "deUsuario": ["puesto", "correo"]},
         "cierreInsignia": {"etiqueta": "Insignia · número de lámina", "tipo": "texto", "defecto": "06", "maximo": 2},
         "cierreInsigniaPeriodo": {"etiqueta": "Insignia · periodo", "tipo": "texto", "defecto": "3T 2026", "maximo": 8}
       }

@@ -6,6 +6,7 @@
   "desc": "Aviso de día inhábil claro: fecha grande, INHÁBIL gigante, imagen alusiva recortada sobre el símbolo naranja y tarjeta de vidrio con el motivo.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["día inhábil", "inhábil", "no laborable", "festivo", "feriado", "descanso", "aviso", "comunicado", "whatsapp", "historia"],
   "formatos": {
     "4x5": {
       "w": 1080,

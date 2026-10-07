@@ -6,6 +6,7 @@
   "desc": "Presentación oscura con vidrio y el símbolo en degradado naranja: portada, sección, agenda, contenido, texto con imagen, gráfica, cifras y cierres.",
   "categoria": "presentaciones",
   "audiencia": "interna",
+  "etiquetas": ["presentación", "ppt", "powerpoint", "diapositivas", "slides", "capacitación", "curso", "taller", "ventas", "comercial", "avance"],
   "formatos": { "16x9": { "w": 1920, "h": 1080 } },
   "laminas": [
     {
@@ -14,7 +15,7 @@
       "campos": {
         "portadaRotulo": {"etiqueta": "Rótulo (área o tema)", "tipo": "texto", "defecto": "Comercial", "maximo": 40},
         "portadaTitulo": {"etiqueta": "Título de la presentación", "tipo": "texto", "defecto": "Capacitación de venta interna", "maximo": 42},
-        "portadaDetalle": {"etiqueta": "Ponente y fecha", "tipo": "texto", "defecto": "[Nombre del ponente] · 6 de octubre de 2026", "maximo": 66}
+        "portadaDetalle": {"etiqueta": "Ponente y fecha", "tipo": "texto", "defecto": "[Nombre del ponente] · 6 de octubre de 2026", "maximo": 66, "deUsuario": ["nombre"]}
       }
     },
     {
@@ -53,7 +54,7 @@
         "agendaTema5": {"etiqueta": "Tema 5 · título", "tipo": "texto", "defecto": "Práctica", "maximo": 28},
         "agendaDetalle5": {"etiqueta": "Tema 5 · descripción", "tipo": "parrafo", "defecto": "Simula una visita completa, en parejas y con casos reales.", "maximo": 66},
         "agendaDuracion5": {"etiqueta": "Tema 5 · duración", "tipo": "texto", "defecto": "[40] min", "maximo": 14},
-        "agendaPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "agendaPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70, "deUsuario": ["departamento", "nombre"]},
         "agendaFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "02", "maximo": 2, "nota": "Número de lámina en el pie."}
       }
     },
@@ -81,7 +82,7 @@
           ]
         },
         "contenidoNota": {"etiqueta": "Nota del panel", "tipo": "parrafo", "defecto": "Porcentaje de líneas cerradas del semestre. Corte al 16 de septiembre de 2026.", "maximo": 80},
-        "contenidoPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "contenidoPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70, "deUsuario": ["departamento", "nombre"]},
         "contenidoFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "03", "maximo": 2, "nota": "Número de lámina en el pie."}
       }
     },
@@ -97,7 +98,7 @@
         "textoImagenPunto3": {"etiqueta": "Punto 3", "tipo": "texto", "defecto": "Cierra cada visita con una fecha para el apartado.", "maximo": 60},
         "textoImagenFoto": {"etiqueta": "Foto", "tipo": "imagen", "archivo": "promo-parque.jpg"},
         "textoImagenPieFoto": {"etiqueta": "Pie de foto", "tipo": "texto", "defecto": "Imagen ilustrativa · parque central de Recoleta, Motul", "maximo": 90},
-        "textoImagenPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "textoImagenPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70, "deUsuario": ["departamento", "nombre"]},
         "textoImagenFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "05", "maximo": 2, "nota": "Número de lámina en el pie."}
       }
     },
@@ -121,7 +122,7 @@
           ]
         },
         "graficoNota": {"etiqueta": "Nota de la gráfica", "tipo": "parrafo", "defecto": "Apartados registrados por desarrollo, de julio a septiembre. Corte al 30 de septiembre de 2026.", "maximo": 105},
-        "graficoPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "graficoPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70, "deUsuario": ["departamento", "nombre"]},
         "graficoFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "06", "maximo": 2, "nota": "Número de lámina en el pie."}
       }
     },
@@ -144,7 +145,7 @@
         "cifrasEtiqueta4": {"etiqueta": "Cifra 4 · rótulo", "tipo": "texto", "defecto": "Visitas por venta", "maximo": 24},
         "cifrasValor4": {"etiqueta": "Cifra 4 · valor", "tipo": "texto", "defecto": "[4.6]", "maximo": 5},
         "cifrasDetalle4": {"etiqueta": "Cifra 4 · detalle", "tipo": "parrafo", "defecto": "Recorridos en el desarrollo antes de cada apartado.", "maximo": 80},
-        "cifrasPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70},
+        "cifrasPie": {"etiqueta": "Pie: área y responsable", "tipo": "texto", "defecto": "[Área] · [Nombre del responsable]", "maximo": 70, "deUsuario": ["departamento", "nombre"]},
         "cifrasFolio": {"etiqueta": "Número de lámina", "tipo": "texto", "defecto": "07", "maximo": 2, "nota": "Número de lámina en el pie."}
       }
     },

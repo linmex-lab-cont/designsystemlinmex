@@ -6,6 +6,7 @@
   "desc": "Bienvenida a una persona nueva: la palabra BIENVENIDA gigante en naranja y su recorte al frente, con nombre y área.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["bienvenida", "nuevo ingreso", "onboarding", "inducción", "capital humano", "rrhh", "instagram", "historia", "flyer"],
   "formatos": {
     "1x1": {
       "w": 1080,

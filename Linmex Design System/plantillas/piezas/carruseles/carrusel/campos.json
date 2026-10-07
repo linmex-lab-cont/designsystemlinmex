@@ -6,6 +6,7 @@
   "desc": "Carrusel informativo para redes o comunicación interna: portada, pasos con captura, dato destacado y cierre con código QR.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["carrusel", "guía rápida", "paso a paso", "tutorial", "capacitación", "hub", "reporte", "quincena", "instagram"],
   "formatos": {
     "1x1": { "w": 1080, "h": 1080 },
     "4x5": { "w": 1080, "h": 1350 },

@@ -6,6 +6,7 @@
   "desc": "Aviso interno con fecha destacada, sobre una ilustración o foto.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["aviso", "comunicado", "anuncio", "circular", "festivo", "día no laborable", "capital humano", "rrhh", "whatsapp", "historia"],
   "formatos": {
     "1x1": { "w": 1080, "h": 1080 },
     "4x5": { "w": 1080, "h": 1350 },

@@ -6,6 +6,7 @@
   "desc": "Agradecimiento o despedida: la palabra GRACIAS gigante y la persona recortada al frente, sobre un bloque navy con el símbolo LINMEX.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["gracias", "agradecimiento", "despedida", "reconocimiento", "felicitación", "equipo", "rrhh", "instagram", "historia"],
   "formatos": {
     "1x1": {
       "w": 1080,

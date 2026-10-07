@@ -13,7 +13,8 @@ piezas/
   <familia>/<pieza>/<lámina>-<formato>.html   piezas de varias láminas
 ```
 
-Familias: `posts`, `capas`, `carruseles`, `presentaciones`.
+Familias: `posts`, `promociones`, `capas`, `carruseles`, `presentaciones`. En la galería `capas`
+se llama «Capital Humano».
 
 Formatos de redes: `1x1` 1080×1080, `4x5` 1080×1350, `3x4` 1080×1440,
 `9x16` 1080×1920 (250 px libres arriba y abajo), `16x9` 1920×1080. Las presentaciones
@@ -33,6 +34,7 @@ Cada `.html` abre solo en el navegador (con las fuentes de Google) y su raíz es
   "desc": "Una línea para el catálogo.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["aviso", "comunicado", "whatsapp", "historia"],
   "formatos": { "1x1": { "w": 1080, "h": 1080 } },
   "campos": { "titulo": { "etiqueta": "Título", "tipo": "texto", "defecto": "…", "maximo": 40 } }
 }
@@ -42,6 +44,16 @@ Una pieza de varias láminas cambia `campos` por
 `"laminas": [{ "clave": "portada", "nombre": "Portada", "campos": { … } }]`; las claves de
 campo no se repiten entre láminas.
 
+### Etiquetas de búsqueda
+
+`etiquetas` es una lista de 4 a 10 palabras con las que la gente nombra la pieza, además de su
+`nombre` y `desc`: cómo la llama Ventas o Capital Humano («flyer», «volante», «promo»,
+«onboarding», «ranking»), el canal («instagram», «historia», «whatsapp») y sinónimos
+(«brochure», «precio», «festivo»). La marca no se repite: la galería ya busca en `marca`.
+El buscador de la galería compara sin acentos ni mayúsculas contra nombre, descripción,
+etiquetas, familia, sección y marca; con varias palabras deben coincidir todas, cada una en
+cualquiera de esos textos. Si falta, la pieza solo se encuentra por nombre y descripción.
+
 ### Tipos de campo
 
 - `texto` y `parrafo`: `etiqueta`, `defecto` (el texto del diseño, idéntico y sin
@@ -50,6 +62,17 @@ campo no se repiten entre láminas.
   solo `<b>` (Ctrl+B; `<strong>` se convierte en `<b>`) y `<br>`; todo lo demás se quita
   al guardar y al pintar, y el motor arma los nodos sin pasar el valor por `innerHTML`.
   `maximo` cuenta el texto plano, sin etiquetas.
+- `deUsuario` (solo en `texto`): el campo es un dato de quien crea la pieza y nace lleno con
+  su sesión. Vale `"nombre"`, `"puesto"`, `"correo"`, `"telefono"` o `"departamento"` (los
+  campos `name`, `title`, `email`, `phone` y `department` de `GET /api/v1/auth/me`; el departamento
+  sale con la primera letra en mayúscula). Con un solo dato, la guía completa se reemplaza
+  (`"[Nombre Apellido]"` → `"Ana Pérez"`). Si el campo mezcla guías con texto fijo, es una lista
+  y cada dato llena el tramo entre corchetes que le toca, en orden: `"deUsuario": ["puesto",
+  "correo"]` sobre `"[Puesto] · [nombre@grupolinmex.mx]"` da `"Analista · ana@grupolinmex.mx"`;
+  el texto fuera de corchetes no cambia. Un dato que la sesión no trae deja su guía tal cual. Se
+  marca solo lo que es de quien presenta o firma, nunca el nombre de un cliente, de una persona
+  bienvenida ni de un cumpleañero. Solo cuenta al crear la pieza: lo que la persona edite después
+  manda, y «Restaurar» vuelve a la guía.
 - `imagen`: `etiqueta`, `archivo` (en `_img/`), `difuminada` si el diseño usa una copia
   difuminada para el vidrio, `desenfoque` en px (por defecto 40). Por cada imagen el
   registro agrega un campo interno `<clave>__encuadre` (tipo `texto`, opcional, sin control
@@ -218,6 +241,46 @@ marca la declara. Si la fuente oficial no está en Google Fonts se usa su `susti
 
 Tras el remapeo, el Chequeo mide cada texto contra el fondo que lo contiene y avisa cuando
 queda bajo 4,5:1 y además peor que en el diseño de LINMEX.
+
+## Quién ve qué
+
+Dos filtros deciden qué plantillas ve cada persona en la galería, en la tarjeta «¿Con qué
+diseño?» del chat, en el selector de diseño y en sus favoritas. La plantilla que no pasa no
+aparece; no se muestra con candado.
+
+**Por marca.** Las piezas con `"categoria": "comunicacion"` y `"audiencia": "interna"` (hoy las
+de `capas/`, `posts/aviso` y `carruseles/carrusel`) son comunicación interna de LINMEX: solo
+salen con LINMEX elegida, también al buscar, y se crean siempre con LINMEX. Si alguien las pide
+por chat con Capitalia, Recoleta o Soletta, la tarjeta avisa que son internas y las arma en
+LINMEX. Las presentaciones no cuentan como comunicación interna. El orden de las secciones
+por marca está en `ORDEN_DE_SECCIONES` (`src/lib/studio/secciones.ts`).
+
+**Por área.** La matriz es `MATRIZ_DE_ACCESOS`, arriba de `src/lib/studio/accesos-plantillas.ts`:
+
+| `department` | Ve |
+|---|---|
+| Dirección, Marketing, Diseño, Sistemas (Investigación y Desarrollo), Administración | todo |
+| Capital Humano, Recursos Humanos, RH | Capital Humano, Posts (solo `aviso`), Carrusel, Documentos, Presentaciones |
+| Ventas, Comercial, Consultores | Promociones, Presentaciones, Posts (`promocion`, `tablaPrecios`, `aliados`, `referidos`), Documentos |
+| Otra o vacía (hoy Operaciones, Experto Patrimonial, Gestión de Proyectos) | Presentaciones y Documentos, con la línea para pedir por ticket lo que falte |
+
+Quien tiene `isAdmin` ve todo. Cuenta solo el `department` (el área), no el puesto. Es un filtro
+de la interfaz, no un permiso: el backend no lo aplica. Cada regla de la matriz tiene:
+
+- `area`: el nombre con que se lee.
+- `nombres`: cómo puede venir escrito el `department`. Se compara sin acentos ni mayúsculas y
+  por palabras completas: «Dirección General» entra por `dirección`; «RH» no entra en otra
+  palabra que empiece con esas letras.
+- `secciones`: `"todas"`, o por sección `"todas"` o la lista de lo permitido: la `clave` del
+  `campos.json` de la pieza, o la `key` de la plantilla si no es pieza (`post`, `presentacion`,
+  `oficio`…).
+
+Gana la primera regla que coincide, así que el orden de la lista importa. Para cambiarla se edita
+la regla o se agrega un sinónimo en `nombres`, se ajusta `accesos-plantillas.test.mjs` y se corre
+`node --test src/lib/studio/*.test.mjs`. Una pieza nueva aparece sola donde su sección dice
+`"todas"`; donde la sección se limita por lista (hoy Posts en Ventas y en Capital Humano), hay
+que agregarla a la lista de quien deba verla. Más adelante la matriz se administrará en pantalla
+(la persona de la plataforma y Marketing); mientras, vive en código.
 
 ## Promociones con datos reales
 

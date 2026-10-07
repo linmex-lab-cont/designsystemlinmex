@@ -6,6 +6,7 @@
   "desc": "Despedida o agradecimiento sobre navy: GRACIAS gigante, bloque naranja del símbolo, persona recortada al frente y tarjeta de vidrio con el mensaje.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["gracias", "agradecimiento", "despedida", "reconocimiento", "felicitación", "equipo", "rrhh", "instagram", "historia"],
   "formatos": {
     "1x1": {
       "w": 1080,

@@ -3,9 +3,10 @@
   "clave": "promocion",
   "templateId": "12ebc594-b86b-4a2f-8f12-28ff8649422c",
   "nombre": "Promoción de desarrollo",
-  "desc": "Promoción de preventa de un desarrollo: beneficio destacado, superficie y mensualidad desde, vigencia y contacto con el asesor.",
+  "desc": "Promoción de preventa de un desarrollo: beneficio destacado, superficie y mensualidad desde, vigencia y contacto con el consultor.",
   "categoria": "comunicacion",
   "audiencia": "cliente",
+  "etiquetas": ["promoción", "promo", "preventa", "oferta", "lote", "precio", "mensualidades", "flyer", "volante", "publicidad", "instagram", "whatsapp", "ventas"],
   "formatos": {
     "1x1": { "w": 1080, "h": 1080 },
     "4x5": { "w": 1080, "h": 1350 },
@@ -23,7 +24,7 @@
     "loteValor": { "etiqueta": "Superficie desde", "tipo": "texto", "defecto": "[000] m²", "maximo": 10 },
     "mensualidadRotulo": { "etiqueta": "Rótulo de la mensualidad", "tipo": "texto", "defecto": "Mensualidades desde", "maximo": 22 },
     "mensualidadValor": { "etiqueta": "Mensualidad desde", "tipo": "texto", "defecto": "[$0,000]", "maximo": 10 },
-    "boton": { "etiqueta": "Texto del botón", "tipo": "texto", "defecto": "Contacta a tu asesor", "maximo": 24 },
+    "boton": { "etiqueta": "Texto del botón", "tipo": "texto", "defecto": "Contacta a tu consultor", "maximo": 24 },
     "vigencia": { "etiqueta": "Vigencia", "tipo": "texto", "defecto": "Vigencia del 1 al 30 de noviembre de 2026.", "maximo": 60 },
     "foto": { "etiqueta": "Foto de fondo del desarrollo", "tipo": "imagen", "archivo": "promo-parque.jpg", "difuminada": "promo-parque-difuminada.jpg" }
   }

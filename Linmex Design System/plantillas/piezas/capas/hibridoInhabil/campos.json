@@ -6,6 +6,7 @@
   "desc": "Aviso de día inhábil sobre navy: la fecha en degradado naranja, INHÁBIL gigante, imagen alusiva recortada y tarjeta de vidrio con el motivo.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["día inhábil", "inhábil", "no laborable", "festivo", "feriado", "descanso", "aviso", "comunicado", "whatsapp", "historia"],
   "formatos": {
     "1x1": {
       "w": 1080,

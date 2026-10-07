@@ -6,6 +6,7 @@
   "desc": "Presentación clara sobre durazno con el símbolo de LINMEX como recorte de foto o mancha: portada, agenda, texto con imagen, dona, cifras y cierre.",
   "categoria": "presentaciones",
   "audiencia": "interna",
+  "etiquetas": ["presentación", "ppt", "powerpoint", "diapositivas", "slides", "inducción", "onboarding", "bienvenida", "nuevo ingreso", "capital humano", "rrhh"],
   "formatos": { "16x9": { "w": 1920, "h": 1080 } },
   "laminas": [
     {

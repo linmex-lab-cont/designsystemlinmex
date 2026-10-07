@@ -6,6 +6,7 @@
   "desc": "Agradecimiento claro: GRACIAS gigante, persona recortada al frente del símbolo naranja y una tarjeta de vidrio con nombre y mensaje.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["gracias", "agradecimiento", "despedida", "reconocimiento", "felicitación", "equipo", "rrhh", "instagram", "historia"],
   "formatos": {
     "4x5": {
       "w": 1080,

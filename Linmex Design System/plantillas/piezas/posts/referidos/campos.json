@@ -6,6 +6,7 @@
   "desc": "Invita a los clientes a recomendar un desarrollo: bonificación para quien refiere, beneficio para quien llega y vigencia.",
   "categoria": "comunicacion",
   "audiencia": "cliente",
+  "etiquetas": ["referidos", "recomienda", "bono", "bonificación", "comparte", "invitación", "promo", "flyer", "instagram", "whatsapp"],
   "formatos": {
     "1x1": { "w": 1080, "h": 1080 },
     "4x5": { "w": 1080, "h": 1350 },

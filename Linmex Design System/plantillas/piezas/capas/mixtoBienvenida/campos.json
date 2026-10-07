@@ -6,6 +6,7 @@
   "desc": "Bienvenida clara: BIENVENIDA gigante, persona recortada al frente del bloque naranja y una tarjeta de vidrio con área, nombre y mensaje.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["bienvenida", "nuevo ingreso", "onboarding", "inducción", "capital humano", "rrhh", "instagram", "historia", "flyer"],
   "formatos": {
     "4x5": {
       "w": 1080,

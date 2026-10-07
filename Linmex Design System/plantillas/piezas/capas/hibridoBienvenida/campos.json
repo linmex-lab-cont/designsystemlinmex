@@ -6,6 +6,7 @@
   "desc": "Bienvenida sobre navy: BIENVENIDA gigante con degradado naranja, persona recortada al frente y tarjeta de vidrio con nombre, área y mensaje.",
   "categoria": "comunicacion",
   "audiencia": "interna",
+  "etiquetas": ["bienvenida", "nuevo ingreso", "onboarding", "inducción", "capital humano", "rrhh", "instagram", "historia", "flyer"],
   "formatos": {
     "1x1": {
       "w": 1080,
