@@ -260,9 +260,15 @@ por marca está en `ORDEN_DE_SECCIONES` (`src/lib/studio/secciones.ts`).
 | `department` | Ve |
 |---|---|
 | Dirección, Marketing, Diseño, Sistemas (Investigación y Desarrollo), Administración | todo |
-| Capital Humano, Recursos Humanos, RH | Capital Humano, Posts (solo `aviso`), Carrusel, Documentos, Presentaciones |
-| Ventas, Comercial, Consultores | Promociones, Presentaciones, Posts (`promocion`, `tablaPrecios`, `aliados`, `referidos`), Documentos |
-| Otra o vacía (hoy Operaciones, Experto Patrimonial, Gestión de Proyectos) | Presentaciones y Documentos, con la línea para pedir por ticket lo que falte |
+| Tesorería, Cobranza, Contabilidad, Finanzas | Documentos (todos: carta de liquidación, recibo de pago, pago al cliente, ficha de pago, esquela, hoja membretada) y Presentaciones |
+| Capital Humano, Recursos Humanos, RH | Capital Humano, Posts (solo `aviso`), Carrusel, Documentos (`oficio`, `esquela`), Presentaciones |
+| Ventas, Comercial, Consultores | Promociones, Presentaciones, Posts (`promocion`, `tablaPrecios`, `aliados`, `referidos`), Documentos (`ficha` de pago y `oficio`) |
+| Otra o vacía (hoy Operaciones, Experto Patrimonial, Gestión de Proyectos) | Presentaciones y la hoja membretada (`oficio`), con la línea para pedir por ticket lo que falte |
+
+Los documentos de cobranza (liquidación, recibo, pago al cliente) salen del descubrimiento F0 del
+13 de agosto de 2026: los produce Tesorería/Cobranza «a manivela»; Ventas pidió solo la
+«plantilla para pago» (9/9) para mandarla al cliente al momento, y la esquela la levantó
+Administración/Capital Humano.
 
 Quien tiene `isAdmin` ve todo. Cuenta solo el `department` (el área), no el puesto. Es un filtro
 de la interfaz, no un permiso: el backend no lo aplica. Cada regla de la matriz tiene:
