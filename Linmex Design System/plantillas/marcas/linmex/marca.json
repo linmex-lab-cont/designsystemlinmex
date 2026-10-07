@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "clave": "linmex",
+  "nombre": "LINMEX",
+  "nombreLegal": "Grupo LINMEX",
+  "padre": null,
+  "linaje": [],
+  "estado": "vigente",
+  "fuentes": [
+    "Manual gráfico de identidad corporativa LINMEX (39 pp.) — plataforma-diseno/manual-identidad-linmex.pdf",
+    "Skill linmex-design (00-compartido/design-systems/Grupo_Linmex_Design_System)",
+    "Frontend: public/linmex-logo.svg, src/app/globals.css y TEMAS de src/lib/studio/constants.ts"
+  ],
+  "descripcion": "Desarrolladora inmobiliaria en Mérida, Yucatán. Marca madre de Capitalia (y sus distritos, empezando por Recoleta) y de Soletta.",
+  "claim": "Desarrollos Inmobiliarios con Rentabilidad y Propósito.",
+  "frases": [
+    "Crece tu inversión. Asegura tu patrimonio."
+  ],
+  "voz": [
+    "Español de México, de tú. La marca acompaña como socio, no vende: «acompañamos», «desarrollamos», «generamos valor».",
+    "Formal y directa (manual): segura, clara, sin rodeos.",
+    "Titulares imperativos de dos tiempos con beneficio: «Crece tu inversión. Asegura tu patrimonio.»",
+    "Sustancia sobre adjetivos: cifras atribuibles (plusvalía, desarrollos, escrituración) en lugar de elogios.",
+    "Rótulos y datos en MAYÚSCULAS con tracking (Barlow Condensed); titulares en tipo oración.",
+    "Sin emoji."
+  ],
+  "ejes": [
+    {
+      "clave": "liderazgo",
+      "nombre": "Liderazgo Visionario",
+      "idea": "Entiende el mercado antes que los demás"
+    },
+    {
+      "clave": "guia",
+      "nombre": "Guía Confiable",
+      "idea": "Reduce el riesgo con evidencia real"
+    },
+    {
+      "clave": "partner",
+      "nombre": "Partner Clave",
+      "idea": "Acompañamiento útil en cada etapa"
+    },
+    {
+      "clave": "comunidad",
+      "nombre": "Construcción de Comunidad",
+      "idea": "Impulsa el desarrollo regional"
+    }
+  ],
+  "dominio": "grupolinmex.mx",
+  "colores": {
+    "primario": "#FF5100",
+    "secundario": "#0F1820",
+    "fondo": "#F3F1EC",
+    "texto": "#0F1820",
+    "acento": "#FF5100",
+    "paleta": [
+      {
+        "nombre": "Naranja",
+        "hex": "#FF5100",
+        "uso": "Color de la marca («Modernidad»): símbolo, CTA, cifras clave, banda diagonal. Con mesura.",
+        "fuente": "Manual p. 14 (CMYK 0/78/94/0)"
+      },
+      {
+        "nombre": "Navy",
+        "hex": "#0F1820",
+        "uso": "Tinta y superficie oscura («Formalidad»).",
+        "fuente": "Manual p. 14 (Pantone 445 C · CMYK 93/76/56/78)"
+      },
+      {
+        "nombre": "Navy profundo",
+        "hex": "#0A1117",
+        "uso": "Campo oscuro de cierres y dirección.",
+        "fuente": "Tokens del skill y TEMAS de Studio"
+      },
+      {
+        "nombre": "Naranja presionado",
+        "hex": "#CF4205",
+        "uso": "Acento sobre fondos claros cálidos y estado presionado.",
+        "fuente": "Tokens"
+      },
+      {
+        "nombre": "Naranja suave",
+        "hex": "#FFDCCC",
+        "uso": "Superficie cálida (tema «Naranja suave»).",
+        "fuente": "Tokens"
+      },
+      {
+        "nombre": "Arena",
+        "hex": "#FFF1EA",
+        "uso": "Superficie cálida clara (tema «Arena»).",
+        "fuente": "Tokens"
+      },
+      {
+        "nombre": "Crema",
+        "hex": "#F3F1EC",
+        "uso": "Fondo claro de las piezas de Studio.",
+        "fuente": "src/lib/studio/constants.ts"
+      },
+      {
+        "nombre": "Gris página",
+        "hex": "#F6F6F4",
+        "uso": "Superficie de página en la plataforma.",
+        "fuente": "globals.css"
+      }
+    ]
+  },
+  "tipografias": {
+    "titular": {
+      "familia": "Cairo",
+      "peso": 800,
+      "google": "Cairo:wght@400;600;700;800;900"
+    },
+    "cuerpo": {
+      "familia": "Cairo",
+      "peso": 400,
+      "google": "Cairo:wght@400;600;700;800;900"
+    },
+    "rotulo": {
+      "familia": "Barlow Condensed",
+      "peso": 600,
+      "google": "Barlow+Condensed:wght@500;600;700",
+      "mayusculas": true,
+      "tracking": "0.08em"
+    },
+    "logo": {
+      "familia": "Raleway",
+      "peso": 800,
+      "google": "Raleway:wght@800",
+      "nota": "El logotipo es un dibujo: usa siempre el archivo de logos/, nunca la palabra escrita en Raleway."
+    },
+    "sustitutos": {},
+    "licencias": {
+      "Cairo": "OFL (Google Fonts)",
+      "Barlow Condensed": "OFL (Google Fonts)",
+      "Raleway": "OFL (Google Fonts)"
+    }
+  },
+  "logos": {
+    "color": "logos/linmex-color.svg",
+    "inverso": "logos/linmex-inverso.svg",
+    "blanco": "logos/linmex-blanco.svg",
+    "mono": "logos/linmex-mono.svg",
+    "simbolo": "logos/linmex-simbolo.svg",
+    "simboloBlanco": "logos/linmex-simbolo-blanco.svg",
+    "simboloNavy": "logos/linmex-simbolo-navy.svg",
+    "simboloMono": "logos/linmex-simbolo-mono.svg",
+    "palabra": "logos/linmex-palabra.svg",
+    "palabraBlanco": "logos/linmex-palabra-blanco.svg",
+    "zonaSegura": "Margen perimetral de 1X alrededor del logo y del símbolo. X es la altura de cada barra del símbolo: el símbolo mide 3X × 3X y la palabra LINMEX 2X de alto, centrada al símbolo (manual p. 19).",
+    "zonaSeguraFactor": 0.3333,
+    "zonaSeguraBase": "alto del logo",
+    "minimoPx": null,
+    "minimoImpreso": "Logo 2.8 cm de ancho; símbolo 0.5 cm (manual p. 18). El manual no da mínimo en pantalla."
+  },
+  "logosPng": {
+    "color": "logos/linmex-color.png",
+    "inverso": "logos/linmex-inverso.png",
+    "blanco": "logos/linmex-blanco.png",
+    "mono": "logos/linmex-mono.png",
+    "simbolo": "logos/linmex-simbolo.png",
+    "simboloBlanco": "logos/linmex-simbolo-blanco.png",
+    "simboloNavy": "logos/linmex-simbolo-navy.png",
+    "simboloMono": "logos/linmex-simbolo-mono.png",
+    "palabra": "logos/linmex-palabra.png",
+    "palabraBlanco": "logos/linmex-palabra-blanco.png"
+  },
+  "equivalenciasStudio": {
+    "corporativa": "color",
+    "blanco": "inverso",
+    "solido": "blanco"
+  },
+  "variantes": [],
+  "submarcas": [],
+  "hijas": [
+    "capitalia",
+    "soletta"
+  ],
+  "respaldo": null,
+  "reglas": [
+    "LINMEX es la marca madre. Capitalia y Soletta (y los distritos de Capitalia, como Recoleta) tienen estética propia y heredan la voz y los claims de LINMEX.",
+    "El logotipo completo siempre sale de logos/: no se reconstruye ni se escribe «LINMEX» con una fuente.",
+    "Naranja como único acento y con mesura; navy como tinta. Nada de un tercer color ni degradados azul-morado.",
+    "Esquinas rectas y un solo gesto diagonal (el corte del símbolo, inclinado hacia adelante).",
+    "Respetar margen de 1X y los mínimos de reducción del manual.",
+    "Los datos de contacto salen de la ficha vigente de la empresa (A1.4), no del manual de marca: el manual trae dirección y teléfono viejos."
+  ],
+  "temas": [
+    {
+      "clave": "naranja",
+      "nombre": "Naranja",
+      "uso": "Campañas y preventa",
+      "fondo": "#FF5100",
+      "fondo2": "#CF4205",
+      "texto": "#FFFFFF",
+      "acento": "#FFFFFF",
+      "logo": "blanco",
+      "claro": false,
+      "contraste": {
+        "texto": 3.27,
+        "nivelTexto": "AA grande",
+        "acento": 3.27,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Tema vigente en Studio. Blanco sobre naranja da 3.27:1: solo texto grande (≥ 24 px, o ≥ 18.7 px en negrita)."
+    },
+    {
+      "clave": "navy",
+      "nombre": "Navy",
+      "uso": "Institucional y resultados",
+      "fondo": "#0F1820",
+      "fondo2": "#1A2630",
+      "texto": "#FFFFFF",
+      "acento": "#FF5100",
+      "logo": "inverso",
+      "claro": false,
+      "contraste": {
+        "texto": 17.92,
+        "nivelTexto": "AAA",
+        "acento": 5.49,
+        "nivelAcento": "AA"
+      }
+    },
+    {
+      "clave": "arena",
+      "nombre": "Arena",
+      "uso": "Avisos internos e informativo",
+      "fondo": "#FFF1EA",
+      "fondo2": "#FFDCCC",
+      "texto": "#0F1820",
+      "acento": "#FF5100",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 16.23,
+        "nivelTexto": "AAA",
+        "acento": 2.96,
+        "nivelAcento": "insuficiente"
+      },
+      "nota": "El acento naranja sobre arena da 2.96:1: úsalo en formas y bandas, no en texto."
+    },
+    {
+      "clave": "blanco",
+      "nombre": "Blanco",
+      "uso": "Documentos y tablas",
+      "fondo": "#FFFFFF",
+      "fondo2": "#FFFFFF",
+      "texto": "#0F1820",
+      "acento": "#FF5100",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 17.92,
+        "nivelTexto": "AAA",
+        "acento": 3.27,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Acento naranja sobre blanco: 3.27:1, solo texto grande."
+    },
+    {
+      "clave": "durazno",
+      "nombre": "Naranja suave",
+      "uso": "Comunidad y cumpleaños",
+      "fondo": "#FFDCCC",
+      "fondo2": "#FFB999",
+      "texto": "#0F1820",
+      "acento": "#CF4205",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 13.96,
+        "nivelTexto": "AAA",
+        "acento": 3.69,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Acento #CF4205 sobre durazno: 3.69:1, solo texto grande."
+    },
+    {
+      "clave": "profundo",
+      "nombre": "Navy profundo",
+      "uso": "Dirección y cierres",
+      "fondo": "#0A1117",
+      "fondo2": "#0F1820",
+      "texto": "#FFFFFF",
+      "acento": "#FF7433",
+      "logo": "inverso",
+      "claro": false,
+      "contraste": {
+        "texto": 19.0,
+        "nivelTexto": "AAA",
+        "acento": 7.05,
+        "nivelAcento": "AAA"
+      }
+    }
+  ],
+  "notas": [
+    "Los seis temas son los mismos de TEMAS en src/lib/studio/constants.ts; aquí solo se anota el contraste.",
+    "El wordmark del archivo oficial usa #101820 (no #0F1820, que es el token): diferencia imperceptible, se conserva el archivo tal cual.",
+    "El manual p. 14 da #FF5100 pero RGB 233/83/29 (#E9531D) para el naranja: manda el hexadecimal, que es el que usa todo el sistema."
+  ]
+}

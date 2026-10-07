@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "clave": "soletta",
+  "nombre": "Soletta",
+  "padre": "linmex",
+  "linaje": [
+    "linmex"
+  ],
+  "estado": "vigente: logotipo y piezas 2026, oficiales desde el 2026-10-06. Reemplazan a la Ficha técnica anterior del skill.",
+  "fuentes": [
+    "Logotipo Solettas RGB.ai (3 mesas: Chicxulub, Sisal y combinado; perfil Adobe RGB 1998)",
+    "Promocion bono de descuento SOLETTA.ai (5 mesas)",
+    "Skill soletta-design: Principios rectores de personalidad (voz y arquetipo)"
+  ],
+  "descripcion": "Lotes de inversión frente al mar en la costa de Yucatán, con dos desarrollos: Chicxulub y Sisal. Un desarrollo de Grupo LINMEX.",
+  "claim": "Invierte a pasos del mar.",
+  "frases": [
+    "Multiplica tu inversión en la Costa Yucateca.",
+    "Haz realidad tu independencia financiera.",
+    "Tú eliges tu lugar en la costa.",
+    "Tierra firme frente al mar."
+  ],
+  "voz": [
+    "Calma con criterio: serena e inteligente, premium sin frialdad (Principios rectores).",
+    "Arquetipo: el Navegante Visionario (explorador + sabio); concepto rector «Calma que rinde».",
+    "De tú, de asesor a inversionista. CTA cortos y tranquilos: «Agenda tu cita», «Contáctame».",
+    "Cifras concretas y atribuibles, siempre con fuente («Yucatán, el estado más seguro de México (Índice de Paz México 2026)»).",
+    "Sin venta agresiva ni urgencia. Sin emoji."
+  ],
+  "dominio": null,
+  "colores": {
+    "primario": "#307FA5",
+    "secundario": "#FE6D46",
+    "fondo": "#F3EFE8",
+    "texto": "#606060",
+    "acento": "#FE6D46",
+    "paleta": [
+      {
+        "nombre": "Azul Sisal",
+        "hex": "#307FA5",
+        "uso": "Logo combinado y de Sisal; titulares, cifras, bandas y cabeceras de tabla.",
+        "fuente": "Logotipo .ai: Adobe RGB 82/126/162 · CMYK 78/38/21/5, convertido a sRGB"
+      },
+      {
+        "nombre": "Durazno Chicxulub",
+        "hex": "#FE6D46",
+        "uso": "Logo de Chicxulub; bandas, botones y cifras.",
+        "fuente": "Logotipo .ai: Adobe RGB 227/108/74 · CMYK 0/69/70/0, convertido a sRGB"
+      },
+      {
+        "nombre": "Azul profundo",
+        "hex": "#04648D",
+        "uso": "Énfasis en texto sobre crema («+ de 24 MSI») y campo oscuro.",
+        "fuente": "Bono, mesa 2"
+      },
+      {
+        "nombre": "Crema",
+        "hex": "#F3EFE8",
+        "uso": "Fondo de las piezas y filas de tabla.",
+        "fuente": "Bono, mesa 2"
+      },
+      {
+        "nombre": "Gris texto",
+        "hex": "#606060",
+        "uso": "Texto corrido, línea fina del titular y línea manuscrita.",
+        "fuente": "Bono, todas las mesas"
+      },
+      {
+        "nombre": "Blanco",
+        "hex": "#FFFFFF",
+        "uso": "Texto sobre bandas y botones.",
+        "fuente": "Bono"
+      }
+    ]
+  },
+  "tipografias": {
+    "titular": {
+      "familia": "Saudagar",
+      "peso": 400,
+      "google": null,
+      "sustituto": "Italiana",
+      "nota": "Serif fina y alta de todas las piezas 2026: titulares, cifras, cuerpo y rótulos."
+    },
+    "cuerpo": {
+      "familia": "Saudagar",
+      "peso": 400,
+      "google": null,
+      "sustituto": "Italiana"
+    },
+    "rotulo": {
+      "familia": "Saudagar",
+      "peso": 400,
+      "google": null,
+      "sustituto": "Italiana",
+      "mayusculas": true,
+      "tracking": "0.04em"
+    },
+    "cifra": {
+      "familia": "Saudagar",
+      "peso": 400,
+      "google": null,
+      "sustituto": "Italiana",
+      "nota": "«$» y «MXN» a ~60% del tamaño de la cifra."
+    },
+    "caligrafia": {
+      "familia": "Snell Roundhand",
+      "peso": 400,
+      "google": null,
+      "sustituto": "Great Vibes",
+      "nota": "Línea manuscrita bajo el titular («a pasos del mar», «en la Costa Yucateca», «para alianzas estratégicas»)."
+    },
+    "complementaria": {
+      "familia": "Myriad Pro",
+      "peso": 400,
+      "google": null,
+      "sustituto": "Source Sans 3",
+      "nota": "Solo aparece en las notas de color del .ai del logotipo; no se usa en piezas."
+    },
+    "sustitutos": {
+      "Saudagar": "Italiana",
+      "Snell Roundhand": "Great Vibes",
+      "Myriad Pro": "Source Sans 3"
+    },
+    "sustitutosGoogle": {
+      "Italiana": "Italiana",
+      "Great Vibes": "Great+Vibes",
+      "Source Sans 3": "Source+Sans+3:wght@400;600"
+    },
+    "licencias": {
+      "Saudagar": "Comprada por Grupo LINMEX (Sensatype Studio).",
+      "Snell Roundhand": "Comprada por Grupo LINMEX (Linotype).",
+      "Myriad Pro": "Comprada por Grupo LINMEX (Adobe).",
+      "nota": "Licencia comprada por Grupo LINMEX. El archivo solo vive en el repo privado del frontend; no se publica."
+    },
+    "nota": "Los archivos de fuente tienen licencia de Grupo LINMEX y solo están en el repo privado del frontend. Aquí se usa el sustituto de cada familia."
+  },
+  "logos": {
+    "color": "logos/soletta-color.svg",
+    "blanco": "logos/soletta-blanco.svg",
+    "mono": "logos/soletta-mono.svg",
+    "simbolo": "logos/soletta-simbolo.svg",
+    "simboloBlanco": "logos/soletta-simbolo-blanco.svg",
+    "palabra": "logos/soletta-palabra.svg",
+    "palabraBlanco": "logos/soletta-palabra-blanco.svg",
+    "zonaSegura": "No especificada en las fuentes recibidas (el .ai del logotipo no la incluye).",
+    "zonaSeguraFactor": null,
+    "zonaSeguraBase": null,
+    "minimoPx": null,
+    "minimoImpreso": null
+  },
+  "logosPng": {
+    "color": "logos/soletta-color.png",
+    "blanco": "logos/soletta-blanco.png",
+    "mono": "logos/soletta-mono.png",
+    "simbolo": "logos/soletta-simbolo.png",
+    "simboloBlanco": "logos/soletta-simbolo-blanco.png",
+    "palabra": "logos/soletta-palabra.png",
+    "palabraBlanco": "logos/soletta-palabra-blanco.png"
+  },
+  "ilustraciones": [
+    {
+      "clave": "ilustracion-1",
+      "archivo": "ilustraciones/ilustracion-1.png",
+      "descripcion": "Terraza frente al mar con sofás, lámparas de palma y mar turquesa (bono, mesa 4).",
+      "nota": "Ilustración generada por IA y aprobada por diseño como material de la marca. No es fotografía de Chicxulub ni de Sisal: no se presenta como el lugar real."
+    },
+    {
+      "clave": "ilustracion-2",
+      "archivo": "ilustraciones/ilustracion-2.png",
+      "descripcion": "Costa con palapa, camastros, sombrero y ramas de olivo en primer plano (bono, mesas 3 y 5).",
+      "nota": "Ilustración generada por IA y aprobada por diseño como material de la marca. No es fotografía de Chicxulub ni de Sisal: no se presenta como el lugar real."
+    },
+    {
+      "clave": "ilustracion-3",
+      "archivo": "ilustraciones/ilustracion-3.png",
+      "descripcion": "Collage de playa: pareja caminando, sombrero y terraza, con bordes de agua (bono, mesa 2).",
+      "nota": "Ilustración generada por IA y aprobada por diseño como material de la marca. No es fotografía de Chicxulub ni de Sisal: no se presenta como el lugar real."
+    },
+    {
+      "clave": "ilustracion-4",
+      "archivo": "ilustraciones/ilustracion-4.png",
+      "descripcion": "Collage de playa con personas y sombrero, recortado con transparencia (bono, mesa 1).",
+      "nota": "Ilustración generada por IA y aprobada por diseño como material de la marca. No es fotografía de Chicxulub ni de Sisal: no se presenta como el lugar real."
+    }
+  ],
+  "variantes": [
+    {
+      "clave": "chicxulub",
+      "nombre": "Soletta Chicxulub",
+      "colores": {
+        "primario": "#FE6D46",
+        "acento": "#FE6D46"
+      },
+      "colorFuente": "Durazno",
+      "logos": {
+        "color": "logos/soletta-chicxulub-color.svg",
+        "blanco": "logos/soletta-chicxulub-blanco.svg",
+        "mono": "logos/soletta-chicxulub-mono.svg",
+        "simbolo": "logos/soletta-chicxulub-simbolo.svg",
+        "simboloBlanco": "logos/soletta-chicxulub-simbolo-blanco.svg"
+      },
+      "logosPng": {
+        "color": "logos/soletta-chicxulub-color.png",
+        "blanco": "logos/soletta-chicxulub-blanco.png",
+        "mono": "logos/soletta-chicxulub-mono.png",
+        "simbolo": "logos/soletta-chicxulub-simbolo.png",
+        "simboloBlanco": "logos/soletta-chicxulub-simbolo-blanco.png"
+      },
+      "frase": "Playa familiar elegida por generaciones.",
+      "nota": "Durazno sobre crema: 2.45:1 y blanco sobre durazno: 2.8:1. El durazno va en formas, bandas, botones y cifras grandes; el texto que deba leerse va en gris #606060."
+    },
+    {
+      "clave": "sisal",
+      "nombre": "Soletta Sisal",
+      "colores": {
+        "primario": "#307FA5",
+        "acento": "#04648D"
+      },
+      "colorFuente": "Azul",
+      "logos": {
+        "color": "logos/soletta-sisal-color.svg",
+        "blanco": "logos/soletta-sisal-blanco.svg",
+        "mono": "logos/soletta-sisal-mono.svg",
+        "simbolo": "logos/soletta-sisal-simbolo.svg",
+        "simboloBlanco": "logos/soletta-sisal-simbolo-blanco.svg"
+      },
+      "logosPng": {
+        "color": "logos/soletta-sisal-color.png",
+        "blanco": "logos/soletta-sisal-blanco.png",
+        "mono": "logos/soletta-sisal-mono.png",
+        "simbolo": "logos/soletta-sisal-simbolo.png",
+        "simboloBlanco": "logos/soletta-sisal-simbolo-blanco.png"
+      },
+      "frase": "Playa Platino y Pueblo Mágico.",
+      "nota": "Azul sobre crema: 3.89:1 (solo texto grande). Azul profundo #04648D sobre crema: 5.7:1."
+    }
+  ],
+  "submarcas": [],
+  "respaldo": {
+    "marca": "linmex",
+    "texto": "Un desarrollo de Grupo LINMEX",
+    "logo": "color",
+    "posicion": "pie, abajo a la derecha (mesa 3 del bono)"
+  },
+  "reglas": [
+    "Soletta es un desarrollo de Grupo LINMEX: las piezas comerciales llevan el respaldo de LINMEX al pie.",
+    "Logo combinado (Chicxulub · Sisal) cuando la pieza habla de la marca; logo de una sola playa cuando habla de un desarrollo.",
+    "Color por playa: durazno para Chicxulub, azul para Sisal. En el logo combinado manda el azul.",
+    "Fondo crema con la ilustración de costa en los bordes (arco, collage, borde de agua) y el texto centrado al medio.",
+    "Ilustraciones: escenas de costa cálidas y luminosas (terrazas, palapas, sombreros, mar turquesa), aprobadas por diseño. Son ilustraciones generadas por IA: se rotulan como ilustración y no se presentan como fotografía del lugar.",
+    "Toda la pieza en Saudagar: titular en dos tiempos (línea fina gris + palabra clave en el color de la playa), cifras grandes y cuerpo. Debajo del titular, una línea manuscrita en Snell Roundhand.",
+    "Banda rectangular de color con rótulo en mayúsculas («BONO DIRECTO») y botón redondeado para la llamada («Agenda tu cita»).",
+    "El sol del logo se repite cortado contra el borde inferior como firma.",
+    "No dibujar el sol a mano ni separarlo de la palabra; no recolorear fuera de durazno, azul, blanco o negro.",
+    "Datos atribuibles y con fuente (Playa Platino, Pueblo Mágico, índices de seguridad)."
+  ],
+  "temas": [
+    {
+      "clave": "crema",
+      "nombre": "Crema",
+      "uso": "Piezas 2026 (bono, promociones)",
+      "fondo": "#F3EFE8",
+      "texto": "#606060",
+      "acento": "#307FA5",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 5.49,
+        "nivelTexto": "AA",
+        "acento": 3.89,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Acento azul sobre crema: 3.89:1, solo texto grande. Para acento en texto corrido usa #04648D (5.7:1)."
+    },
+    {
+      "clave": "blanco",
+      "nombre": "Blanco",
+      "uso": "Documentos y fichas",
+      "fondo": "#FFFFFF",
+      "texto": "#606060",
+      "acento": "#307FA5",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 6.29,
+        "nivelTexto": "AA",
+        "acento": 4.46,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Azul sobre blanco: 4.46:1, se queda a una centésima de AA: solo texto grande."
+    },
+    {
+      "clave": "azul-profundo",
+      "nombre": "Azul profundo",
+      "uso": "Bloques de dato y cierres",
+      "fondo": "#04648D",
+      "texto": "#FFFFFF",
+      "acento": "#F3EFE8",
+      "logo": "blanco",
+      "claro": false,
+      "contraste": {
+        "texto": 6.54,
+        "nivelTexto": "AA",
+        "acento": 5.7,
+        "nivelAcento": "AA"
+      }
+    },
+    {
+      "clave": "azul",
+      "nombre": "Azul Sisal",
+      "uso": "Bandas y piezas de Sisal",
+      "fondo": "#307FA5",
+      "texto": "#FFFFFF",
+      "acento": "#F3EFE8",
+      "logo": "blanco",
+      "claro": false,
+      "contraste": {
+        "texto": 4.46,
+        "nivelTexto": "AA grande",
+        "acento": 3.89,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Blanco sobre azul: 4.46:1, solo texto grande (≥ 24 px o ≥ 18.7 px en negrita). Para texto corrido usa Azul profundo."
+    }
+  ],
+  "notas": [
+    "Decisión de Grupo LINMEX (2026-10-06): manda lo nuevo. Colores, composición, ilustraciones y tipografías salen del logotipo .ai y de las piezas 2026; la Ficha técnica anterior (coral #F56B43, marino #2274A5, tinta #1F2938, Barlow) queda reemplazada.",
+    "Los colores del logotipo están en Adobe RGB (1998). Los hex de aquí son su conversión a sRGB con el perfil incrustado (#FE6D46 y #307FA5), los mismos que pintan las piezas del bono. Escribir los números RGB tal cual en web (#E36C4A, #527EA2) da colores más apagados.",
+    "soletta-palabra.svg es la palabra sola (sin sol ni playa).",
+    "Errores en las piezas de origen que no deben copiarse: «MNX» por «MXN» y «Tu eliges» sin acento."
+  ],
+  "comercial": {
+    "actualizado": "2026-10-06",
+    "resumen": "Sisal: quedan solo lotes laterales (frente de playa agotado). Chicxulub: quedan lotes en las etapas 2, 3, 4 y 5 (etapas 1 y 6 agotadas).",
+    "variantes": {
+      "sisal": {
+        "disponible": [
+          "lotes laterales"
+        ],
+        "agotado": [
+          "frente de playa (beach front)"
+        ]
+      },
+      "chicxulub": {
+        "disponible": [
+          "etapa 2",
+          "etapa 3",
+          "etapa 4",
+          "etapa 5"
+        ],
+        "agotado": [
+          "etapa 1",
+          "etapa 6"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "clave": "capitalia",
+  "nombre": "Capitalia",
+  "padre": "linmex",
+  "linaje": [
+    "linmex"
+  ],
+  "estado": "vigente",
+  "fuentes": [
+    "Brandbook Capitalia (Impar Creativo, 43 pp.): logotipo pp. 13–21, colores pp. 22–23, tipografía pp. 24–25, apoyos gráficos pp. 26–28, aplicaciones pp. 29–41",
+    "CAPITALIA 1080x1350 bono de descuento.ai (4 mesas, sRGB)"
+  ],
+  "descripcion": "Complejo urbano planificado en Motul, Yucatán, de Grupo LINMEX. Seis distritos con símbolo y color propios: Recoleta, Providencia, Carrasco, Miraflores, Marbella y Condado.",
+  "claim": "Donde la vida es posible, el valor es inevitable.",
+  "frases": [
+    "Una ciudad no solo crece: se planea.",
+    "Una ciudad planeada no solo se construye; se vive.",
+    "Si se vive, se vende.",
+    "La verdadera plusvalía no sólo se genera con los años, se genera con la vida.",
+    "Seis distritos, una misma visión: crear espacios donde la vida pueda suceder.",
+    "Suelo urbano real y planificado listo para vivir.",
+    "Plusvalía que no depende del tiempo, sino de la planeación.",
+    "Territorio planificado: la base más sólida para invertir o desarrollar.",
+    "Diversifica tu capital en suelo urbano planificado.",
+    "Construye donde la vida es posible."
+  ],
+  "voz": [
+    "Certeza cálida (p. 6).",
+    "Evolutiva: el relato avanza Contexto > Visión > Proyecto > Oportunidad > Producto.",
+    "Institucional pero humana: formal y clara al hablar de infraestructura y urbanismo; cercana y emocional al hablar de legado y bienestar familiar. Inspira confianza con hechos.",
+    "Segura y proyectiva: afirmaciones contundentes sobre el potencial de Motul y el crecimiento de Yucatán, sin dudas ni rodeos.",
+    "Rasgos (p. 4): transparente, empática, congruente, cálida, propositiva, inspiradora, experta local, educada, confiable, directa, sin ego.",
+    "Arquetipo (p. 5): el Líder Visionario. Ordena, estructura y lidera; construye sobre tres pilares: Infraestructura, Áreas verdes y Zonas activas.",
+    "Escalas (p. 7): muy estructurada (no casual); más visionaria que realista; equilibrada entre inspiracional y comercial; más patrimonial que especulativa; equilibrada entre técnica urbana y conectora cultural; más humana que corporativa.",
+    "De tú, en español de México. Sin emoji."
+  ],
+  "dominio": "capitalia.mx",
+  "colores": {
+    "primario": "#311E34",
+    "secundario": "#D86F3A",
+    "fondo": "#E9E3D8",
+    "texto": "#311E34",
+    "acento": "#D86F3A",
+    "paleta": [
+      {
+        "nombre": "Morado",
+        "hex": "#311E34",
+        "uso": "Primario: tinta y campo oscuro.",
+        "fuente": "Brandbook p. 23 · CMYK 78/90/44/59"
+      },
+      {
+        "nombre": "Naranja",
+        "hex": "#D86F3A",
+        "uso": "Primario: símbolo, cifras, bandas y CTA.",
+        "fuente": "Brandbook p. 23 · CMYK 2/70/90/0"
+      },
+      {
+        "nombre": "Crema",
+        "hex": "#E9E3D8",
+        "uso": "Primario: fondo claro y texto sobre morado.",
+        "fuente": "Brandbook p. 23 · CMYK 10/10/17/0"
+      },
+      {
+        "nombre": "Terracota",
+        "hex": "#C86C41",
+        "uso": "Secundario: color del distrito Recoleta.",
+        "fuente": "Brandbook pp. 23 y 27 · CMYK 12/69/84/2"
+      },
+      {
+        "nombre": "Salvia",
+        "hex": "#8A997B",
+        "uso": "Secundario: color del distrito Providencia.",
+        "fuente": "Brandbook pp. 23 y 27 · CMYK 52/26/56/9"
+      },
+      {
+        "nombre": "Mostaza",
+        "hex": "#D49433",
+        "uso": "Secundario: color del distrito Carrasco.",
+        "fuente": "Brandbook pp. 23 y 27 · CMYK 11/48/100/2"
+      },
+      {
+        "nombre": "Azul pizarra",
+        "hex": "#63778E",
+        "uso": "Secundario: color del distrito Miraflores.",
+        "fuente": "Brandbook pp. 23 y 27 · CMYK 67/44/29/12"
+      },
+      {
+        "nombre": "Rosa palo",
+        "hex": "#C88A81",
+        "uso": "Secundario: color del distrito Marbella.",
+        "fuente": "Brandbook pp. 23 y 27 · CMYK 15/54/44/3"
+      },
+      {
+        "nombre": "Oliva",
+        "hex": "#897F4C",
+        "uso": "Secundario: color del distrito Condado.",
+        "fuente": "Brandbook pp. 23 y 27 · CMYK 42/37/78/23"
+      }
+    ]
+  },
+  "tipografias": {
+    "titular": {
+      "familia": "DM Sans",
+      "peso": 800,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "nota": "Las piezas de bono usan Black (900) para cifras y titulares en mayúsculas."
+    },
+    "cuerpo": {
+      "familia": "DM Sans",
+      "peso": 400,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
+    },
+    "rotulo": {
+      "familia": "DM Sans",
+      "peso": 700,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "mayusculas": true,
+      "tracking": "0.04em"
+    },
+    "cifra": {
+      "familia": "DM Sans",
+      "peso": 900,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
+    },
+    "enfasis": {
+      "familia": "DM Sans",
+      "peso": 400,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "italica": true,
+      "nota": "La segunda línea de las frases va en itálica («Donde la ciudad / respira», p. 41). El paquete no trae itálicas: salen de Google Fonts."
+    },
+    "sustitutos": {},
+    "licencias": {
+      "DM Sans": "OFL. Los TTF vienen del paquete del .ai del bono de Capitalia; las itálicas y el peso 500 se toman de Google Fonts."
+    },
+    "nota": "Los archivos de fuente tienen licencia de Grupo LINMEX y solo están en el repo privado del frontend. Aquí se usa el sustituto de cada familia."
+  },
+  "logos": {
+    "color": "logos/capitalia-color.svg",
+    "morado": "logos/capitalia-morado.svg",
+    "naranja": "logos/capitalia-naranja.svg",
+    "inverso": "logos/capitalia-inverso.svg",
+    "blanco": "logos/capitalia-blanco.svg",
+    "mono": "logos/capitalia-mono.svg",
+    "vertical": "logos/capitalia-vertical-color.svg",
+    "verticalMorado": "logos/capitalia-vertical-morado.svg",
+    "verticalNaranja": "logos/capitalia-vertical-naranja.svg",
+    "verticalInverso": "logos/capitalia-vertical-inverso.svg",
+    "verticalBlanco": "logos/capitalia-vertical-blanco.svg",
+    "verticalMono": "logos/capitalia-vertical-mono.svg",
+    "simbolo": "logos/capitalia-simbolo.svg",
+    "simboloMorado": "logos/capitalia-simbolo-morado.svg",
+    "simboloInverso": "logos/capitalia-simbolo-inverso.svg",
+    "simboloBlanco": "logos/capitalia-simbolo-blanco.svg",
+    "simboloMono": "logos/capitalia-simbolo-mono.svg",
+    "palabra": "logos/capitalia-palabra.svg",
+    "palabraInverso": "logos/capitalia-palabra-inverso.svg",
+    "palabraBlanco": "logos/capitalia-palabra-blanco.svg",
+    "zonaSegura": "Dos módulos de la cuadrícula alrededor del logotipo (brandbook p. 19). En la práctica: margen libre igual a la altura de la «C» de Capitalia por cada lado.",
+    "zonaSeguraFactor": 0.7265,
+    "zonaSeguraBase": "alto del logo horizontal",
+    "minimoPx": 100,
+    "minimoImpreso": "25 mm de ancho (brandbook p. 20)"
+  },
+  "logosPng": {
+    "color": "logos/capitalia-color.png",
+    "morado": "logos/capitalia-morado.png",
+    "naranja": "logos/capitalia-naranja.png",
+    "inverso": "logos/capitalia-inverso.png",
+    "blanco": "logos/capitalia-blanco.png",
+    "mono": "logos/capitalia-mono.png",
+    "vertical": "logos/capitalia-vertical-color.png",
+    "verticalMorado": "logos/capitalia-vertical-morado.png",
+    "verticalNaranja": "logos/capitalia-vertical-naranja.png",
+    "verticalInverso": "logos/capitalia-vertical-inverso.png",
+    "verticalBlanco": "logos/capitalia-vertical-blanco.png",
+    "verticalMono": "logos/capitalia-vertical-mono.png",
+    "simbolo": "logos/capitalia-simbolo.png",
+    "simboloMorado": "logos/capitalia-simbolo-morado.png",
+    "simboloInverso": "logos/capitalia-simbolo-inverso.png",
+    "simboloBlanco": "logos/capitalia-simbolo-blanco.png",
+    "simboloMono": "logos/capitalia-simbolo-mono.png",
+    "palabra": "logos/capitalia-palabra.png",
+    "palabraInverso": "logos/capitalia-palabra-inverso.png",
+    "palabraBlanco": "logos/capitalia-palabra-blanco.png"
+  },
+  "variantes": [],
+  "submarcas": [
+    {
+      "clave": "recoleta",
+      "nombre": "Recoleta",
+      "tipo": "distrito",
+      "color": "#C86C41",
+      "simbolo": "logos/sub-recoleta-simbolo.svg",
+      "simboloBlanco": "logos/sub-recoleta-simbolo-blanco.svg",
+      "logo": "logos/sub-recoleta-color.svg",
+      "logoBlanco": "logos/sub-recoleta-blanco.svg",
+      "frase": "Recoleta, donde la vida inicia",
+      "nota": "Primer distrito en comercialización (Etapa 1). Tiene carpeta propia: ../recoleta"
+    },
+    {
+      "clave": "providencia",
+      "nombre": "Providencia",
+      "tipo": "distrito",
+      "color": "#8A997B",
+      "simbolo": "logos/sub-providencia-simbolo.svg",
+      "simboloBlanco": "logos/sub-providencia-simbolo-blanco.svg",
+      "logo": "logos/sub-providencia-color.svg",
+      "logoBlanco": "logos/sub-providencia-blanco.svg",
+      "frase": "Donde las personas conectan"
+    },
+    {
+      "clave": "carrasco",
+      "nombre": "Carrasco",
+      "tipo": "distrito",
+      "color": "#D49433",
+      "simbolo": "logos/sub-carrasco-simbolo.svg",
+      "simboloBlanco": "logos/sub-carrasco-simbolo-blanco.svg",
+      "logo": "logos/sub-carrasco-color.svg",
+      "logoBlanco": "logos/sub-carrasco-blanco.svg",
+      "frase": "Donde la ciudad respira"
+    },
+    {
+      "clave": "miraflores",
+      "nombre": "Miraflores",
+      "tipo": "distrito",
+      "color": "#63778E",
+      "simbolo": "logos/sub-miraflores-simbolo.svg",
+      "simboloBlanco": "logos/sub-miraflores-simbolo-blanco.svg",
+      "logo": "logos/sub-miraflores-color.svg",
+      "logoBlanco": "logos/sub-miraflores-blanco.svg",
+      "frase": null
+    },
+    {
+      "clave": "marbella",
+      "nombre": "Marbella",
+      "tipo": "distrito",
+      "color": "#C88A81",
+      "simbolo": "logos/sub-marbella-simbolo.svg",
+      "simboloBlanco": "logos/sub-marbella-simbolo-blanco.svg",
+      "logo": "logos/sub-marbella-color.svg",
+      "logoBlanco": "logos/sub-marbella-blanco.svg",
+      "frase": "La vida que florece"
+    },
+    {
+      "clave": "condado",
+      "nombre": "Condado",
+      "tipo": "distrito",
+      "color": "#897F4C",
+      "simbolo": "logos/sub-condado-simbolo.svg",
+      "simboloBlanco": "logos/sub-condado-simbolo-blanco.svg",
+      "logo": "logos/sub-condado-color.svg",
+      "logoBlanco": "logos/sub-condado-blanco.svg",
+      "frase": null
+    }
+  ],
+  "apoyos": [
+    {
+      "clave": "petalo",
+      "nombre": "Pétalo",
+      "archivo": "logos/capitalia-petalo.svg",
+      "uso": "Un pétalo del símbolo como máscara de foto y como etiqueta de cifra («25k», pp. 28 y 40) o en gran escala sobre la foto (lona, p. 31)."
+    },
+    {
+      "clave": "trazo-distrito",
+      "nombre": "Trazo del distrito",
+      "archivo": null,
+      "uso": "El símbolo de cada distrito en línea fina y a gran escala sobre su color (p. 41). Se dibuja con el contorno del símbolo de la submarca; no hay archivo aparte."
+    },
+    {
+      "clave": "etiqueta-etapa",
+      "nombre": "Etiqueta de etapa",
+      "archivo": null,
+      "uso": "Cápsula con una esquina en curva («ETAPA 1», pp. 28 y 40). En el PDF es imagen, no vector."
+    }
+  ],
+  "respaldo": {
+    "marca": "linmex",
+    "texto": "Un desarrollo de Grupo LINMEX",
+    "logo": "blanco",
+    "posicion": "pie, abajo a la derecha (mesas 3 y 4 del bono)"
+  },
+  "reglas": [
+    "Capitalia es marca de Grupo LINMEX: en piezas comerciales lleva el respaldo de LINMEX al pie (las mesas 3 y 4 del bono son las versiones con respaldo).",
+    "Los distritos (Recoleta, Providencia, Carrasco, Miraflores, Marbella, Condado) se presentan siempre dentro de Capitalia: el cartel de cada distrito lleva el logo de Capitalia y capitalia.mx al pie (p. 41).",
+    "Logo: no rotar, no aplicar degradado, no deformar, no recortar, no separar el símbolo de la palabra, no ponerlo sobre fondos complejos (p. 21).",
+    "Tamaño mínimo: 100 px de ancho en pantalla, 25 mm impreso (p. 20).",
+    "Una sola familia tipográfica: DM Sans. Cifras y titulares en Black/ExtraBold; segunda línea de las frases en itálica.",
+    "Fotografía: renders cálidos del complejo (atardecer, jacarandas, obelisco, glorieta) y familias reales; se recorta en pétalos, arcos y formas del símbolo, no en rectángulos duros.",
+    "«Si se vive, se vende» es el mantra comercial (p. 8); en las aplicaciones aparece en perfil y posts, pero no sustituye a la promesa.",
+    "Cifras y superlativos con fuente: «el estado más seguro de México» debe citar el estudio (p. ej. Índice de Paz México) en la misma pieza."
+  ],
+  "temas": [
+    {
+      "clave": "morado",
+      "nombre": "Morado",
+      "uso": "Institucional, comercial y bono (campo dominante del brandbook)",
+      "fondo": "#311E34",
+      "texto": "#E9E3D8",
+      "acento": "#D86F3A",
+      "logo": "inverso",
+      "claro": false,
+      "contraste": {
+        "texto": 12.04,
+        "nivelTexto": "AAA",
+        "acento": 4.58,
+        "nivelAcento": "AA"
+      }
+    },
+    {
+      "clave": "crema",
+      "nombre": "Crema",
+      "uso": "Avisos, documentos y piezas claras (hoja membretada, perfil)",
+      "fondo": "#E9E3D8",
+      "texto": "#311E34",
+      "acento": "#D86F3A",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 12.04,
+        "nivelTexto": "AAA",
+        "acento": 2.63,
+        "nivelAcento": "insuficiente"
+      },
+      "nota": "El naranja sobre crema da 2.63:1: úsalo en formas (pétalos, bandas), no en texto. Para cifras naranjas, usa el tema morado."
+    },
+    {
+      "clave": "naranja",
+      "nombre": "Naranja",
+      "uso": "Bandas de llamada y cierres («¡Construye donde la vida es posible!»)",
+      "fondo": "#D86F3A",
+      "texto": "#311E34",
+      "acento": "#FFFFFF",
+      "logo": "blanco",
+      "claro": false,
+      "contraste": {
+        "texto": 4.58,
+        "nivelTexto": "AA",
+        "acento": 3.36,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "El bono pone crema y blanco sobre naranja: 2.63:1 y 3.36:1. Para texto corrido usa morado (4.58:1); el blanco solo en texto grande."
+    },
+    {
+      "clave": "blanco",
+      "nombre": "Blanco",
+      "uso": "Documentos, tablas y presentaciones claras",
+      "fondo": "#FFFFFF",
+      "texto": "#311E34",
+      "acento": "#D86F3A",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 15.37,
+        "nivelTexto": "AAA",
+        "acento": 3.36,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Acento naranja sobre blanco: 3.36:1, solo texto grande."
+    }
+  ],
+  "notas": [
+    "Los vectores del logotipo en el brandbook (pp. 14–20) y en el .ai del bono están pintados con #381C36 y #E66927, la conversión CMYK de la paleta; las variantes raster de la p. 18 usan #311E34. Los SVG de logos/ se normalizaron a la paleta declarada (#311E34, #D86F3A, #E9E3D8). La forma no cambia.",
+    "Los símbolos de los distritos (p. 27) también venían en la conversión CMYK (#D46635, #849878, #DD8E02, #5E788E, #D1857D, #897E44); se normalizaron al hexadecimal de la paleta secundaria.",
+    "Las variantes morado, crema y vertical sobre morado de la p. 18 son imágenes en el PDF; aquí se derivaron del vector oficial cambiando solo el color.",
+    "Contradicción interna del brandbook: la p. 21 prohíbe separar el símbolo de la palabra, pero los posts de la p. 38 y la portada de la p. 40 usan «Capitalia» sin pétalos. Los archivos capitalia-palabra*.svg existen para esas plantillas; confirmar con diseño antes de usarlos.",
+    "Dato que no cuadra entre fuentes: el bono dice «a 25 min del periférico norte de Mérida» y las piezas viejas de Recoleta «a 20 min de Mérida». Confirmar antes de ponerlo en plantilla.",
+    "capitalia.mx aparece en todas las aplicaciones del brandbook; confirmar que el dominio esté activo antes de ponerlo en una pieza.",
+    "Errores en las piezas de origen que no deben copiarse: «¡CONTRUYE DONDE LA VIDA ES POSIBLE!» (falta la S) y «0 25% DE DTO.» con cero en lugar de «O»."
+  ],
+  "comercial": {
+    "actualizado": "2026-10-06",
+    "resumen": "Complejo urbano en Motul, Yucatán. Primera etapa en comercialización: Recoleta.",
+    "etapas": [
+      {
+        "nombre": "Recoleta",
+        "estado": "en comercialización"
+      }
+    ]
+  }
+}

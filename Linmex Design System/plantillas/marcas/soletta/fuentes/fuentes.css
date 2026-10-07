@@ -1,0 +1,11 @@
+/* Fuentes de Soletta para piezas y documentos: de Google Fonts (OFL), sin archivos locales.
+   Saudagar y Snell Roundhand tienen licencia de Grupo LINMEX y sus archivos solo están en el repo
+   privado del frontend; aquí cargan Italiana y Great Vibes como sustitutos. */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Great+Vibes&family=Source+Sans+3:wght@400;600&display=swap');
+
+:root {
+  --marca-titular: 'Saudagar', 'Italiana', Georgia, serif;
+  --marca-cuerpo: 'Saudagar', 'Italiana', Georgia, serif;
+  --marca-rotulo: 'Saudagar', 'Italiana', Georgia, serif;
+  --marca-caligrafia: 'Snell Roundhand', 'Great Vibes', cursive;
+}

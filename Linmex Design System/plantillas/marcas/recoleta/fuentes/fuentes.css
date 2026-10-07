@@ -1,0 +1,8 @@
+/* Fuentes de Recoleta para piezas y documentos: de Google Fonts (OFL), sin archivos locales. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700&display=swap');
+
+:root {
+  --marca-titular: 'DM Sans', system-ui, sans-serif;
+  --marca-cuerpo: 'DM Sans', system-ui, sans-serif;
+  --marca-rotulo: 'DM Sans', system-ui, sans-serif;
+}

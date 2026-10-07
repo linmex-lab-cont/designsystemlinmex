@@ -1,0 +1,8 @@
+/* Fuentes de LINMEX para piezas y documentos: de Google Fonts (OFL), sin archivos locales. */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Barlow+Condensed:wght@500;600;700&display=swap');
+
+:root {
+  --marca-titular: 'Cairo', 'Segoe UI', system-ui, sans-serif;
+  --marca-cuerpo: 'Cairo', 'Segoe UI', system-ui, sans-serif;
+  --marca-rotulo: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+}

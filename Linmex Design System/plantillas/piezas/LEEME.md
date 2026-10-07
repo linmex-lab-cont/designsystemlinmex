@@ -159,4 +159,101 @@ campo no se repiten entre láminas.
 - Cifras de ejemplo entre corchetes (`[00]`), nunca precios ni datos vigentes.
 - Nada de datos de clientes ni de personas reales: las fotos de ejemplo son siluetas o
   ilustraciones. Los datos de contacto salen de la ficha vigente de la empresa.
-- Esta carpeta es copia de `plantillas/piezas/` del frontend (fuente única). Las fotos de ejemplo de personas (`_img/recortes/`) viven solo en la plataforma privada y no se publican aquí; las piezas por capas las referencian por nombre.
+- Esta carpeta se copia tal cual al design system público para Linx.
+
+## Marca
+
+Las piezas se diseñan con LINMEX y Studio las pinta con la marca del documento (`doc.marca`:
+`linmex`, `capitalia`, `recoleta` o `soletta`, y `doc.variante` en Soletta: `chicxulub` o
+`sisal`) sin tocar estos HTML. Con LINMEX el motor no cambia nada. Los datos de cada marca
+salen de `plantillas/marcas/<clave>/marca.json`.
+
+### Mapa de colores base de LINMEX
+
+Toda la paleta de las piezas se reduce a tres anclas; cada color del diseño es una de ellas
+mezclada con blanco o con negro en una proporción fija:
+
+| Ancla | LINMEX | Se vuelve, en la marca |
+|---|---|---|
+| `naranja` | `#FF5100` | `primario`; si choca con el oscuro (contraste menor a 2:1), `acento` |
+| `navy` | `#0F1820` | el más oscuro de `texto`, `secundario` y `primario` |
+| `crema` | `#F3F1EC` | `fondo` si es claro; si no, el color más claro de la paleta |
+
+Colores del diseño y su mezcla (extraídos con grep de los HTML):
+
+- Familia naranja: `#FF5100`, `#FF7A3D` y `#FF7A3A` (24 % hacia blanco), `#FF8A52` (32 %),
+  `#FFB08A` (54 %), `#FFCDB0` (70 %), `#FFD6B4` (72 %), `#FFD9C2` (77 %), `#FFDECE` (81 %),
+  `#FFF1EA` (92 %); `#E84A00` (9 % hacia negro), `#CF4205` (19 %), `#B83A02` (28 %),
+  `rgba(110,36,6)` (57 %); los `rgba(255,81,0,α)` conservan su alfa.
+- Familia navy: `#0F1820`; hacia blanco `#121C25`, `#131E28`, `#15202A`, `#18242E`, `#1B2731`,
+  `#1C2733`, `#1F2C38`, `#22313F`, `#2A3843`, `#3A4A57` (21 %), `#3F4A54`, `#56616B` (32 %),
+  `#5A6B7B`, `#6E7780` (41 %), `#7A8A99`, `#B9BEC2` (72 %), `#E4E7E9` (90 %); hacia negro
+  `#0B1219`, `#0D151C`, `#060A0E`, `#04090E` (60 %).
+- Familia crema: `#F3F1EC`, `#FBFAF7` (62 % hacia blanco), `#E4E1DA` (7 % hacia negro).
+- `#FFFFFF` y `#000000` no cambian.
+
+En tiempo de render el motor reemplaza esos valores en el `<style>` de la pieza, en el `style`
+de cada elemento y en `fill`, `stroke` y `stop-color` de los SVG; lo que va dentro de `url(…)`
+no se toca. Un color que no se reduce a ninguna ancla (error mayor a 18 en 0–255) se queda
+igual.
+
+### Logos, respaldo y sitio
+
+- Cada `<img>` con `src` en `_img/linmex-logo-*.png` cambia al logo equivalente de la marca:
+  `linmex-logo-blanco` → `inverso` (o `blanco`), `linmex-logo-blanco-solido` → `blanco`,
+  `linmex-logo-color` → `color`.
+- En marcas hijas el logo del pie (el que queda en la mitad inferior de la lámina; si no hay,
+  el primero) se acompaña con el respaldo del json: «Un desarrollo de Grupo» y el logo LINMEX
+  pequeño, en la misma versión que tenía la pieza. Si `respaldo.marca` es otra marca hija
+  (Recoleta → Capitalia), su logo va antes del respaldo.
+- El texto `grupolinmex.mx` que no es campo cambia al `dominio` de la marca si lo trae.
+
+### Tipografías
+
+`Cairo` toma la fuente de cuerpo de la marca; los titulares (peso 700 o más, o `h1`–`h3`)
+toman la de titular; `Barlow Condensed` la de rótulo y `Great Vibes` la de caligrafía si la
+marca la declara. Si la fuente oficial no está en Google Fonts se usa su `sustituto`.
+
+### Contraste
+
+Tras el remapeo, el Chequeo mide cada texto contra el fondo que lo contiene y avisa cuando
+queda bajo 4,5:1 y además peor que en el diseño de LINMEX.
+
+## Promociones con datos reales
+
+Familia `promociones`: piezas reales aprobadas por diseño, rehechas en HTML con su composición
+original (posiciones, tamaños y líneas de base del desarme de cada mesa en
+`plataforma-diseno/marcas/piezas-origen/<marca>/bono/`). Cambian estas reglas:
+
+- Se diseñan en su marca, no en LINMEX: `campos.json` lleva `"marca"` (`capitalia`, `soletta`)
+  y Studio no les aplica el remapeo de colores ni de logos. Los colores salen de
+  `plantillas/marcas/<marca>/marca.json` y los logos son los vectores de `marcas/<marca>/logos/`
+  copiados a `_img/` con prefijo `bono-`; ninguno se llama `linmex-logo-*`, así el motor no los
+  cambia y el respaldo LINMEX queda como parte del diseño.
+- Las fuentes de la marca (DM Sans; Saudagar y Snell Roundhand) van en `@font-face` dentro del
+  `<style>`, con ruta `../../../marcas/<marca>/fuentes/<archivo>`, para que el HTML abra solo.
+  En Studio el Shadow DOM ignora esas reglas: las fuentes llegan del documento, que registra
+  `plantillas/marcas/*/fuentes/`.
+- Los `defecto` son los textos reales y aprobados (montos, condiciones, vigencia), sin
+  corchetes: la pieza se descarga tal cual o se cambia el dato con Linx o en el lienzo. Solo se
+  corrigen las erratas del desarme («Construye», «O 25%», «MXN», «Tú eliges», «m²»).
+- Decidido el 2026-10-06 por Grupo LINMEX, no se «corrige»: la vigencia «Septiembre 2026» de las
+  láminas Chicxulub y Sisal se queda como fue aprobada; el pictograma de mojoneras del bono
+  Capitalia (lote con cuatro mojoneras) se mantiene; «el estado más seguro de México» va sin cita
+  de fuente, como en el original.
+- `campos.json` lleva además `"audiencia": "externa"`, `"categoria": "promocion"`,
+  `"datosReales": true` y `"vigencia": "AAAA-MM"` (último mes en que valen los datos) para que
+  el catálogo avise cuando caduque. Una lámina puede traer su propia `vigencia` y su `variante`.
+- Cifras: el campo es solo el número; `$`, `MXN` y `.00` son fijos y van en la misma fila con
+  `data-ajustar="ancho"` y el ancho disponible. Los tamaños de la fila van en `em`, así que si
+  la cifra crece la fila entera se encoge en proporción y sigue centrada.
+- Énfasis dentro de un renglón (una cifra más grande o en color): campo `parrafo` con `<b>`. El
+  estilo de esa negrita lo da una regla de clase en el `<style>` (`.nota b{…}`) con tamaño en
+  `em` y `line-height: 0`: lo que la persona marque con Ctrl+B toma el mismo énfasis y el
+  renglón no se mueve.
+- Las líneas de base se midieron en Chrome contra las del diseño: no se mueve `top` a ojo.
+- Fotos e ilustraciones: la ventana visible del diseño, a lo más 2160 px. Las ilustraciones de
+  Soletta se convirtieron de Adobe RGB a sRGB, igual que en la exportación de la mesa.
+- No van al design system público: traen precios vigentes, y las ilustraciones de Soletta son
+  imágenes generadas por IA que el desarme deja fuera. La copia para Linx debe excluir
+  `promociones/` y `_img/bono-*`.

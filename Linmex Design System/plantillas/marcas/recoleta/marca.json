@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "clave": "recoleta",
+  "nombre": "Recoleta",
+  "padre": "capitalia",
+  "linaje": [
+    "linmex",
+    "capitalia"
+  ],
+  "estado": "vigente: Brandbook Capitalia, oficial desde el 2026-10-06. La identidad verde anterior queda solo en «legado».",
+  "fuentes": [
+    "Brandbook Capitalia: símbolo y palabra de Recoleta (p. 27), cartel (p. 41), slide «Etapa 1» (p. 40)",
+    "Skill recoleta-design (identidad verde anterior, brochure y 13 piezas sociales)"
+  ],
+  "descripcion": "Primer distrito de Capitalia en comercialización (Etapa 1), en Motul, Yucatán: lotes residenciales alrededor de un parque central de 4 hectáreas. Se presenta siempre como parte de Capitalia.",
+  "claim": "Recoleta, donde la vida inicia.",
+  "frases": [
+    "El primer parque artístico de Motul."
+  ],
+  "voz": [
+    "Hereda la voz de Capitalia (certeza cálida) y, a través de ella, la de LINMEX.",
+    "Aspiracional, serena y patrimonial; de tú; sin exclamaciones ni urgencia (skill recoleta-design).",
+    "Patrón de tres tiempos en redes: rótulo de tensión > enunciado o cifra central > resolución suave.",
+    "Cifras con separador de miles y MXN explícito; vigencia al pie en texto chico."
+  ],
+  "dominio": "capitalia.mx",
+  "colores": {
+    "primario": "#C86C41",
+    "secundario": "#311E34",
+    "fondo": "#E9E3D8",
+    "texto": "#311E34",
+    "acento": "#C86C41",
+    "paleta": [
+      {
+        "nombre": "Terracota Recoleta",
+        "hex": "#C86C41",
+        "uso": "Color del distrito: símbolo, palabra y campo de color.",
+        "fuente": "Brandbook Capitalia pp. 23 y 27"
+      },
+      {
+        "nombre": "Morado",
+        "hex": "#311E34",
+        "uso": "Heredado de Capitalia: tinta y campo oscuro.",
+        "fuente": "Brandbook Capitalia p. 23"
+      },
+      {
+        "nombre": "Naranja",
+        "hex": "#D86F3A",
+        "uso": "Heredado de Capitalia: símbolo de Capitalia en el respaldo.",
+        "fuente": "Brandbook Capitalia p. 23"
+      },
+      {
+        "nombre": "Crema",
+        "hex": "#E9E3D8",
+        "uso": "Heredado de Capitalia: fondo claro y texto sobre color.",
+        "fuente": "Brandbook Capitalia p. 23"
+      }
+    ]
+  },
+  "tipografias": {
+    "titular": {
+      "familia": "DM Sans",
+      "peso": 800,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
+    },
+    "cuerpo": {
+      "familia": "DM Sans",
+      "peso": 400,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
+    },
+    "rotulo": {
+      "familia": "DM Sans",
+      "peso": 700,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "mayusculas": true,
+      "tracking": "0.04em"
+    },
+    "cifra": {
+      "familia": "DM Sans",
+      "peso": 900,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
+    },
+    "enfasis": {
+      "familia": "DM Sans",
+      "peso": 400,
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "italica": true,
+      "nota": "La segunda línea de las frases va en itálica («Donde la ciudad / respira», p. 41). El paquete no trae itálicas: salen de Google Fonts."
+    },
+    "sustitutos": {},
+    "licencias": {
+      "DM Sans": "OFL. Los TTF vienen del paquete del .ai del bono de Capitalia; las itálicas y el peso 500 se toman de Google Fonts."
+    },
+    "nota": "Los archivos de fuente tienen licencia de Grupo LINMEX y solo están en el repo privado del frontend. Aquí se usa el sustituto de cada familia."
+  },
+  "logos": {
+    "color": "logos/recoleta-color.svg",
+    "morado": "logos/recoleta-morado.svg",
+    "inverso": "logos/recoleta-inverso.svg",
+    "blanco": "logos/recoleta-blanco.svg",
+    "mono": "logos/recoleta-mono.svg",
+    "simbolo": "logos/recoleta-simbolo.svg",
+    "simboloBlanco": "logos/recoleta-simbolo-blanco.svg",
+    "simboloMono": "logos/recoleta-simbolo-mono.svg",
+    "zonaSegura": "No especificada para los distritos. Aplica la regla de Capitalia como referencia: margen libre igual a la altura de las letras.",
+    "zonaSeguraFactor": null,
+    "zonaSeguraBase": null,
+    "minimoPx": null,
+    "minimoImpreso": null
+  },
+  "logosPng": {
+    "color": "logos/recoleta-color.png",
+    "morado": "logos/recoleta-morado.png",
+    "inverso": "logos/recoleta-inverso.png",
+    "blanco": "logos/recoleta-blanco.png",
+    "mono": "logos/recoleta-mono.png",
+    "simbolo": "logos/recoleta-simbolo.png",
+    "simboloBlanco": "logos/recoleta-simbolo-blanco.png",
+    "simboloMono": "logos/recoleta-simbolo-mono.png"
+  },
+  "variantes": [],
+  "submarcas": [],
+  "respaldo": {
+    "marca": "capitalia",
+    "logo": "inverso",
+    "texto": "Un desarrollo de Grupo LINMEX",
+    "posicion": "pie: logo de Capitalia y capitalia.mx (p. 41)"
+  },
+  "reglas": [
+    "Recoleta nunca se presenta como desarrollo aparte: es el primer distrito de Capitalia y lleva el logo de Capitalia al pie (p. 41).",
+    "Además del respaldo de Capitalia, las piezas comerciales llevan «Un desarrollo de Grupo LINMEX».",
+    "La «C» de la palabra RECOLETA es el símbolo del distrito: no se reemplaza por una C tipográfica.",
+    "Campo de color terracota con el trazo fino del símbolo a gran escala, foto recortada en círculo o en curva, frase en DM Sans con la segunda línea en itálica (pp. 40–41).",
+    "La identidad verde (Melodrama, arco con destello, #323F2C) fue reemplazada el 2026-10-06: no se usa en piezas nuevas."
+  ],
+  "temas": [
+    {
+      "clave": "terracota",
+      "nombre": "Terracota",
+      "uso": "Campo de color del distrito (cartel p. 41, slide p. 40)",
+      "fondo": "#C86C41",
+      "texto": "#FFFFFF",
+      "acento": "#311E34",
+      "logo": "blanco",
+      "claro": false,
+      "contraste": {
+        "texto": 3.7,
+        "nivelTexto": "AA grande",
+        "acento": 4.16,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Blanco sobre terracota: 3.7:1, solo texto grande (≥ 24 px o ≥ 18.7 px en negrita). Para texto corrido usa crema o morado. El brandbook pone crema (2.9:1), que no alcanza ni para texto grande."
+    },
+    {
+      "clave": "crema",
+      "nombre": "Crema",
+      "uso": "Fichas, documentos y piezas claras",
+      "fondo": "#E9E3D8",
+      "texto": "#311E34",
+      "acento": "#C86C41",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 12.04,
+        "nivelTexto": "AAA",
+        "acento": 2.9,
+        "nivelAcento": "insuficiente"
+      },
+      "nota": "Terracota sobre crema: 2.9:1, solo en formas y en el logo, no en texto."
+    },
+    {
+      "clave": "morado",
+      "nombre": "Morado",
+      "uso": "Piezas institucionales dentro de Capitalia",
+      "fondo": "#311E34",
+      "texto": "#E9E3D8",
+      "acento": "#C86C41",
+      "logo": "inverso",
+      "claro": false,
+      "contraste": {
+        "texto": 12.04,
+        "nivelTexto": "AAA",
+        "acento": 4.16,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Acento terracota sobre morado: 4.16:1, solo texto grande."
+    },
+    {
+      "clave": "blanco",
+      "nombre": "Blanco",
+      "uso": "Documentos y tablas",
+      "fondo": "#FFFFFF",
+      "texto": "#311E34",
+      "acento": "#C86C41",
+      "logo": "color",
+      "claro": true,
+      "contraste": {
+        "texto": 15.37,
+        "nivelTexto": "AAA",
+        "acento": 3.7,
+        "nivelAcento": "AA grande"
+      },
+      "nota": "Acento terracota sobre blanco: 3.7:1, solo texto grande."
+    }
+  ],
+  "legado": {
+    "estado": "Reemplazada por el Brandbook Capitalia el 2026-10-06. Solo sirve para reconocer piezas anteriores; no se usa en piezas nuevas.",
+    "fuente": "Recoleta identidad gráfica (12 pp.) y 13 piezas sociales, recogidas en el skill recoleta-design",
+    "colores": [
+      {
+        "nombre": "Verde Recoleta",
+        "hex": "#323F2C"
+      },
+      {
+        "nombre": "Verde piedra",
+        "hex": "#5F877A"
+      },
+      {
+        "nombre": "Verde salvia",
+        "hex": "#B0C6A5"
+      },
+      {
+        "nombre": "Carbón",
+        "hex": "#2D2D2D"
+      },
+      {
+        "nombre": "Hueso",
+        "hex": "#DDDAD0"
+      }
+    ],
+    "tipografias": {
+      "Melodrama": "Display serif. Fontshare (ITF Free Font License): licencia de redistribución por confirmar; no se copia. Sustituto: Playfair Display.",
+      "Bellota Text": "OFL (Google Fonts)",
+      "Yrsa": "OFL (Google Fonts)"
+    },
+    "logos": {
+      "lockupVerde": "logos/legado/recoleta-lockup-verde.png",
+      "lockupBlanco": "logos/legado/recoleta-lockup-blanco.png",
+      "palabraVerde": "logos/legado/recoleta-palabra-verde.png",
+      "palabraBlanco": "logos/legado/recoleta-palabra-blanco.png",
+      "simboloVerde": "logos/legado/recoleta-simbolo-verde.png",
+      "simboloBlanco": "logos/legado/recoleta-simbolo-blanco.png"
+    },
+    "nota": "Los logos verdes nunca se entregaron en vector: se recortaron de piezas sociales (268 px de ancho). Solo sirven para reconocer piezas viejas."
+  },
+  "notas": [
+    "Decisión de Grupo LINMEX (2026-10-06): el Brandbook Capitalia es el oficial y sustituye por completo a la identidad verde (#323F2C, Melodrama + Bellota Text, arco con destello y cáliz). El skill recoleta-design dice lo mismo que este archivo.",
+    "En el render de la p. 36 del brandbook el monumento de la entrada todavía lleva el logo verde «Recoleta»: confirmar con diseño si la señalética cambia."
+  ],
+  "comercial": {
+    "actualizado": "2026-10-06",
+    "resumen": "Primera etapa de Capitalia en comercialización.",
+    "etapas": [
+      {
+        "nombre": "Recoleta",
+        "estado": "en comercialización"
+      }
+    ]
+  }
+}
