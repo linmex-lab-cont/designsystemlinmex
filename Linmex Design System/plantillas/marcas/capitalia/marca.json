@@ -104,28 +104,24 @@
       "familia": "DM Sans",
       "peso": 800,
       "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
-      "archivo": "fuentes/dm-sans-extrabold.ttf",
       "nota": "Las piezas de bono usan Black (900) para cifras y titulares en mayúsculas."
     },
     "cuerpo": {
       "familia": "DM Sans",
       "peso": 400,
-      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
-      "archivo": "fuentes/dm-sans-regular.ttf"
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
     },
     "rotulo": {
       "familia": "DM Sans",
       "peso": 700,
       "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
-      "archivo": "fuentes/dm-sans-bold.ttf",
       "mayusculas": true,
       "tracking": "0.04em"
     },
     "cifra": {
       "familia": "DM Sans",
       "peso": 900,
-      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
-      "archivo": "fuentes/dm-sans-black.ttf"
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
     },
     "enfasis": {
       "familia": "DM Sans",
@@ -134,36 +130,11 @@
       "italica": true,
       "nota": "La segunda línea de las frases va en itálica («Donde la ciudad / respira», p. 41). El paquete no trae itálicas: salen de Google Fonts."
     },
-    "archivos": [
-      {
-        "familia": "DM Sans",
-        "peso": 400,
-        "estilo": "normal",
-        "archivo": "fuentes/dm-sans-regular.ttf"
-      },
-      {
-        "familia": "DM Sans",
-        "peso": 700,
-        "estilo": "normal",
-        "archivo": "fuentes/dm-sans-bold.ttf"
-      },
-      {
-        "familia": "DM Sans",
-        "peso": 800,
-        "estilo": "normal",
-        "archivo": "fuentes/dm-sans-extrabold.ttf"
-      },
-      {
-        "familia": "DM Sans",
-        "peso": 900,
-        "estilo": "normal",
-        "archivo": "fuentes/dm-sans-black.ttf"
-      }
-    ],
     "sustitutos": {},
     "licencias": {
       "DM Sans": "OFL. Los TTF vienen del paquete del .ai del bono de Capitalia; las itálicas y el peso 500 se toman de Google Fonts."
-    }
+    },
+    "nota": "Los archivos de fuente tienen licencia de Grupo LINMEX y solo están en el repo privado del frontend. Aquí se usa el sustituto de cada familia."
   },
   "logos": {
     "color": "logos/capitalia-color.svg",
