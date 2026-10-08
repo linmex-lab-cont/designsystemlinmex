@@ -5,7 +5,7 @@
   "nombre": "Presentación · Brasa",
   "desc": "Presentación oscura con vidrio y el símbolo en degradado naranja: portada, sección, agenda, contenido, texto con imagen, gráfica, cifras y cierres.",
   "categoria": "presentaciones",
-  "audiencia": "interna",
+  "audiencia": "cliente",
   "etiquetas": ["presentación", "ppt", "powerpoint", "diapositivas", "slides", "capacitación", "curso", "taller", "ventas", "comercial", "avance"],
   "formatos": { "16x9": { "w": 1920, "h": 1080 } },
   "laminas": [

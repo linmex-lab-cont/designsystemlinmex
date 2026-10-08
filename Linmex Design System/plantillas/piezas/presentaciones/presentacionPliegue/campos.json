@@ -5,7 +5,7 @@
   "nombre": "Presentación · Pliegue",
   "desc": "Presentación editorial con pliegues diagonales, titulares grandes y alternancia claro y oscuro: portada, agenda, texto con imagen, gráfica de línea, cifras y cierre.",
   "categoria": "presentaciones",
-  "audiencia": "interna",
+  "audiencia": "cliente",
   "etiquetas": ["presentación", "ppt", "powerpoint", "diapositivas", "slides", "informe", "dirección", "junta", "consejo", "reporte mensual"],
   "formatos": { "16x9": { "w": 1920, "h": 1080 } },
   "laminas": [

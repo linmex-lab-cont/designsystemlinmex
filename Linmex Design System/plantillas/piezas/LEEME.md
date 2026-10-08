@@ -275,11 +275,11 @@ por marca está en `ORDEN_DE_SECCIONES` (`src/lib/studio/secciones.ts`).
 | `department` | Ve |
 |---|---|
 | Dirección, Marketing (Diseño, Contenidos, Trafficker), Investigación y Desarrollo | todo: Marketing y Diseño aprueban y curan las plantillas (Vero y Javier en F0); Dirección y Sistemas administran |
-| Administración (Tesorería, Cobranza, Contabilidad) | Documentos (todos: carta de liquidación, recibo de pago, pago al cliente, ficha de pago, esquela, hoja membretada), Presentaciones y el `aviso` |
-| Capital Humano | Capital Humano, Posts (`aviso` y `postLinmex`, donde está la vacante), Carrusel, Documentos (`oficio`, `esquela`), Presentaciones |
-| Comercial (consultores, coordinaciones de venta, Experto Patrimonial) | Promociones, Presentaciones, Posts (`promocion`, `tablaPrecios`, `aliados`, `referidos` y los posts de cada marca `postLinmex`, `postCapitalia`, `postRecoleta`, `postSoletta`, `lonaCapitalia`), Documentos (`ficha` de pago y `oficio`) |
-| Operaciones (Atención a Clientes, Mesa de Control, Postventa) | Presentaciones, Documentos (`ficha`, `oficio`) y el `aviso` |
-| Gestión de Proyectos | Presentaciones, `oficio` y el `aviso` |
+| Administración (Tesorería, Cobranza, Contabilidad) | Documentos (todos: carta de liquidación, recibo de pago, pago al cliente, ficha de pago, esquela, hoja membretada), Presentaciones y Posts (todos) |
+| Capital Humano | Capital Humano, Posts (todos), Carrusel, Documentos (`oficio`, `esquela`), Presentaciones |
+| Comercial (consultores, coordinaciones de venta, Experto Patrimonial) | Promociones, Presentaciones, Posts (todos), Documentos (`ficha` de pago y `oficio`) |
+| Operaciones (Atención a Clientes, Mesa de Control, Postventa) | Presentaciones, Documentos (`ficha`, `oficio`) y Posts (todos) |
+| Gestión de Proyectos | Presentaciones, `oficio` y Posts (todos) |
 | Vacía o desconocida | Presentaciones y la hoja membretada (`oficio`), con la línea para pedir por ticket lo que falte |
 
 Los documentos de cobranza (liquidación, recibo, pago al cliente) salen del descubrimiento F0 del

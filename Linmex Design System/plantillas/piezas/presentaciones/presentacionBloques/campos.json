@@ -5,7 +5,7 @@
   "nombre": "Presentación · Bloques",
   "desc": "Presentación clara sobre crema con bloques sólidos naranja, navy y blanco: portada, agenda, texto con imagen, gráfica de barras, cifras y cierre.",
   "categoria": "presentaciones",
-  "audiencia": "interna",
+  "audiencia": "cliente",
   "etiquetas": ["presentación", "ppt", "powerpoint", "diapositivas", "slides", "resultados", "informe", "reporte", "trimestre", "junta", "dirección comercial"],
   "formatos": { "16x9": { "w": 1920, "h": 1080 } },
   "laminas": [
