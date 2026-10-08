@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "clave": "lonaCapitalia",
+  "templateId": "d06fa5ac-9767-435c-b113-fe7c97abe009",
+  "nombre": "Lona Capitalia",
+  "desc": "Lona, pantalla y post de Capitalia en tres diseños: anuncio con la flor partida y fotos en los pétalos, cartel morado con foto en círculo y ficha crema sobre el render. Horizontal 16:9 y vertical 4:5, con respaldo de Grupo LINMEX.",
+  "categoria": "promocion",
+  "audiencia": "publico",
+  "marca": "capitalia",
+  "etiquetas": [
+    "lona",
+    "banner",
+    "anuncio",
+    "espectacular",
+    "pantalla",
+    "cartel",
+    "ficha",
+    "mensualidad",
+    "facebook",
+    "instagram"
+  ],
+  "formatos": {
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    },
+    "4x5": {
+      "w": 1080,
+      "h": 1350
+    }
+  },
+  "alternativas": true,
+  "laminas": [
+    {
+      "clave": "lona",
+      "nombre": "Lona con pétalos",
+      "desc": "El anuncio de Capitalia: panel morado con la flor partida en la costura, fotos en los pétalos y pétalos naranjas sobre el render.",
+      "campos": {
+        "lonaFoto": {
+          "etiqueta": "Foto a sangre",
+          "tipo": "imagen",
+          "archivo": "promo-parque.jpg",
+          "nota": "Render del complejo; ocupa el lado de la foto."
+        },
+        "lonaFotoPetalos": {
+          "etiqueta": "Foto en los pétalos",
+          "tipo": "imagen",
+          "archivo": "referidos-recoleta.jpg",
+          "nota": "Se ve dentro de los pétalos del lado morado."
+        },
+        "lonaTitulo": {
+          "etiqueta": "Primer tiempo",
+          "tipo": "texto",
+          "defecto": "Una ciudad no solo crece:",
+          "maximo": 30,
+          "nota": "La negación de la frase firma."
+        },
+        "lonaClave": {
+          "etiqueta": "Segundo tiempo",
+          "tipo": "texto",
+          "defecto": "SE PLANEA",
+          "maximo": 11,
+          "nota": "La afirmación; sale en mayúsculas y se ajusta al ancho."
+        },
+        "lonaTexto": {
+          "etiqueta": "Texto",
+          "tipo": "parrafo",
+          "defecto": "Seis distritos, una misma visión: crear espacios donde la vida pueda suceder.",
+          "maximo": 110
+        }
+      }
+    },
+    {
+      "clave": "cartel",
+      "nombre": "Cartel morado",
+      "desc": "Campo morado con la foto en círculo y anillos finos, frase firma y mensualidad con la cifra en naranja.",
+      "campos": {
+        "cartelFoto": {
+          "etiqueta": "Foto en círculo",
+          "tipo": "imagen",
+          "archivo": "aliados-anfiteatro.jpg",
+          "nota": "Render o familia en el complejo; se recorta en círculo."
+        },
+        "cartelTitulo": {
+          "etiqueta": "Primer tiempo",
+          "tipo": "texto",
+          "defecto": "La plusvalía no nace solo del tiempo:",
+          "maximo": 60,
+          "nota": "La negación de la frase firma."
+        },
+        "cartelClave": {
+          "etiqueta": "Segundo tiempo",
+          "tipo": "texto",
+          "defecto": "NACE DE LA VIDA",
+          "maximo": 18,
+          "nota": "La afirmación; sale en mayúsculas y se ajusta al ancho."
+        },
+        "cartelRotulo": {
+          "etiqueta": "Calificativo de la cifra",
+          "tipo": "texto",
+          "defecto": "Mensualidades desde",
+          "maximo": 30,
+          "nota": "Va en negritas."
+        },
+        "cartelCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "[$0,000]",
+          "maximo": 11,
+          "nota": "Mensualidad o precio vigente, con el signo de pesos."
+        },
+        "cartelUnidad": {
+          "etiqueta": "Unidad",
+          "tipo": "texto",
+          "defecto": "mxn",
+          "maximo": 12
+        }
+      }
+    },
+    {
+      "clave": "ficha",
+      "nombre": "Ficha sobre foto",
+      "desc": "Ficha crema anclada sobre el render, con foto en hoja, dos datos del lote y la oferta en una placa morada.",
+      "campos": {
+        "fichaFoto": {
+          "etiqueta": "Foto de fondo",
+          "tipo": "imagen",
+          "archivo": "promo-parque.jpg",
+          "nota": "Render del complejo a sangre; la ficha va encima."
+        },
+        "fichaFotoTarjeta": {
+          "etiqueta": "Foto de la ficha",
+          "tipo": "imagen",
+          "archivo": "referidos-recoleta.jpg",
+          "nota": "Se recorta en hoja dentro de la ficha."
+        },
+        "fichaTitulo": {
+          "etiqueta": "Primer tiempo",
+          "tipo": "texto",
+          "defecto": "Si se vive,",
+          "maximo": 21
+        },
+        "fichaClave": {
+          "etiqueta": "Segundo tiempo",
+          "tipo": "texto",
+          "defecto": "SE VENDE",
+          "maximo": 12,
+          "nota": "Sale en mayúsculas y se ajusta al ancho."
+        },
+        "fichaDato1": {
+          "etiqueta": "Primer dato",
+          "tipo": "texto",
+          "defecto": "Lotes desde [000] m²",
+          "maximo": 30
+        },
+        "fichaDato2": {
+          "etiqueta": "Segundo dato",
+          "tipo": "texto",
+          "defecto": "Entrega [mes y año]",
+          "maximo": 33
+        },
+        "fichaRotulo": {
+          "etiqueta": "Calificativo de la cifra",
+          "tipo": "texto",
+          "defecto": "Desde",
+          "maximo": 16,
+          "nota": "Va en negritas."
+        },
+        "fichaCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "[$0,000]",
+          "maximo": 10,
+          "nota": "Mensualidad o precio vigente, con el signo de pesos."
+        },
+        "fichaUnidad": {
+          "etiqueta": "Unidad",
+          "tipo": "texto",
+          "defecto": "al mes",
+          "maximo": 12
+        }
+      }
+    }
+  ]
+}

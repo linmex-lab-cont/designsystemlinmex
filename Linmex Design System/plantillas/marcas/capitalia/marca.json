@@ -104,24 +104,28 @@
       "familia": "DM Sans",
       "peso": 800,
       "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "archivo": "fuentes/dm-sans-extrabold.ttf",
       "nota": "Las piezas de bono usan Black (900) para cifras y titulares en mayúsculas."
     },
     "cuerpo": {
       "familia": "DM Sans",
       "peso": 400,
-      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "archivo": "fuentes/dm-sans-regular.ttf"
     },
     "rotulo": {
       "familia": "DM Sans",
       "peso": 700,
       "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "archivo": "fuentes/dm-sans-bold.ttf",
       "mayusculas": true,
       "tracking": "0.04em"
     },
     "cifra": {
       "familia": "DM Sans",
       "peso": 900,
-      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700"
+      "google": "DM+Sans:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,700",
+      "archivo": "fuentes/dm-sans-black.ttf"
     },
     "enfasis": {
       "familia": "DM Sans",
@@ -130,11 +134,36 @@
       "italica": true,
       "nota": "La segunda línea de las frases va en itálica («Donde la ciudad / respira», p. 41). El paquete no trae itálicas: salen de Google Fonts."
     },
+    "archivos": [
+      {
+        "familia": "DM Sans",
+        "peso": 400,
+        "estilo": "normal",
+        "archivo": "fuentes/dm-sans-regular.ttf"
+      },
+      {
+        "familia": "DM Sans",
+        "peso": 700,
+        "estilo": "normal",
+        "archivo": "fuentes/dm-sans-bold.ttf"
+      },
+      {
+        "familia": "DM Sans",
+        "peso": 800,
+        "estilo": "normal",
+        "archivo": "fuentes/dm-sans-extrabold.ttf"
+      },
+      {
+        "familia": "DM Sans",
+        "peso": 900,
+        "estilo": "normal",
+        "archivo": "fuentes/dm-sans-black.ttf"
+      }
+    ],
     "sustitutos": {},
     "licencias": {
       "DM Sans": "OFL. Los TTF vienen del paquete del .ai del bono de Capitalia; las itálicas y el peso 500 se toman de Google Fonts."
-    },
-    "nota": "Los archivos de fuente tienen licencia de Grupo LINMEX y solo están en el repo privado del frontend. Aquí se usa el sustituto de cada familia."
+    }
   },
   "logos": {
     "color": "logos/capitalia-color.svg",
@@ -289,7 +318,20 @@
     "Una sola familia tipográfica: DM Sans. Cifras y titulares en Black/ExtraBold; segunda línea de las frases en itálica.",
     "Fotografía: renders cálidos del complejo (atardecer, jacarandas, obelisco, glorieta) y familias reales; se recorta en pétalos, arcos y formas del símbolo, no en rectángulos duros.",
     "«Si se vive, se vende» es el mantra comercial (p. 8); en las aplicaciones aparece en perfil y posts, pero no sustituye a la promesa.",
-    "Cifras y superlativos con fuente: «el estado más seguro de México» debe citar el estudio (p. ej. Índice de Paz México) en la misma pieza."
+    "Cifras y superlativos con fuente: «el estado más seguro de México» debe citar el estudio (p. ej. Índice de Paz México) en la misma pieza.",
+    "Design system maestro y autorizado de Capitalia: https://github.com/analistajrcrm-cpu/capitalia-design-system (alta del 2026-10-07). Manda sobre cualquier otra referencia de la marca.",
+    "Frase firma: una negación y luego la afirmación real, unidas por dos puntos o punto y coma («no solo crece: se planea»). La segunda mitad lleva el énfasis, en mayúsculas o en naranja. Úsala una sola vez por pieza.",
+    "Mayúsculas solo en la mitad enfatizada de la frase firma, en rótulos (ETAPA 1) y en nombres de submarca (RECOLETA). Nunca una oración completa en mayúsculas.",
+    "Habla de tú. El sujeto es la ciudad, no el desarrollador. Imperativos suaves y pocos: Conoce, Agenda, Descarga.",
+    "Los precios llevan siempre su unidad ($2,900 mxn, 140 m²). Se colorea solo la cifra; el calificativo (desde, al mes) va en negritas. Se abrevia como se habla: 25k.",
+    "Sin signos de exclamación, sin puntos suspensivos y sin emoji. El ritmo lo llevan los dos puntos y el punto y coma.",
+    "Botones y llamados: verbo más objeto, de dos a tres palabras (Agendar visita, Descargar plano).",
+    "Color: morado #311E34 domina; un solo acento naranja #D86F3A por composición; crema #E9E3D8 para texto y superficies claras. Fondos planos, sin degradados, salvo el velo morado que protege el texto sobre una foto.",
+    "El naranja nunca significa error y no rellena el fondo de un texto largo: solo a tamaño de cartel, como campo completo. Texto naranja sobre crema no cumple contraste (2,63:1).",
+    "Forma: manda el pétalo (cápsula con una esquina cuadrada, máscara de foto 68% 68% 0 68% y arcos grandes). Los radios son de 0 a 8 px o totalmente redondos; nunca 12 px.",
+    "Toda fotografía va enmascarada con una forma de la marca o a sangre. Un rectángulo redondeado flotante está fuera de marca.",
+    "Sin sombras, sin desenfoque sobre color plano, sin bordes gruesos y sin acento de color en el borde izquierdo. Los filetes son de 1 px.",
+    "El logo o el dominio viven en una esquina fija y el contenido no se acerca a menos de un ancho de pétalo."
   ],
   "temas": [
     {
@@ -378,5 +420,12 @@
         "estado": "en comercialización"
       }
     ]
+  },
+  "masterDesignSystem": {
+    "nombre": "Capitalia Design System",
+    "repositorio": "https://github.com/analistajrcrm-cpu/capitalia-design-system",
+    "autorizado": true,
+    "fecha": "2026-10-07",
+    "nota": "Master real autorizado por Grupo LINMEX. Studio y Linx aplican sus reglas a todo lo que producen para Capitalia y sus distritos."
   }
 }

@@ -1,0 +1,409 @@
+{
+  "version": 1,
+  "clave": "presentacionCapitalia",
+  "templateId": "7f351094-3e0a-4633-a55c-45a2d2a70985",
+  "nombre": "Presentación · Capitalia",
+  "desc": "Presentación de Capitalia para clientes en siete láminas: portada, frase firma, beneficios en arcos, etapa Recoleta, detalle con foto en pétalo, cifras y cierre con contacto. Morado, naranja y crema, DM Sans y respaldo de Grupo LINMEX.",
+  "categoria": "presentaciones",
+  "audiencia": "cliente",
+  "marca": "capitalia",
+  "etiquetas": [
+    "presentación",
+    "ppt",
+    "powerpoint",
+    "diapositivas",
+    "slides",
+    "cliente",
+    "recoleta",
+    "etapa",
+    "beneficios",
+    "ventas"
+  ],
+  "formatos": {
+    "16x9": {
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  "laminas": [
+    {
+      "clave": "portada",
+      "nombre": "Portada",
+      "desc": "Panel morado cerrado en arco, flor naranja en la costura y render a sangre; promesa con remate en itálica.",
+      "campos": {
+        "portadaFoto": {
+          "etiqueta": "Foto",
+          "tipo": "imagen",
+          "archivo": "promo-parque.jpg",
+          "nota": "Render cálido del complejo; va a sangre a la derecha, detrás del arco."
+        },
+        "portadaRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "MOTUL, YUCATÁN",
+          "maximo": 30,
+          "nota": "Lugar o tema; sale en mayúsculas."
+        },
+        "portadaTitulo": {
+          "etiqueta": "Título",
+          "tipo": "texto",
+          "defecto": "Donde la vida es posible,",
+          "maximo": 29,
+          "nota": "Primer tiempo de la frase."
+        },
+        "portadaEnfasis": {
+          "etiqueta": "Remate en itálica",
+          "tipo": "texto",
+          "defecto": "el valor es inevitable",
+          "maximo": 28,
+          "nota": "Segundo tiempo de la frase, en itálica."
+        },
+        "portadaTexto": {
+          "etiqueta": "Texto",
+          "tipo": "parrafo",
+          "defecto": "Territorio planificado: la base más sólida para invertir o desarrollar.",
+          "maximo": 125
+        }
+      }
+    },
+    {
+      "clave": "frase",
+      "nombre": "Frase firma",
+      "desc": "La frase firma de Capitalia en dos tiempos sobre crema, con el pétalo naranja como único acento.",
+      "campos": {
+        "fraseTitulo": {
+          "etiqueta": "Primer tiempo",
+          "tipo": "texto",
+          "defecto": "Una ciudad no solo crece:",
+          "maximo": 60,
+          "nota": "La negación; la frase firma va una sola vez en la presentación."
+        },
+        "fraseClave": {
+          "etiqueta": "Segundo tiempo",
+          "tipo": "texto",
+          "defecto": "SE PLANEA",
+          "maximo": 10,
+          "nota": "La afirmación; sale en mayúsculas y se ajusta al ancho."
+        },
+        "fraseTexto": {
+          "etiqueta": "Texto",
+          "tipo": "parrafo",
+          "defecto": "Seis distritos, una misma visión: crear espacios donde la vida pueda suceder.",
+          "maximo": 140
+        }
+      }
+    },
+    {
+      "clave": "beneficios",
+      "nombre": "Beneficios",
+      "desc": "Tres beneficios sobre arcos numerados, en campo morado.",
+      "campos": {
+        "beneficiosTitulo": {
+          "etiqueta": "Título",
+          "tipo": "texto",
+          "defecto": "Beneficios",
+          "maximo": 30
+        },
+        "beneficiosPunto1": {
+          "etiqueta": "Beneficio 1",
+          "tipo": "parrafo",
+          "defecto": "Infraestructura planeada: calles, banquetas, agua, drenaje y energía.",
+          "maximo": 120
+        },
+        "beneficiosPunto2": {
+          "etiqueta": "Beneficio 2",
+          "tipo": "parrafo",
+          "defecto": "Áreas verdes: parques y plazas para que la vida suceda cerca de casa.",
+          "maximo": 120
+        },
+        "beneficiosPunto3": {
+          "etiqueta": "Beneficio 3",
+          "tipo": "parrafo",
+          "defecto": "Zonas activas: espacios para convivir, moverse y hacer comunidad.",
+          "maximo": 120
+        }
+      }
+    },
+    {
+      "clave": "etapa",
+      "nombre": "Etapa",
+      "desc": "Campo naranja con la etiqueta de etapa, el logo de Recoleta, la frase del distrito y la foto en arco.",
+      "campos": {
+        "etapaEtiqueta": {
+          "etiqueta": "Etiqueta de etapa",
+          "tipo": "texto",
+          "defecto": "ETAPA 1",
+          "maximo": 20,
+          "nota": "Va en la etiqueta crema; sale en mayúsculas."
+        },
+        "etapaTitulo": {
+          "etiqueta": "Frase",
+          "tipo": "texto",
+          "defecto": "Recoleta, donde",
+          "maximo": 24,
+          "nota": "Primer tiempo de la frase del distrito."
+        },
+        "etapaEnfasis": {
+          "etiqueta": "Remate en itálica",
+          "tipo": "texto",
+          "defecto": "la vida inicia",
+          "maximo": 40
+        },
+        "etapaTexto": {
+          "etiqueta": "Texto",
+          "tipo": "parrafo",
+          "defecto": "Recoleta abre la primera etapa de Capitalia: lotes residenciales alrededor de un parque central de [0] hectáreas.",
+          "maximo": 200,
+          "nota": "Confirma la cifra con Ventas antes de presentar."
+        },
+        "etapaFoto": {
+          "etiqueta": "Foto en arco",
+          "tipo": "imagen",
+          "archivo": "referidos-recoleta.jpg",
+          "nota": "Render del distrito; se recorta en arco al pie de la lámina."
+        }
+      }
+    },
+    {
+      "clave": "detalle",
+      "nombre": "Detalle",
+      "desc": "Foto en pétalo con la cifra en un pétalo naranja, lista con línea de tiempo y párrafo, sobre crema.",
+      "campos": {
+        "detalleFoto": {
+          "etiqueta": "Foto en pétalo",
+          "tipo": "imagen",
+          "archivo": "aliados-anfiteatro.jpg",
+          "nota": "Render de una amenidad; se recorta en pétalo."
+        },
+        "detalleCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "[00k]",
+          "maximo": 6,
+          "nota": "Corta y como se habla: 25k, 4 ha, 10%."
+        },
+        "detalleCifraTexto": {
+          "etiqueta": "Texto de la cifra",
+          "tipo": "texto",
+          "defecto": "m² verdes",
+          "maximo": 13
+        },
+        "detalleRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "AMENIDADES",
+          "maximo": 30,
+          "nota": "Sale en mayúsculas."
+        },
+        "detallePunto1": {
+          "etiqueta": "Punto 1",
+          "tipo": "texto",
+          "defecto": "Parque artístico y plazas",
+          "maximo": 47
+        },
+        "detallePunto2": {
+          "etiqueta": "Punto 2",
+          "tipo": "texto",
+          "defecto": "Juegos infantiles y anfiteatro",
+          "maximo": 47
+        },
+        "detallePunto3": {
+          "etiqueta": "Punto 3",
+          "tipo": "texto",
+          "defecto": "Calles arboladas y andadores",
+          "maximo": 44
+        },
+        "detalleTexto": {
+          "etiqueta": "Texto",
+          "tipo": "parrafo",
+          "defecto": "El primer parque artístico de Motul: un lugar para que la vida pública suceda cerca de casa.",
+          "maximo": 160
+        }
+      }
+    },
+    {
+      "clave": "cifras",
+      "nombre": "Cifras",
+      "desc": "Tres datos en tarjetas sobre morado; la primera, en naranja, es la que manda.",
+      "campos": {
+        "cifrasRotulo": {
+          "etiqueta": "Rótulo",
+          "tipo": "texto",
+          "defecto": "LA OPORTUNIDAD",
+          "maximo": 30,
+          "nota": "Sale en mayúsculas."
+        },
+        "cifrasTitulo": {
+          "etiqueta": "Título",
+          "tipo": "texto",
+          "defecto": "Capitalia en tres cifras",
+          "maximo": 40
+        },
+        "cifrasRotulo1": {
+          "etiqueta": "Dato 1 · rótulo",
+          "tipo": "texto",
+          "defecto": "PLANEACIÓN",
+          "maximo": 26,
+          "nota": "Sale en mayúsculas."
+        },
+        "cifrasValor1": {
+          "etiqueta": "Dato 1 · cifra",
+          "tipo": "texto",
+          "defecto": "6",
+          "maximo": 6
+        },
+        "cifrasUnidad1": {
+          "etiqueta": "Dato 1 · unidad",
+          "tipo": "texto",
+          "defecto": "distritos",
+          "maximo": 23
+        },
+        "cifrasDetalle1": {
+          "etiqueta": "Dato 1 · detalle",
+          "tipo": "parrafo",
+          "defecto": "Recoleta, Providencia, Carrasco, Miraflores, Marbella y Condado.",
+          "maximo": 110
+        },
+        "cifrasRotulo2": {
+          "etiqueta": "Dato 2 · rótulo",
+          "tipo": "texto",
+          "defecto": "LOTES DESDE",
+          "maximo": 28,
+          "nota": "Sale en mayúsculas."
+        },
+        "cifrasValor2": {
+          "etiqueta": "Dato 2 · cifra",
+          "tipo": "texto",
+          "defecto": "[000]",
+          "maximo": 6,
+          "nota": "Superficie vigente del lote más chico."
+        },
+        "cifrasUnidad2": {
+          "etiqueta": "Dato 2 · unidad",
+          "tipo": "texto",
+          "defecto": "m²",
+          "maximo": 6
+        },
+        "cifrasDetalle2": {
+          "etiqueta": "Dato 2 · detalle",
+          "tipo": "parrafo",
+          "defecto": "Lotes residenciales en Recoleta, la primera etapa.",
+          "maximo": 110
+        },
+        "cifrasRotulo3": {
+          "etiqueta": "Dato 3 · rótulo",
+          "tipo": "texto",
+          "defecto": "DE MÉRIDA",
+          "maximo": 28,
+          "nota": "Sale en mayúsculas."
+        },
+        "cifrasValor3": {
+          "etiqueta": "Dato 3 · cifra",
+          "tipo": "texto",
+          "defecto": "[00]",
+          "maximo": 6,
+          "nota": "Confirma el tiempo con Ventas: las fuentes dicen 20 y 25 min."
+        },
+        "cifrasUnidad3": {
+          "etiqueta": "Dato 3 · unidad",
+          "tipo": "texto",
+          "defecto": "min",
+          "maximo": 10
+        },
+        "cifrasDetalle3": {
+          "etiqueta": "Dato 3 · detalle",
+          "tipo": "parrafo",
+          "defecto": "Distancia en auto entre Motul y Mérida.",
+          "maximo": 110
+        }
+      }
+    },
+    {
+      "clave": "cierre",
+      "nombre": "Cierre",
+      "desc": "Render con velo morado, oferta con la cifra en naranja y tarjeta crema con los datos de contacto de quien presenta.",
+      "campos": {
+        "cierreFoto": {
+          "etiqueta": "Foto de fondo",
+          "tipo": "imagen",
+          "archivo": "promo-parque.jpg",
+          "nota": "Va a sangre con el velo morado encima."
+        },
+        "cierreTitulo": {
+          "etiqueta": "Título",
+          "tipo": "texto",
+          "defecto": "Construye donde",
+          "maximo": 40,
+          "nota": "Primer tiempo de la frase."
+        },
+        "cierreEnfasis": {
+          "etiqueta": "Remate en itálica",
+          "tipo": "texto",
+          "defecto": "la vida es posible",
+          "maximo": 40
+        },
+        "cierreRotulo": {
+          "etiqueta": "Calificativo de la oferta",
+          "tipo": "texto",
+          "defecto": "Mensualidades desde",
+          "maximo": 30,
+          "nota": "Va en negritas."
+        },
+        "cierreCifra": {
+          "etiqueta": "Cifra",
+          "tipo": "texto",
+          "defecto": "[$0,000]",
+          "maximo": 18,
+          "nota": "Mensualidad o precio vigente, con el signo de pesos."
+        },
+        "cierreUnidad": {
+          "etiqueta": "Unidad",
+          "tipo": "texto",
+          "defecto": "mxn",
+          "maximo": 28
+        },
+        "cierreNota": {
+          "etiqueta": "Nota de la oferta",
+          "tipo": "texto",
+          "defecto": "Lotes desde [000] m² · Entrega [mes y año]",
+          "maximo": 61
+        },
+        "cierreContactoRotulo": {
+          "etiqueta": "Rótulo del contacto",
+          "tipo": "texto",
+          "defecto": "AGENDA TU VISITA",
+          "maximo": 30,
+          "nota": "Sale en mayúsculas."
+        },
+        "cierreNombre": {
+          "etiqueta": "Nombre",
+          "tipo": "texto",
+          "defecto": "[Nombre Apellido]",
+          "maximo": 29,
+          "deUsuario": "nombre"
+        },
+        "cierrePuesto": {
+          "etiqueta": "Puesto",
+          "tipo": "texto",
+          "defecto": "[Puesto]",
+          "maximo": 46,
+          "deUsuario": "puesto"
+        },
+        "cierreTelefono": {
+          "etiqueta": "Teléfono",
+          "tipo": "texto",
+          "defecto": "[999 000 0000]",
+          "maximo": 20,
+          "deUsuario": "telefono"
+        },
+        "cierreCorreo": {
+          "etiqueta": "Correo",
+          "tipo": "texto",
+          "defecto": "[nombre@grupolinmex.mx]",
+          "maximo": 38,
+          "deUsuario": "correo"
+        }
+      }
+    }
+  ]
+}
