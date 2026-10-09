@@ -31,7 +31,7 @@
       "campos": {
         "pasosRotulo": { "etiqueta": "Rótulo superior", "tipo": "texto", "defecto": "Paso a paso", "maximo": 26 },
         "pasosTitulo": { "etiqueta": "Título de la lámina", "tipo": "texto", "defecto": "Envía tu reporte desde el HUB", "maximo": 30 },
-        "paso1": { "etiqueta": "Paso 1", "tipo": "texto", "defecto": "Entra a hub.linmexlab.cloud con tu cuenta.", "maximo": 56 },
+        "paso1": { "etiqueta": "Paso 1", "tipo": "texto", "defecto": "Entra a hub.grupolinmex.mx con tu cuenta.", "maximo": 56 },
         "paso2": { "etiqueta": "Paso 2", "tipo": "texto", "defecto": "Abre Reportes: la quincena abierta ya viene elegida.", "maximo": 56 },
         "paso3": { "etiqueta": "Paso 3", "tipo": "texto", "defecto": "Revisa tus actividades y envía antes del corte.", "maximo": 56 },
         "pasosNota": { "etiqueta": "Nota al pie de los pasos", "tipo": "parrafo", "defecto": "¿Se te pasó algo? Corrígelo y vuelve a enviarlo: se actualiza, no se duplica.", "maximo": 90 },
@@ -61,7 +61,7 @@
         "cierreTitulo": { "etiqueta": "Título del cierre", "tipo": "texto", "defecto": "Entra al HUB y envía tu reporte a tiempo", "maximo": 40 },
         "cierreTexto": { "etiqueta": "Mensaje de apoyo", "tipo": "parrafo", "defecto": "Si algo no te cuadra, escríbele a [área o responsable].", "maximo": 70 },
         "cierreMensaje": { "etiqueta": "Mensaje junto al código QR", "tipo": "texto", "defecto": "Tu quincena y tus reportes en un solo lugar.", "maximo": 50 },
-        "cierreEnlace": { "etiqueta": "Dirección del enlace", "tipo": "texto", "defecto": "hub.linmexlab.cloud", "maximo": 20 },
+        "cierreEnlace": { "etiqueta": "Dirección del enlace", "tipo": "texto", "defecto": "hub.grupolinmex.mx", "maximo": 20 },
         "cierreBoton": { "etiqueta": "Texto del botón", "tipo": "texto", "defecto": "Entrar al HUB", "maximo": 18 },
         "cierreQr": { "etiqueta": "Código QR del enlace", "tipo": "imagen", "archivo": "qr-ejemplo.svg", "nota": "Imagen cuadrada del QR, con su margen blanco." }
       }
